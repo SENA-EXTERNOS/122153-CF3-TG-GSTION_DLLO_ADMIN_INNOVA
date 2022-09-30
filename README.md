@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Introducción a la administración**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/122153-CF3-TG-GSTION_DLLO_ADMIN_INNOVA/#/](https://sena-externos.github.io/122153-CF3-TG-GSTION_DLLO_ADMIN_INNOVA/#/)
 
 #
 

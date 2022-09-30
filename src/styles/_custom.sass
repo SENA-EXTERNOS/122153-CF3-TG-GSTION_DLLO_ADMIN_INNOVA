@@ -2,14 +2,32 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 35%
+    right: 3%
+    z-index: 2
   &-2
+    animation: float1 1.8s ease-in-out infinite alternate
+    position: absolute
+    top: 65%
+    left: 2%
+    z-index: 2
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 20%
+    right: 75%
+    z-index: 2
+  &-4
+    animation: spinner 15s infinite linear
+    position: absolute
+    width: 100%
+    top: 19%
+    right: 5%
 
+.banner-principal__img
+    img
+      z-index: 1
+      position: relative
 
 @keyframes float1
   0%
@@ -17,3 +35,79 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes spinner
+  0% 
+      transform: rotate(0deg)
+  100% 
+      transform: rotate(1turn)
+
+// Nuevos estilos
+
+.titulo-segundo:after
+    border-left-color: #3d46c2
+    background-color: #e8e8e8
+
+.carrusel_card_bg
+    background: #FAFCE1
+
+.color_cajon_tema1
+    background: #dce7361a
+    
+.color_cajon_tema1::before
+   background: #DCE736
+
+.color_cajon_tema1_2
+    background: #f8521621
+    
+.color_cajon_tema1_2::before,.color_cajon_green_cuadro
+   background: #F85316
+
+.color_cajon_green
+    background: #75b62f27
+    
+.color_cajon_green::before
+   background: #B1E874
+      
+.color_tarjeta__secundaria
+    background: #FCFDEA
+    .acordion__accion__btn--a
+     background-color: #DCE736
+
+.color_texto_acento
+  color: $color-acento-contenido
+
+.color-icon-check
+  color: $color-acento-botones
+
+.altura_decard
+  height: 453px
+
+.altura_card_t_1
+  height: 250px
+
+.color_cajon_grey_cuadro
+  background: #F6F6F6
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #DCE736 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em  
