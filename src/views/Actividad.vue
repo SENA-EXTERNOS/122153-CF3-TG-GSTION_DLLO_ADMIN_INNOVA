@@ -10,18 +10,20 @@
         h1 Actividad didáctica
 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+      .col-lg-12.mb-4.mb-md-0
         .titulo-segundo.mb-0
-            h2 Arrastrar y soltar
+            h2 Título de la actividad didáctica
+            
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0    
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/actividad/a-1.jpg")
       .col-12.col-md-8.col-lg-9
-        p.mb-4 Este recorrido introductorio sobre la administración, proporciona conceptos claves de aplicación para la práctica empresarial y organizacional; por esta razón es importante realizar un repaso sobre los principales temas abordados, con la intención de afianzar y reforzar al aprendiz.
+        p.mb-4 Dentro de la gestión administrativa es importante conocer los conceptos básicos de ofimática y sobre todo la relación tan importante que tiene con la tecnología en general, dispositivos móviles, aplicaciones, desarrollos tecnológicos de uso organizacional y personal. Por este motivo, la finalidad de esta actividad es establecer el conocimiento adquirido por el aprendiz de las diferentes temáticas estudiadas.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Arrastrar y soltar
+              p.fw-bold.mb-0 Falso / verdadero
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar

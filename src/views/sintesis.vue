@@ -11,18 +11,13 @@
       .col-lg-2.d-none.d-lg-block
         img(src="@/assets/template/logo-sena-naranja.svg", height="60"  alt="alt")
         
-    p.mb-5 Para dar cierre a este componente formativo, lo invitamos a dar un recorrido por las temáticas aquí abordadas..
+    p.mb-5 A continuación, encontrará una síntesis de la temática estudiada en el componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
-      .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Anexo. Síntesis
+          img(src="@/assets/template/sintesis/s-1.jpg", alt="alt")
+
 
 </template>
 

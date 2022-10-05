@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Introducción a la administración',
+    componenteFormativo: 'Los sistemas y los paquetes ofimáticos',
     descripcionCurso:
-      'La historia ha demostrado que, en la práctica, pueden aplicarse diversas teorías para resolver o apoyar la solución de problemáticas naturales del devenir empresarial u organizacional. En este componente formativo, se estudiarán las diferentes teorías y conceptos que le han dado origen a la administración como ciencia aplicable.',
+      'Cobra gran importancia hoy en día la estrecha relación que debe existir entre los sistemas de información organizacionales y sobre todo cómo se entrega, se recibe, desde el emisor hasta el receptor, y la respuesta final, cerrando el ciclo comunicacional. Los paquetes ofimáticos hacen relevancia en la medida que, agilizan, mejoran y analizan la información para que fluya asertivamente en la organización',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -11,15 +11,15 @@ export default {
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1p.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
@@ -41,30 +41,43 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Fundamentos e introducción a la administración',
+        titulo: 'Teoría general de sistemas y sistemas de información',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Principios del proceso administrativo',
+        titulo: 'Ofimática',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'La empresa como escenario activo de administración',
+        titulo: 'Hojas de cálculo, procesadores de texto y presentaciones',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Navegación en la web',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Redes de información',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Normas técnicas de seguridad y salud en el ambiente laboral',
         desarrolloContenidos: true,
       },
     ],

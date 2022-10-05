@@ -2,26 +2,25 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 35%
-    right: 3%
+    top: 20%
+    right: 4%
     z-index: 2
   &-2
     animation: float1 1.8s ease-in-out infinite alternate
     position: absolute
-    top: 65%
-    left: 2%
+    top: 53%
+    right: 4%
     z-index: 2
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 75%
+    top: 15%
+    left: 5%
     z-index: 2
   &-4
     animation: spinner 15s infinite linear
     position: absolute
-    width: 100%
-    top: 19%
+    top: 18%
     right: 5%
 
 .banner-principal__img
@@ -55,7 +54,7 @@
     background: #dce7361a
     
 .color_cajon_tema1::before
-   background: #DCE736
+   background: $color-secundario
 
 .color_cajon_tema1_2
     background: #f8521621
@@ -68,14 +67,22 @@
     
 .color_cajon_green::before
    background: #B1E874
+
+.tarjeta--green
+  background-color: #FAFCE1
+  .slyder-a__btn--sigt,.slyder-a__btn--atrs
+    background-color: $color-secundario
       
 .color_tarjeta__secundaria
     background: #FCFDEA
     .acordion__accion__btn--a
-     background-color: #DCE736
+     background-color: $color-secundario
 
 .color_texto_acento
   color: $color-acento-contenido
+
+.color_check_t3
+  color: $color-acento-botones
 
 .color-icon-check
   color: $color-acento-botones
@@ -84,10 +91,69 @@
   height: 453px
 
 .altura_card_t_1
-  height: 250px
+  height: 580px
+
+.altura_slider_t_3
+  height: 380px
+
+.altura_slider_t_5
+  height: 450px
+
+.altura_cajon_tema_3_1
+  height: 350px
 
 .color_cajon_grey_cuadro
   background: #F6F6F6
+
+.color--green
+  background: #EBF5E0
+
+.color--green2
+  background: #D5E9C0
+
+.punto_caliente_acento_botones
+  i 
+   color: $color-boton-texto !important
+
+
+.color_cajon_tema_3_1
+  background-color: #FDD4C4
+  &::before
+    background: #F85316
+
+.color_cajon_tema_3_2
+  background-color: #F6F9CC
+  &::before
+    background: #B1E874
+
+
+.tarjeta_lineatiempot4
+  background: #FCFDEA
+  .linea-tiempo-c__header__btn
+    background: #DCE736
+    i 
+      color: $color-acento-contenido
+
+.t-2-nivel1-tarjeta
+  height: 4em
+.t-2-nivel2-tarjeta
+  height: 10em
+  border-radius: 20px
+.t-2-nivel3-tarjeta
+  margin-top: -3em
+
+.t-3-nivel1-tarjeta
+  height: 4em
+.t-3-nivel2-tarjeta
+  height: 22em
+  border-radius: 20px
+.t-3-nivel3-tarjeta
+  margin-top: -3em
+.tarjeta-color-st5
+  background-color: #F1F5AE
+
+.bloque-texto-f__autor-right
+  text-align: right
 
 ///////// Card hover --------------------------------------
 .crd_hover_txt
@@ -105,9 +171,39 @@
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: #DCE736 
+    background-color: $color-secundario 
   
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body
       p
         font-size: 0.85em  
+
+// tarjetas 
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 1rem
+  height: 190px
+  & > *
+    position: relative
+  h5 
+    color: #black
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    background-color: #F1F5AD
+    height: 100%
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+    height: 100%
+
+
+.crd--complete
+  &::before
+    border-radius: 30px

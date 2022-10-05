@@ -5,231 +5,395 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 La empresa como escenario activo de administración
+      h1 Hojas de cálculo, procesadores de texto y presentaciones
 
     .row
       .col-lg-12.mb-5
-        p.color_texto_acento Las teorías y corrientes administrativas han surgido de la práctica y la experiencia de los autores y sus grupos de trabajo; todo esto se ha dado a través de la creación de escenarios para atender necesidades del ser humano, del mercado y del mundo. Es, en este espacio, donde se consolidan los aprendizajes y donde se va dando también estructura al concepto de empresa.
-      .col-lg-12.mb-5
-        .row 
-          .col-lg-6
-            p La existencia de las empresas ha permitido generar escenarios transaccionales que le dan al ser humano posibilidad de percibir ingresos para su sustento; he aquí la importancia de trabajar por la consolidación de empresas sostenibles y con valor agregado para la economía de los países y del mundo. Para conocer un poco el origen del concepto, lo invitamos a ver el video La empresa y la gestión de la información.
-            a.anexo.mb-4.mb-lg-0(
-              href='https://www.youtube.com/watch?v=dzyn4eofi6c',
-              target='_blank'
-            )
-              .anexo__icono
-                img(src='@/assets/template/icono-link.svg')
-              .anexo__texto
-                p 
-                  |
-                  strong Enlace web.
-                  | La empresa y la gestión de la información.
-            br
-            p Todas las empresas tienen diferentes características y estructuras, y por eso se va a profundizar un poco acerca de esas clasificaciones.
-            br
-            | Münch Galindo (2018), define la empresa como:
-            |
-            span.color_texto_acento “la unidad económico-social en la cual, a través del capital, el trabajo y la coordinación de recursos se producen bienes y servicios para satisfacer las necesidades de la sociedad”
-            | (p.64). Ahora bien, no todas las empresas son iguales, existen características y disposiciones que las hacen diferentes, y hay tantas formas de clasificar empresas como variables para hacerlo. Sin embargo, el interés está en conocer cómo se pueden distinguir los tipos de empresas y, por supuesto, las características que se definan deben ser de utilidad para los análisis económicos en diferentes ámbitos.
-          .col-lg-6
-            figure
-              img(src='@/assets/template/tema3/img01_t3.jpg', alt='')
-      .col-lg-12.mb-5
-        p Es importante distinguir algunas de las diferentes clasificaciones y modelos de empresas, como se observa a continuación:
-
-        ImagenInfograficaB.color-primario
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/template/tema3/img02_t3.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-          div(x="88%" y="17%" tooltip="Por su estructura jurídica")
-            h5 Por su estructura jurídica
-            p Depende de cada país y las normativas para su constitución. En Colombia se clasifican de esta manera:
-            br
-            ul.lista-ul
-              li 
-                i.lista-ul__vineta
-                | Empresa unipersonal: se describe como la persona física que realiza, en nombre propio y por medio de una empresa, una actividad comercial, industrial o profesional.
-              li 
-                i.lista-ul__vineta
-                | Sociedad de personas o colectivas: varios individuos se asocian y, en nombre de una empresa u organización jurídica, se representan para actuar y participar en el mercado con un mismo fin.
-              li 
-                i.lista-ul__vineta
-                | Sociedad anónima: el capital aportado por dos o más personas se divide en acciones y los accionistas son anónimos.
-
-          div(x="93%" y="52%" tooltip="Por la actividad que realiza")
-            h5 Por la actividad que realiza
-            br
-            ul.lista-ul
-              li 
-                i.lista-ul__vineta
-                | 
-                strong Industrial: 
-                |  indica empresas que manufacturan o transforman productos o materias primas
-              li 
-                i.lista-ul__vineta
-                | 
-                strong Comercial: 
-                | describe empresas que se dedican a la compra y venta de productos, un servicio de transaccionalidad.
-
-              li 
-                i.lista-ul__vineta
-                | 
-                strong De servicio: 
-                |  se refiere a empresas que son creadas con el propósito de proveer al cliente un servicio (producto intangible, es decir, que no tiene forma definida).
-
-          div(x="88%" y="84%" tooltip="Por su ubicación")
-            h5 Por su ubicación
-            br
-            ul.lista-ul
-              li 
-                i.lista-ul__vineta
-                | 
-                strong Local: 
-                |  su alcance está determinado al municipio o ciudad donde se encuentra ubicada.
-              li 
-                i.lista-ul__vineta
-                | 
-                strong Regional: 
-                | su área de influencia trasciende lo municipal y le es posible llegar a departamentos vecinos.
-
-              li 
-                i.lista-ul__vineta
-                | 
-                strong Nacional: 
-                |  desarrolla sus actividades en el contexto del país, esto es a nivel nacional.
-
-              li 
-                i.lista-ul__vineta
-                | 
-                strong Multinacional: 
-                |  trasciende su operación las fronteras nacionales, es decir, tiene presencia en varios países.
-
-          div(x="12%" y="17%" tooltip="Por su tamaño")
-            h5 Por su tamaño
-            p Cada país determina la clasificación de las empresas y la disposición actual para Colombia está determinada por:
-            br
-            ul.lista-ul
-              li 
-                i.lista-ul__vineta
-                | Número de empleados.
-
-              li 
-                i.lista-ul__vineta
-                | Cantidad de activos.
-
-              li 
-                i.lista-ul__vineta
-                | Facturación (ingresos).
-
-          div(x="8%" y="52%" tooltip="Por la titularidad de la empresa")
-            h5 Por la titularidad de la empresa
-            br
-            ul.lista-ul
-              li 
-                i.lista-ul__vineta
-                | 
-                strong Pública: 
-                |  su capital está conformado por dinero del Estado
-              li 
-                i.lista-ul__vineta
-                | 
-                strong Privada: 
-                | su capital es de origen particular, no tiene nada que ver con el Estado.
-              li 
-                i.lista-ul__vineta
-                | 
-                strong Mixta: 
-                | parte de su capital es público y parte es privado.
-
-          div(x="12%" y="84%" tooltip="Por el sector económico al que pertenece")
-            h5 Por el sector económico al que pertenece
-            br
-            ul.lista-ul
-              li 
-                i.lista-ul__vineta
-                | Sector primario: hace referencia a las actividades relacionadas con la explotación de recursos naturales como agricultura, caza, pesca y silvicultura.
-              li 
-                i.lista-ul__vineta
-                | Sector secundario: industrial que incluye actividades que transforman productos, generalmente del sector primario o del mismo sector.
-              li 
-                i.lista-ul__vineta
-                | Sector terciario: servicios que producen bienes intangibles y, por lo general, estas actividades sirven como soporte a los sectores primario y secundario (comercio, el transporte, la salud, la educación, el sector financiero, entre otros).
-              li 
-                i.lista-ul__vineta
-                | Sector terciario: servicios que producen bienes intangibles y, por lo general, estas actividades sirven como soporte a los sectores primario y secundario (comercio, el transporte, la salud, la educación, el sector financiero, entre otros).
-              li 
-                i.lista-ul__vineta
-                | Sector quinario: es el que agrupa empresas con actividades sin ánimo de lucro.
-
-
+        p Dentro de las herramientas ofimáticas encontramos las hojas de cálculo, procesadores de texto y presentaciones, a continuación, estudiaremos cada una de ellas.
 
       .col-lg-12
         .titulo-principal.color-acento-contenido
           .titulo-principal__numero
             span 
-          h1 Sentido de pertenencia, trabajo en equipo y toma de decisiones
-
-      .col-lg-12.p-4.mb-5
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style='{ "background-image": `url(${require("@/assets/template/tema3/img03_t3.png")})` }'
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 El sentido de pertenencia puede expresarse como la satisfacción que experimenta una persona por sentirse parte de un grupo o de una comunidad, a partir de la identificación con sus ideales; el fútbol es un claro ejemplo de sentido de pertenencia, donde se defiende la afición por un equipo, inclusive hasta escenarios extremos, que sobrepasan los límites imaginados. 
-              |
-              strong Ahora bien, este concepto toma relevancia a nivel empresarial, porque cuanto más comprometidos se encuentren los empleados y colaboradores, más facilidad para impulsar objetivos organizacionales.
+          h1 Hojas de cálculo
 
       .col-lg-12.mb-5
-        .row
-          .col-lg-6
-            p Otro de los conceptos empresariales que aportan a ese dinamismo es el trabajo en equipo, concebido como la capacidad que tiene un grupo de personas con diferentes cargos, lugares, culturas, para unir sus ideas y articular su ejercicio laboral, en busca del logro de un propósito organizacional.
-            br
-            | Claramente, un líder al tener la competencia para articular su equipo a la luz de una buena comunicación, del impulso de aptitudes individuales para convertirlas en capacidad empresarial, al incitar a la participación empoderada de los colaboradores, estará generando ambientes propicios y herramientas de información adecuadas para llegar al paso definitivo que da un administrador, y es la toma de decisiones donde se debe elegir, entre varias alternativas y bajo las situaciones del contexto, la más apropiada para el bien organizacional. Existen diferentes tipos de decisiones: de dirección, estratégicas, individuales, operativas, rutinarias, programadas o de riesgo.
-          .col-lg-6
-            figure
-              img(
-                src='@/assets/template/tema3/img04_t3.jpg',
-                alt=''
-              )
+        p Es una aplicación que tiene un arreglo de filas y columnas, las cuales generan en su cruce “cajas” llamadas celdas, en ellas se pueden alojar datos de diferentes tipos (numéricos y alfanuméricos) y disponerse en tablas, que facilitan los cálculos más sencillos hasta los más complejos en áreas como contabilidad, finanzas, estadística, negocios, ingeniería, economía entre las más comunes. Tiene grandes posibilidades desde la ejecución de recolección, clasificación y análisis de datos en tablas, hasta la generación de gráficos de varios tipos, ejecución de fórmulas y funciones matemáticas para las diferentes aplicaciones en diferentes áreas del conocimiento.
+        |
+        | La siguiente imagen presenta algunos de los elementos que componen la hoja de cálculo.
+
       .col-lg-12.mb-5
         .row.d-flex.justify-content-center
-          .col-lg-8.mb-5
-            .row 
-              .col-lg-3.d-none.d-lg-block
-                figure
-                  img(
-                    src='@/assets/template/tema3/img05_t3.jpg',
-                    alt=''
-                  )
-              .col-lg-9
-                h4 La toma de decisiones se desarrolla en 4 etapas:
-                ol.lista-ol--cuadro
-                  li 
-                    .lista-ol--cuadro__vineta.color_cajon_green_cuadro
-                      span 1
-                    | Realización de diagnósticos precisos.
-                  li 
-                    .lista-ol--cuadro__vineta.color_cajon_green_cuadro
-                      span 2
-                    | Identificación del problema, la dificultad o la necesidad.
-                  li 
-                    .lista-ol--cuadro__vineta.color_cajon_green_cuadro
-                      span 3
-                    | Establecimiento de los criterios o alternativas de decisión.
-                  li 
-                    .lista-ol--cuadro__vineta.color_cajon_green_cuadro
-                      span 4
-                    | Definición de momentos de evaluación y cumplimiento de metas.
+          .col-lg-11.col-md-10.col-12
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 1.
+              span Elementos hoja de cálculo
+          .col-lg-11
+            figure
+              img(src='@/assets/template/tema3/t3-i1.jpg', alt='')
 
-          .col-lg-10
-            .cajon.color_cajon_green.p-4
-              p De esta manera, se reconocen como elementos de una adecuada administración, la identificación y optimización de los recursos, la configuración de los diferentes momentos que vive el proceso administrativo y, por último, la correcta alineación organizacional en pro del alcance de los objetivos estratégicos de la empresa. Una visión integradora de lo que se ha analizado, puede observarse de manera resumida, en el video Componentes de la organización.
+      .col-lg-12.mb-5
+        p Dado el concepto básico de estadística, recopilar, ordenar, jerarquizar, clasificar y analizar datos, las hojas de cálculos fueron hechas a medida, porque ellas permiten realizar todas estas operaciones, graficar y generar análisis de los datos seleccionados de acuerdo las necesidades a ser solucionadas.
+        |
+        | La hoja de cálculo facilita los cálculos y análisis estadísticos de datos.
 
       .col-lg-12
-        p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
+        .titulo-principal.color-acento-contenido
+          .titulo-principal__numero
+            span 
+          h1 Bases de datos en hoja de cálculo
+
+      .col-lg-12.mb-5
+        p Las bases de datos son aplicaciones que se emplean para almacenar, organizar y relacionar gran cantidad de información. La siguiente imagen presenta un ejemplo de una base de datos en hoja de cálculo.
+
+      .col-lg-12.mb-5
+        .row.d-flex.justify-content-center
+          .col-lg-11.col-md-10.col-12
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 2.
+              span Ejemplo base de datos hoja de cálculo
+          .col-lg-11
+            figure
+              img(src='@/assets/template/tema3/t3-i2.jpg', alt='')
+
+      .col-12.mb-5
+        .row.d-flex.justify-content-center
+          .col-lg-11
+            .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+              .bloque-texto-g__img(
+                :style='{ "background-image": `url(${require("@/assets/template/tema3/t3-i3.jpg")})` }'
+              )
+              .bloque-texto-g__texto.p-4
+                p.mb-0 Existen diferentes programas de bases de datos como: Microsoft Office Access Y Open Office Base, las nuevas funciones del Excel como es el Power Pivot y el Power BI (de inteligencia de negocios), especialmente para tratar y analizar bases de datos generando tableros de mando inteligentes y dinámicos (dashboard), haciendo la presentación de informes gerencias que implican análisis de gran cantidad de datos mucho más fácil, dinámica y certero para la rápida y efectivo toma de decisiones.
+
+      .col-lg-12
+        .titulo-principal.color-acento-contenido
+          .titulo-principal__numero
+            span 
+          h1 Procesadores de texto
+
+      .col-lg-12.mb-5
+        figure
+          img(src='@/assets/template/tema3/t3-i4.jpg', alt='')
+
+      .col-lg-12.mb-5 
+        p Hoy en día sería complicado realizar las tareas administrativas y de oficina sin un procesador de texto, esta aplicación informática permite crear y editar documentos de texto pues este, es uno de los más útiles en la actualidad por sus múltiples funcionalidades, permite agilizar la redacción, con tipos de letra diferentes, en diferentes tamaños, tipos de párrafos, colores, así como los efectos que pueden incluir en los documentos.
+
+      .row.mb-5
+        .col-md-6
+          figure
+            img(src='@/assets/template/tema3/t3-i5.jpg')
+
+        .col-md-6
+          p El procesador de texto es el desarrollo digital y tecnológico de la antigua máquina de escribir mecánica de los años 70’s y de la posterior eléctrica de los años 80’s, las cuales no permitían un margen de error, específicamente la mecánica que no permitía borrar.
+
+          p Los procesadores de texto brindan grandes facilidades, por ejemplo, permiten editar en cualquier momento y señalan errores ortográficos, de redacción, debido a que el texto digitado se observa fácilmente en la interfaz.
+
+          p Otra gran posibilidad es la de guardar el desarrollo ya editado para evitar perder información importante, ya guardado, puede reposar seguro en algún elemento de almacenamiento como disco duro de la computadora, memoria USB, algún otro dispositivo electrónico o en la “nube”, la cual es una posibilidad que brindan muchas empresas de almacenamiento virtual, con opción de acceder a ella en cualquier dispositivo en cualquier parte del mundo donde se tenga señal de internet.
+
+      .row.mb-5 
+        .col-md-12
+          .row.d-flex.justify-content-center
+            .col-lg-9
+              .cajon.color_cajon_green.p-4
+                p Por sus diferentes posibilidades, llegando hasta lo estético, es el porqué se hace imprescindible el procesador de texto, permitiendo incluso editar fotografías, tablas y cuadros, además de las funciones propias como resaltar, subrayar y cambiar de color a textos, palabras e incluso a párrafos enteros para resaltar puntos importantes que queremos resaltar en los documentos.
+
+      .row.mb-5 
+        .col-md-12.mb-5
+        p Los procesadores de texto más conocidos y de fácil acceso son:
+
+        .col-lg-12.mb-5
+          SlyderF(columnas='col-lg-6 col-xl-4')
+            .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(
+                    src='@/assets/template/tema3/slider01/t3-s1.svg',
+                    alt='AvatarTop'
+                  )
+              h2.text-center 
+                i Microsoft Word
+              p.text-center El procesador de palabras por excelencia para los computadores que tienen sistema operativo
+                i  Windows.
+
+            .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(
+                    src='@/assets/template/tema3/slider01/t3-s2.svg',
+                    alt='AvatarTop'
+                  )
+              h2.text-center 
+                i Apache OpenOffice Writer
+              p.text-center Procesador de texto que forma parte de la
+                i suite
+                | de código abierto
+                i  OpenOffice.
+
+            .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(
+                    src='@/assets/template/tema3/slider01/t3-s3.svg',
+                    alt='AvatarTop'
+                  )
+              h2.text-center 
+                i Abiword
+              p.text-center Este procesador de palabras forma parte de las herramientas de
+                i  LibreOffice.
+
+            .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(
+                    src='@/assets/template/tema3/slider01/t3-s4.svg',
+                    alt='AvatarTop'
+                  )
+              h2.text-center 
+                i Google Docs
+              p.text-center Para los usuarios de
+                i  Google,
+                |  este es su procesador de texto en la nube.
+
+            .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(
+                    src='@/assets/template/tema3/slider01/t3-s5.svg',
+                    alt='AvatarTop'
+                  )
+              h2.text-center 
+                i Word Online
+              p.text-center Para usuarios de
+                i  Microsoft, Word
+                | en la nube desde
+                i  OneDrive.
+
+      .row.mb-5 
+        .col-md-12.mb-5
+        p Las ventajas y desventajas de los procesadores de texto son:
+        .row.d-flex.justify-content-center
+          .col-lg-9
+            .row
+              .col-lg-6.mb-5
+                .cajon.color_cajon_tema_3_1.p-4.altura_cajon_tema_3_1
+                  .row
+                    .col-lg-12.col-12
+                      strong Ventajas
+                    .col-lg-12.col-12
+                      ul
+                        li 
+                          i.fas.fa-check.color_check_t3
+                          |
+                          | Permitir editar el contenido fácilmente.
+
+                        li 
+                          i.fas.fa-check.color_check_t3
+                          |
+                          | Utilizar un corrector ortográfico.
+                        li 
+                          i.fas.fa-check.color_check_t3
+                          |
+                          | Trabajar con distintas imágenes.
+                        li 
+                          i.fas.fa-check.color_check_t3
+                          |
+                          | Ahorrar insumos como papel, tinta, entre otros.
+                        li 
+                          i.fas.fa-check.color_check_t3
+                          |
+                          | Conceder la posibilidad de trabajar con trabajos más profesionales
+                        li 
+                          i.fas.fa-check.color_check_t3
+                          |
+                          | Compartir la información generada sin complicaciones.
+                        li 
+                          i.fas.fa-check.color_check_t3
+                          |
+                          | Son sencillos al momento de trasladar y editar.
+
+              .col-lg-6.mb-5 
+                .cajon.color_cajon_tema_3_2.p-4.altura_cajon_tema_3_1
+                  .row
+                    .col-lg-12.col-12
+                      strong Desventajas
+                    .col-lg-12.col-12
+                      ul
+                        li 
+                          i.fas.fa-check.color_check_t3
+                          |
+                          | El contenido ya publicado estará propenso a sufrir de plagio.
+
+                        li 
+                          i.fas.fa-check.color_check_t3
+                          |
+                          | Al presentarse fallas de luz se puede perder la información que ha sido grabada.
+                        li 
+                          i.fas.fa-check.color_check_t3
+                          |
+                          | Los archivos pueden llegar a dañarse o en su defecto, no guardarse.
+                        li 
+                          i.fas.fa-check.color_check_t3
+                          |
+                          | Requiere de un dispositivo electrónico para funcionar.
+                        li 
+                          i.fas.fa-check.color_check_t3
+                          |
+                          | El programa
+                          i Word
+                          |
+                          | es costoso.
+
+      .row.mb-5 
+        .col-md-12
+        p Los procesadores de texto tienen un conjunto de características o funciones básicas como son:
+        .col-md-12
+          TabsC.color-acento-contenido
+            .py-3.py-md-4(titulo='Pegar')
+              .row
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(
+                      src='@/assets/template/tema3/slider02/t3-s1.png',
+                      alt='Texto que describa la imagen'
+                    )
+
+                .col-md-8
+                  h4 Pegar
+                  p Permite añadir textos o imágenes que hayan sido removidos o copiados desde cualquier otra parte del documento o de un documento externo.
+            .py-3.py-md-4(titulo='Formato')
+              .row
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(
+                      src='@/assets/template/tema3/slider02/t3-s2.png',
+                      alt='Texto que describa la imagen'
+                    )
+
+                .col-md-8
+                  h4 Formato
+                  p Permite especificar la página, margen y su tamaño. También aplica el tipo de fuente, color, negritas, itálicas, entre otras.
+            .py-3.py-md-4(titulo='Buscar y restituir')
+              .row
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(
+                      src='@/assets/template/tema3/slider02/t3-s3.png',
+                      alt='Texto que describa la imagen'
+                    )
+
+                .col-md-8
+                  h4 Buscar y restituir
+                  p Permite encontrar caracteres y palabras específicas dentro del documento, además de poder sustituirlas por otras.
+            .py-3.py-md-4(titulo='Columna y tabla')
+              .row
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(
+                      src='@/assets/template/tema3/slider02/t3-s4.png',
+                      alt='Texto que describa la imagen'
+                    )
+
+                .col-md-8
+                  h4 Columna y tabla
+                  p Permite crear, manipular y dar un formato a columnas y tablas.
+            .py-3.py-md-4(titulo='Fusionar correo')
+              .row
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(
+                      src='@/assets/template/tema3/slider02/t3-s5.png',
+                      alt='Texto que describa la imagen'
+                    )
+
+                .col-md-8
+                  h4 Fusionar correo
+                  p Permite realizar cartas y documentos específicos para ser almacenados en una base de datos.
+
+
+      .row.mb-5 
+        .col-md-12
+          .row.d-flex.justify-content-center
+            .col-lg-10
+              .cajon.color_cajon_tema_3_1.p-4
+                p Una de las grandes posibilidades y versatilidades de los procesadores de texto, es que se puedan guardar varias versiones de un mismo documento a fin de ser analizadas y comparadas.   
+
+      .row.mb-5 
+        .col-lg-12
+          .titulo-principal.color-acento-contenido
+            .titulo-principal__numero
+              span 
+            h1 Creación de presentaciones y diapositivas                            
+        .col-lg-12
+          p Una buena presentación es fundamental hoy en día, las fotografías escogidas, el diseño, el fondo de la presentación, la musicalización, la narrativa que apoya la imagen, los efectos, los colores, el contexto son las características que bien utilizadas y combinadas hacen que se cierre un negocio, que se apruebe un proyecto o que se apruebe igualmente una tesis de grado; también es importante en el momento de realizar soportes y defensas de todo tipo de documentos que se deban presentar ante un público, con el  fin de convencer, interesar o vender un producto o servicio, tangible o intangible; en este espacio es también importarte mostrar creatividad e innovación.                            
+        .col-lg-12
+          p Algunas aplicaciones de presentación de diapositivas 
+           i (slides), 
+           |  son:
+
+        .col-lg-12
+          TabsC.color-acento-contenido
+            .py-3.py-md-4(titulo='PowerPoint')
+              .row
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(
+                      src='@/assets/template/tema3/slider03/t3-s1.png',
+                      alt='Texto que describa la imagen'
+                    )
+
+                .col-md-8
+                  h4 
+                   i PowerPoint
+                  p Aplicación por excelencia de 
+                   i Microsoft,
+                   |  viene en el paquete de 
+                   i Office,
+                   |  se puede editar imagen, voz, video, música, es muy versátil al bridar gran variedad de plantillas o simplemente construyendo la propia desde cero, es muy fácil de trabajar, solo se requiere imaginación.
+            .py-3.py-md-4(titulo='Prezi')
+              .row
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(
+                      src='@/assets/template/tema3/slider03/t3-s2.png',
+                      alt='Texto que describa la imagen'
+                    )
+
+                .col-md-8
+                  h4 
+                   i Prezi
+                  p Es de las más conocidas para crear, desde cualquier parte, presentaciones con una gran visualización, pudiendo desarrollar mapas interactivos y hasta efectos de 
+                   i zoom
+                   |  en tres dimensiones para mostrar recorridos únicos con solo tener una conexión a internet, aunque también cuenta con aplicación para 
+                   i Windows
+                   |  y dispositivos de 
+                   i Apple.
+            .py-3.py-md-4(titulo='Emaze')
+              .row
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(
+                      src='@/assets/template/tema3/slider03/t3-s3.png',
+                      alt='Texto que describa la imagen'
+                    )
+
+                .col-md-8
+                  h4 
+                    i Emaze
+                  p Cuenta con una característica muy llamativa y es que se puede añadir instrucciones de voz para controlar de modo muy sutil y original la presentación que se expone al tiempo que se habla.
+            .py-3.py-md-4(titulo='PowToon')
+              .row
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(
+                      src='@/assets/template/tema3/slider03/t3-s4.png',
+                      alt='Texto que describa la imagen'
+                    )
+
+                .col-md-8
+                  h4 
+                   i PowToon
+                  p Permite realizar videos propios, musicalizar, animar o caricaturizar las presentaciones, es gratuito.                          
 </template>
 
 <script>

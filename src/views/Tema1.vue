@@ -7,213 +7,345 @@
         span 1
       h1 Fundamentos e introducción a la administración
 
-    .row(titulo='Titulo item 2')
+    .row(titulo='Fundamentos e introducción a la administración')
       .col-md-6
         figure
-          img(
-            src='@/assets/template/tema1/t1-i1.png',
-            alt='Texto que describa la imagen'
-          )
+          img(src='@/assets/template/tema1/t1-i1.jpg')
 
       .col-md-6.mb-5
-        p 
-        | Comencemos definiendo qué es la administración. Como palabra, viene del latín ad, que indica dirección, tendencia, proximidad, contacto, y
-        i minister ,
-        | subordinación u obediencia, y en su sentido más amplio y completo, significa cumplimiento de una tarea o función bajo la directriz o mando de otro. Sin embargo, en la historia, este concepto sufrió una transformación significativa que trascendió el hacer, por el interpretar los objetivos trazados por una organización y transformarlos en acción, a través de la planeación, la organización, la dirección y el control, todo con el fin de alcanzar los propósitos de manera adecuada y asertiva. Es entonces cuando surgen los diferentes caminos que han tomado algunos autores para definir el concepto de administración y su impacto en los escenarios de las organizaciones.
+        p Se define como sistema todo arreglo que tenga una entrada, un proceso y una salida, el arreglo puede estar conformado por personas o por otros sistemas.
+        |
+        | La teoría de los sistemas ha cobrado mucho valor y auge en las últimas cinco décadas (años 70´s aproximadamente), cuando ya organizacionalmente hemos entrado a analizar los procesos, los procedimientos, las funciones, o las disposiciones de los departamentos en las empresas. Se ha hablado mucho de la teoría de los sistemas en cuanto a la estructura de distribución poblacional, organizacional, e incluso desde el comportamiento que nosotros tenemos socialmente. A diario vemos disposiciones de sistemas muy eficientes que funcionan excelentemente y subsistemas que están involucrados dentro de unos sistemas mucho más ambiciosos, mucho más elaborados, básicamente se tienen también sistemas muy sencillos que funcionan adecuada y eficientemente útiles.
+
+      .col-md-12.mb-5
+        .row.d-flex.justify-content-center
+          .col-lg-10
+            .cajon.color_cajon_green.p-5
+              p Las características de los sistemas son:
+              br
+              ul
+                li 
+                  i.fas.fa-check.color-icon-check
+                  |
+                  | Deben de tener entrada(s), proceso y salida(s).
+                br
+                li 
+                  i.fas.fa-check.color-icon-check
+                  |
+                  | Cada elemento debe guardar relación con otros elementos o sistemas.
+                br
+                li 
+                  i.fas.fa-check.color-icon-check
+                  |
+                  | Los efectos de los subsistemas son interdependientes del sistema total.
+                br
+                li 
+                  i.fas.fa-check.color-icon-check
+                  |
+                  | Todo sistema es un conjunto, pero no todo conjunto es un sistema.
+
+      .col-md-6.mb-5
+        p Para clasificar los sistemas existen varios criterios de acuerdo a la necesidad que se tenga y a las características comunes por las cuales necesitemos agrupar, como propiedades específicas y características de uso, características de comportamiento, características de funcionalidad que sean comunes y exclusivas de los subgrupos o grupos seleccionados; estas características deben definir el grupo, y a esto se le puede llamar sistemas.
+      .col-md-6
+        figure
+          img(src='@/assets/template/tema1/t1-i2.jpg')
+
+      .col-lg-12.mb-5
+        .titulo-principal.color-acento-contenido
+          .titulo-principal__numero
+            span 
+          h1 Sistemas de información (SI)
+
+      .col-md-6
+        figure
+          img(src='@/assets/template/tema1/t1-i3.jpg')
+
+      .col-md-6.mb-5
+        p El sistema de información son todas las herramientas, métodos y procedimientos, que dan orden, control y ajustes para ser procesados fácil y rápidamente.
+        |
+        | Basándose en la interconexión de sus componentes, los sistemas de información, buscan un propósito informativo planeado y estructurado, como puede ser el procesamiento estadístico, compilar información comercial (CRM) o simplemente bases de datos de clientes activos y potenciales.
+
+      .col-md-12.mb-5.mt-5
+        p Existen diferentes formas especializadas o aplicadas de SI, dependiendo del campo puntual y de las funciones específicas que se esperan de cada uno. Algunas de ellas son:
+
+      .col-md-12.mb-5
+        .tarjeta.tarjeta--green.p-4
+          SlyderA(tipo='b')
+            .row
+              .col-md-6.mb-4.mb-md-0
+                strong Sistema de información por estructura organizacional
+                br
+                br
+                | La información es el sistema nervioso de las organizaciones, logrando que llegue al sitio adecuado, en el momento adecuado y con los requerimientos de información solicitados en el preciso momento, es un elemento clave para la oportuna, clara y concisa toma de decisiones, bajando la probabilidad de falla.
+
+              .col-md-6
+                figure
+                  img(
+                    src='@/assets/template/tema1/slider01/t1-s1.jpg',
+                    alt='Texto que describa la imagen'
+                  )
+
+            .row.justify-content-center.my-lg-4
+              .col-md-6.mb-4.mb-md-0
+                strong Sistema de información por área funcional
+                br
+                br
+                | Es toda la información que llega específicamente a cada área funcional, busca brindar herramientas de “sistemas informáticos” y “sistemas informativos” a fin de lograr objetivos departamentales o por áreas funcionales de trabajo en la organización.
+
+              .col-md-6
+                figure
+                  img(
+                    src='@/assets/template/tema1/slider01/t1-s2.jpg',
+                    alt='Texto que describa la imagen'
+                  )
+            .row.justify-content-center.my-lg-4
+              .col-md-6.mb-4.mb-md-0
+                strong Sistema de información en producción y fabricación
+                br
+                br
+                | Son los que se encargan que recolectar datos (cantidades de materia prima en inventario, inventario en proceso, inventario de producto final, costos de cada uno de los stocks en planta), mediante los programas de Planificación de recursos empresariales, ERP, y Técnica de revisión y evaluación de programas, PERT, entre otros. La información en planta es de suma importancia, para saber en qué momento se hacen requisiciones de materias primas e insumos, a qué puestos de trabajo se deben llevar y cuánto puede costar por unidad en producto en proceso. La información también debe dar cuota de los tiempos y requerimientos de recurso humano y maquinaria asociada, a cada proceso.
+
+              .col-md-6
+                figure
+                  img(
+                    src='@/assets/template/tema1/slider01/t1-s3.jpg',
+                    alt='Texto que describa la imagen'
+                  )
+            .row.justify-content-center.my-lg-4
+              .col-md-6.mb-4.mb-md-0
+                strong Sistema de información en administración y financiera
+                br
+                br
+                | La información que aquí llega, cruza con todos los departamentos, en costos de generales y específicos en producción, los presupuestos de compras y adquisiciones, costos de nóminas directas e indirectas, costos de servicios de “tercerización” si existen, costos de publicidad y 
+                | 
+                i marketing
+                |, costos de todas las áreas de apoyo y sistemas de gestión. Aquí llega y se cruza la información del sistema financiero de la organización con los bancos, proveedores, clientes y otros interesados, se generan transacciones en diferentes direcciones.
+
+              .col-md-6
+                figure
+                  img(
+                    src='@/assets/template/tema1/slider01/t1-s4.jpg',
+                    alt='Texto que describa la imagen'
+                  )
+            .row.justify-content-center.my-lg-4
+              .col-md-6.mb-4.mb-md-0
+                strong Sistema de información en marketing
+                br
+                br
+                | La información puntual de los clientes se gestiona desde esta área, aquí se proyectan los prospectos, y se lleva el seguimiento de los actuales. El 
+                |
+                i marketing 
+                | relacional proporciona una plataforma de seguimiento, dicha plataforma brinda información sobre eventos puntuales que ha suministrado los clientes, cruza la información con ventas y otras áreas con objeto de “perfilar” al cliente y desarrollar el producto de acuerdo a estas necesidades; igualmente a través de información de tipo primario se obtiene del mercado los cambios y las nuevas tendencias en los gustos relacionados con el producto ofertado.
+
+              .col-md-6
+                figure
+                  img(
+                    src='@/assets/template/tema1/slider01/t1-s5.jpg',
+                    alt='Texto que describa la imagen'
+                  )
+            .row.justify-content-center.my-lg-4
+              .col-md-6.mb-4.mb-md-0
+                strong Sistema de información desde RRHH
+                br
+                br
+                | Es importante tener un banco de información de todos los colaboradores, desde las hojas de vida, el comportamiento dentro de la organización, hasta de la composición familiar y social de cada uno de ellos. El perfil de los colaboradores debe estar alineado con la misión organizacional, la información suministrada por mismos colaboradores y otros interesados (psicólogos organizacionales, médicos laborales, profesionales en recursos humanos).
+
+              .col-md-6
+                figure
+                  img(
+                    src='@/assets/template/tema1/slider01/t1-s6.jpg',
+                    alt='Texto que describa la imagen'
+                  )
 
       .col-12.mb-5
-        .titulo-segundo
-          h2 1.1 Orígenes y enfoques
-
-        p La administración como la conocemos en la actualidad, es el resultado de los hechos históricos de pioneros que aportaron, desde su enfoque, al desarrollo y madurez del concepto, como por ejemplo, filósofos, físicos, economistas, estadistas, entre otros, que fueron grandes empresarios. La historia ha demostrado que las prácticas o iniciativas que tomaron estructuras militares, sociales, políticas y religiosas, siempre tuvieron configuración piramidal y, aunque no fue una forma muy regular, siempre actuaba como estructura jerárquica que focalizaba las decisiones y el poder en su vértice piramidal. Así podría citarse el aporte que, entre muchos otros, hicieron los egipcios, los hebreos, Platón, Maquiavelo y Adam Smith, con sus diferentes maneras de crear y organizar sus operaciones.
-
-      .col-12
-      .row 
-        .col-12.col-md-4
-          figure
-            img(src='@/assets/template/tema1/origenes.png', alt='origenes')
-        .col-12.col-md-8
-          p Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
-
-          SlyderF(columnas='col-lg-6 col-xl-4')
-            .tarjeta.carrusel_card_bg.p-4.altura_card_t_1
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(
-                    src='@/assets/template/tema1/carrusel01/ac_1993.png',
-                    alt='AvatarTop'
-                  )
-              h2.text-center 1903
-              p.text-center Administración científica
-
-            .tarjeta.carrusel_card_bg.p-4.altura_card_t_1
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(
-                    src='@/assets/template/tema1/carrusel01/tb_1909.png',
-                    alt='AvatarTop'
-                  )
-              h2.text-center 1909
-              p.text-center Teoría burocrática
-
-            .tarjeta.carrusel_card_bg.p-4.altura_card_t_1
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(
-                    src='@/assets/template/tema1/carrusel01/tb_1916.png',
-                    alt='AvatarTop'
-                  )
-              h2.text-center 1916
-              p.text-center Teoría burocrática
-
-            .tarjeta.carrusel_card_bg.p-4.altura_card_t_1
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(
-                    src='@/assets/template/tema1/carrusel01/trh_1932.png',
-                    alt='AvatarTop'
-                  )
-              h2.text-center 1932
-              p.text-center Teoría de las relaciones humanas
-
-            .tarjeta.carrusel_card_bg.p-4.altura_card_t_1
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(
-                    src='@/assets/template/tema1/carrusel01/te_1947.png',
-                    alt='AvatarTop'
-                  )
-              h2.text-center 1947
-              p.text-center Teoría estructuralista
-
-            .tarjeta.carrusel_card_bg.p-4.altura_card_t_1
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(
-                    src='@/assets/template/tema1/carrusel01/tn_1954.png',
-                    alt='AvatarTop'
-                  )
-              h2.text-center 1945
-              p.text-center Teoría neoclásica
-
-            .tarjeta.carrusel_card_bg.p-4.altura_card_t_1
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(
-                    src='@/assets/template/tema1/carrusel01/tc_1957.png',
-                    alt='AvatarTop'
-                  )
-              h2.text-center 1957
-              p.text-center Teoría del comportamiento
-
-            .tarjeta.carrusel_card_bg.p-4.altura_card_t_1
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(
-                    src='@/assets/template/tema1/carrusel01/tdo_1962.png',
-                    alt='AvatarTop'
-                  )
-              h2.text-center 1962
-              p.text-center Teoría del desarrollo organizacional
-
-            .tarjeta.carrusel_card_bg.p-4.altura_card_t_1
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(
-                    src='@/assets/template/tema1/carrusel01/tc_1972.png',
-                    alt='AvatarTop'
-                  )
-              h2.text-center 1972
-              p.text-center Teoría contingencial
-
-            .tarjeta.carrusel_card_bg.p-4.altura_card_t_1
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(
-                    src='@/assets/template/tema1/carrusel01/ne_1990.png',
-                    alt='AvatarTop'
-                  )
-              h2.text-center 1990
-              p.text-center Nuevos enfoques
-
-            .tarjeta.carrusel_card_bg.p-4.altura_card_t_1
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(
-                    src='@/assets/template/tema1/carrusel01/cc_2000.png',
-                    alt='AvatarTop'
-                  )
-              h2.text-center 2000
-              p.text-center Caos y complejidad
-      .col-12.col-md-12.mt-4
-      p Así mismo, las teorías que fueron surgiendo paulatinamente, tenían diferentes enfoques y puntos de vista que presentaban modelos y esquemas de administración, basados en diversos criterios, como se evidencia en el gráfico que se observa a continuación:
-      .col-lg-12.col-md-12.col-12.mt-4
         .row.d-flex.justify-content-center
-          .col-md-6.col-12
-            .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 1.
-              span Esquemas de administración
+          .col-lg-9
+            .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+              .bloque-texto-g__img(
+                :style='{ "background-image": `url(${require("@/assets/template/tema1/t1-i4.jpg")})` }'
+              )
+              .bloque-texto-g__texto.p-4
+                p.mb-0 Existen otros tipos de información, que de acuerdo con el uso que se le de y cómo se represente, generalmente son transversales a las áreas funcionales organizacionales.
 
+      .col-12.mb-5
+        p Conozcamos cada uno de ellos:
+      .col-12.mb-5
+        .row 
+          .col-lg-6.col-md-6.col-12.mb-3
+            .crd.crd--avatarHorizontal.crd--complete.py-4
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img.img100(
+                      src='@/assets/template/tema1/cards01/t1-c1.svg',
+                      alt='alt'
+                    )
+                .col
+                  h5 Sistemas de Procesamiento de Transacciones (TPS)
+                  p Conocidos como sistemas de gestión operativa, recopilan la información pertinente a las transacciones de la organización, es decir, de su funcionamiento.
+          .col-lg-6.col-md-6.col-12.mb-3
+            .crd.crd--avatarHorizontal.crd--complete.py-4
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img.img100(
+                      src='@/assets/template/tema1/cards01/t1-c2.svg',
+                      alt='alt'
+                    )
+                .col
+                  h5 Sistemas de Información Ejecutiva (EIS)
+                  p Monitoriza las variables gerenciales de un área específica de la organización, a partir de la información interna y externa de la misma.
+          .col-lg-6.col-md-6.col-12.mb-3
+            .crd.crd--avatarHorizontal.crd--complete.py-4
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img.img100(
+                      src='@/assets/template/tema1/cards01/t1-c3.svg',
+                      alt='alt'
+                    )
+                .col
+                  h5 Sistemas de Información Gerencial (MIS)
+                  p Contemplan la información general de la organización y la comprenden como un todo.
+          .col-lg-6.col-md-6.col-12.mb-3
+            .crd.crd--avatarHorizontal.crd--complete.py-4
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img.img100(
+                      src='@/assets/template/tema1/cards01/t1-c4.svg',
+                      alt='alt'
+                    )
+                .col
+                  h5 Sistemas de soporte de decisiones (DSS)
+                  p Orientados al procesamiento de información intra y extra organizacional, para el apoyo en la conducción de la empresa.
+
+      .col-lg-12
+        .titulo-principal.color-acento-contenido
+          .titulo-principal__numero
+            span 
+          h1 Funciones
+
+      .col-lg-12.mb-5
+        p Son muchas las funciones que realizan los sistemas de información en la actualidad, dada cantidad de datos que fluyen en diferentes vías y en todo momento.
+
+      .col-lg-12.mb-5
+        .row
+          p Estas funciones se pueden agrupar en cuatro fases esenciales:
+          .col-lg-12
+            TabsC.color-acento-contenido
+              .py-3.py-md-4(titulo='Captar y recolectar datos')
+                .row
+                  .col-md-6.mb-4.mb-md-0
+                    figure
+                      img(
+                        src='@/assets/template/tema1/pestaña01/t1-p1.jpg',
+                        alt='Texto que describa la imagen'
+                      )
+
+                  .col-md-6
+                    h4 Captar y recolectar datos
+                    p Esta función es de suma importancia por ser la primera fase, donde se recolecta la información desde el exterior o desde el interior. Esta información se filtra inicialmente entre la que sirve para los propósitos organizacionales y la que realmente no es útil a estos propósitos. Otro aspecto importante en esta fase de filtración es que, de acuerdo con los protocolos de seguridad, se distingue entre información segura y no segura.
+              .py-3.py-md-4(titulo='Almacenar datos')
+                .row
+                  .col-md-6.mb-4.mb-md-0
+                    figure
+                      img(
+                        src='@/assets/template/tema1/pestaña01/t1-p2.jpg',
+                        alt='Texto que describa la imagen'
+                      )
+
+                  .col-md-6
+                    h4 Almacenar datos
+                    p Cuando se tiene la información depurada lista, se debe guardar en algún lugar, se puede almacenar en un repositorio o archivo central con acceso restringido a usuarios por áreas de interés o de uso general. También se puede almacenar directamente en los archivos de los departamentos de interés con acceso a usuarios en estas áreas específicas, identificándose con claves y usuarios particulares. En este estado de la información también se hace importante llevar seguridad de uso de información a través de controles de seguridad informática en los dispositivos y usuarios.
+              .py-3.py-md-4(titulo='Tratamiento de la información')
+                .row
+                  .col-md-6.mb-4.mb-md-0
+                    figure
+                      img(
+                        src='@/assets/template/tema1/pestaña01/t1-p3.jpg',
+                        alt='Texto que describa la imagen'
+                      )
+
+                  .col-md-6
+                    h4 Tratamiento de la información
+                    p Cuando se depura la información, transformándola en información de interés, que sea significativa, que sea individual al usuario que la necesita y acorde a las necesidades, se ha llegado a la tercera fase, el tratamiento de la información; en esta instancia se ha “filtrado” lo necesario para que sea apropiada y correcta para los usuarios que la requieran. Este proceso, por ser masivo, generalmente lo realizan medio informáticos y software especiales, para reducir los costos de proceso.
+              .py-3.py-md-4(titulo='Distribución')
+                .row
+                  .col-md-6.mb-4.mb-md-0
+                    figure
+                      img(
+                        src='@/assets/template/tema1/pestaña01/t1-p4.jpg',
+                        alt='Texto que describa la imagen'
+                      )
+
+                  .col-md-6
+                    h4 Distribución
+                    p En este último proceso, se realiza el análisis pertinente con el usuario que interpreta la información para la toma final de decisiones. Esta información, a pesar de ser segmentada, se recomienda llegue a diferentes departamentos a fin de que las decisiones que se tomen utilizando la información suministrada sea consensuada y en equipo.
+
+      .col-lg-12.mb-5 
+        strong Seguridad de la información
+      .col-lg-12.mb-5
+        .row 
+          .col-md-6
             figure
-              img(src='@/assets/template/tema1/Grupo_107412.png', alt='')
-          .col-lg-12.mt-4
-            .cajon.color_cajon_tema1.p-4
-              p Para efectos de dar mayor claridad, a continuación se procede a explicar cada uno de los enfoques y las teorías asociadas, así como también sus autores y motivadores, en el documento Enfoques y teorías administrativas asociadas.
-              .col-lg-8
-                a.anexo.mb-5(
-                  :href='obtenerLink("/downloads/prueba.pdf")',
-                  target='_blank'
-                )
-                  .anexo__icono
-                    img(src='@/assets/template/icono-pdf.svg')
-                  .anexo__texto
-                    strong Anexo
-                    br
-                    | Enfoques y teorías administrativas asociadas.
-      .col-md-6.mt-4
-        figure
-          img(
-            src='@/assets/template/tema1/t1-i2.png',
-            alt='Texto que describa la imagen'
-          )
+              img(src='@/assets/template/tema1/t1-i3.jpg')
 
-      .col-md-6.mb-5.mb-md-0.mt-4 
-        p Luego de realizar el recorrido por los orígenes y enfoques de la administración, resulta importante reconocer, en el concepto, algunos elementos de carácter estratégico que han ido perfilando la administración y que han trazado la estructura basada en procesos. La estrategia no es más que la capacidad de actuar bajo la presión del entorno y sus variables, ser capaces de ir más allá y de orientar las decisiones de manera adaptativa a los cambios que surgen. Esta manera de “hacer” administración, determina una ruta o un ciclo que posibilita no solo idear propuestas sino ejecutarlas y, posteriormente, evaluarlas; para lograrlo es necesario esbozar un poco de qué se trata, a partir de la siguiente línea temática.
+          .col-md-6
+            p La seguridad de la información, se refiere a la confidencialidad, la integridad y la disponibilidad de la información y los datos importantes para la organización, independientemente del formato que tengan. Este formato puede ser
+            |
+            ul
+              li 
+                i.fas.fa-check.color_texto_acento
+                |
+                | Electrónico
+              li 
+                i.fas.fa-check.color_texto_acento
+                |
+                | Papel.
+              li 
+                i.fas.fa-check.color_texto_acento
+                |
+                | Audio y video, etc.
+              p
+              |
+              sapan.color_texto_acento Recuerde:
+              |  las organizaciones públicas, no gubernamentales y privadas, tienen grandes cantidades de información que debe ser tratada, administrada, gestionada, controlada y asegurada.
 
-      .col-md-12.mt-4 
-        .titulo-segundo
-          h2 1.2 Administración estratégica
-
-      .col-md-12.p-4
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style='{ "background-image": `url(${require("@/assets/template/tema1/t1-i2.jpg")})` }'
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 La administración estratégica se entiende como aquella que apunta a dar lineamiento y orientación desde los estamentos directivos en una empresa u organización, teniendo en cuenta el estado interno y externo de la misma es decir, diagnosticando lo que sucede, para alinear y asegurar que la toma de decisiones impacte directamente la necesidad o la intención.
-              br
-              br
-              p.mb-0 
-              | Para conocer qué es la estrategia de diagnóstico y análisis empresarial,
-              strong se recomienda ver el siguiente video.
-      .col-md-12.p-4
-        figure
-        .video
-          iframe(
-            width='560',
-            height='315',
-            src='https://www.youtube.com/embed/2L91WMqw96A',
-            title='YouTube video player',
-            frameborder='0',
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
-            allowfullscreen
-          )
-        figcaption Video: Leyenda del video
-      .col-md-12.p-4
+      .col-md-12.p-4.mb-5
         .row.d-flex.justify-content-center
           .col-lg-11
             .cajon.color_cajon_tema1_2.p-4
-              p Una vez que se cuenta con el diagnóstico y el análisis empresarial, se procede a realizar una proyección de la empresa desde lo estratégico y, entonces, es este el momento correcto para aplicar los principios del proceso administrativo.
+              p Se puede decir que la seguridad de la información son todas las practicas, técnicas, medidas, acciones y controles que se emplean para salvaguardar y mantener seguros los datos suministrados, adquiridos (bajos las normas vigentes de protección de datos), compartidos y enviados, para que fluyan sin sufrir modificaciones que afecten su veracidad, así como la perdida parcial o total de estos.
+
+      .col-md-12.mb-5
+        p El siglo XXI trajo consigo una serie de variantes y ruptura de paradigmas que, dado el fortalecimiento de la utilización y utilidad que prestan los equipos móviles, el uso de la web y la internet, generando gran cantidad de información y datos en diferentes vías, igualmente trajo problemas de uso de tanta información, básicamente para depurarla y tratarla con el fin que sea verídica, afín y sobre todo no fraudulenta. La información se distorsiona cada vez que se comparte y recibe desde diferentes servidores (emisores), agregando o quitando parte o total del sentido de esta en cada reenvío.
+        br
+        p Por los motivos anteriormente descritos, la seguridad de la información busca lograr estos principios:
+
+      .col-lg-12
+        .row.justify-content-center.px-5
+          .col-sm-6.col-lg-4.mb-4.mb-lg-0
+            .tarjeta.color-acento-contenido.p-4.altura_card_t_1
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/template/tema1/cards02/t1-c1.png', alt='')
+              h2.text-center Integridad
+              p.text-center Se refiere a que la información no pierda veracidad, o sea, que permanezca real a su esencia inicial, y para esto los equipos con que se procesa la información, deben garantizar que no habrá variación alguna de esta. Si existe variación de la información debe ser autorizada y valorada por algún responsable y asumir dichos cambios para evitar manipulaciones.
+          .col-sm-6.col-lg-4.mb-4.mb-lg-0
+            .tarjeta.color-acento-contenido.p-4.altura_card_t_1
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/template/tema1/cards02/t1-c2.png', alt='')
+              h2.text-center Confidencialidad
+              p.text-center La información administrada debe ser salvaguarda del uso indebido y no autorizado de datos de vital importancia organizacional, como información clave para el éxito organizacional o datos privados financieros, así como datos particulares que hayan sido suministrados, para que no lleguen a terceros no autorizados. Igualmente, los equipos deben asegurar que no se filtre dicha información.
+          .col-sm-6.col-lg-4.mb-4.mb-lg-0
+            .tarjeta.color-acento-contenido.p-4.altura_card_t_1
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/template/tema1/cards02/t1-c3.png', alt='')
+              h2.text-center Disponibilidad
+              p.text-center La información debe estar disponible 24/7 los 365 días del año a quienes tengan autorización de uso y gestión de la información almacenada. Este aspecto es clave en el éxito organizacional en la actualidad.
 </template>
 
 <script>

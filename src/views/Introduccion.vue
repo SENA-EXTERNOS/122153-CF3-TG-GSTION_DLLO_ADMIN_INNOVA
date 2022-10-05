@@ -15,10 +15,10 @@
             :style='{ "background-image": `url(${require("@/assets/template/introduccion/t0-i1.jpg")})` }'
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Apreciado aprendiz, bienvenido a este recurso educativo, a continuación, conocerá más sobre la administración entendiéndola como una herramienta apropiada para dar orden a los diversos obstáculos que se presentan en la cotidianidad; por ende, entenderla y comprender su intención puede convertirse en el valor agregado que empresarialmente puede utilizarse para generar ventajas y capacidad de acción. En el siguiente video conocerá, de forma general, la temática que estudiará a lo largo del componente formativo.
-              br
-              br
-              p.mb-0.text-primary ¡Muchos éxitos en este proceso de aprendizaje!
+            strong.mb-0.color_texto_acento Apreciado aprendiz, bienvenido a este componente formativo, 
+            | donde se abordarán los conceptos básicos de sistema y ofimática, la organización y sus características, así como un repaso básico de los conceptos de software y hardware en función de los procesos organizacionales. Se hará especial énfasis en las aplicaciones de las hojas de cálculo, en los cálculos estadísticos y en la gestión de bases de datos, los procesadores de texto en la agilidad de los procesos de información administrativa y finalmente la presentación asertiva de informes visuales en aplicaciones de diapositivas.
+      .col-12.mb-5
+        p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
       .col-12.mb-5
         figure
           .video
