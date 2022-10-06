@@ -27,7 +27,7 @@
         p En Colombia pasó de ser el área de la organización que “evitaba accidentes o incidentes”, a ser un Sistema de Gestión con todas las cualidades y herramientas que tiene (ciclo PHVA: planear, hacer, verificar, actuar), interdisciplinario, transversal a todas las áreas de trabajo, tanto en producción como en administración, se convirtió en un área de apoyo tan importante como la financiera.
 
     .row.d-flex.justify-content-center.mb-5 
-      .col-lg-9
+      .col-lg-10
         .cajon.color_cajon_green.p-4
           p Como sistema de gestión (en Colombia de obligatorio uso), debe articularse con todos los sistemas que la organización implemente de uso obligatorio o no, por tanto, las organizaciones que implementen un sistema de gestión de seguridad de la información (SGSI) ISO 27001, deberá ir articula con SGSST (Sistema de Gestión de Salud y Seguridad en el Trabajo) y documentar los riesgos asociados con la gestión de la información y la seguridad de esta, así como la planeación de acciones de mejora que arroje el sistema en su fase de control e implementar estas acciones en los futuros planes del sistema de gestión integrado.
 
@@ -43,62 +43,59 @@
             .cajon.color_cajon_tema_3_1.p-4
               p Por ejemplo, dos constructoras tienes riesgos similares en procesos similares, pero difieren en riesgos específicos en el campo de obra, una se dedica a la construcción de casas de un solo nivel y la otra a edificios multivivienda, generando adicionalmente riesgo en alturas, necesitando capacitación en esta área para las labores colaterales al riesgo de altura, mientras las otra constructora no lo necesitará.
 
+    p Para ampliar la información, se le invita a ver en el material complementario, los siguientes videos:
+
     .row.mb-5
-      .col-lg-12.mb-5
-        p Para ampliar la información, se le invita a ver en el material complementario, los siguientes videos:
+      .tarjeta.p-3.color--green2.mb-3
+        .row.justify-content-around.align-items-center 
+          .col-sm.mb-3.mb-sm-0 
+            .row.d-flex.align-items-center
+              .col-lg-1.col-2
+                figure
+                  img(src='@/assets/template/tema6/t6-i3.png', width='20px')
+              .col-lg-10 
+                p.fw-bold.mb-0 ¿Qué significa SGSST?
+          .col-auto
+            a.boton.boton--b(
+              :href='obtenerLink("/actividades/actividad.html")',
+              target='_blank'
+            )
+              span Ver Video
+              i.fas.fa-play-circle 
+      .tarjeta.p-3.color--green2.mb-3
+        .row.justify-content-around.align-items-center 
+          .col-sm.mb-3.mb-sm-0
+            .row.d-flex.align-items-center
+              .col-lg-1.col-2
+                figure
+                  img(src='@/assets/template/tema6/t6-i3.png', width='20px')
+              .col-lg-10
+                p.fw-bold.mb-0 Objetivos del SGSST
+          .col-auto
+            a.boton.boton--b(
+              :href='obtenerLink("/actividades/actividad.html")',
+              target='_blank'
+            )
+              span Ver Video
+              i.fas.fa-play-circle 
+      .tarjeta.p-3.color--green2
+        .row.justify-content-around.align-items-center 
+          .col-sm.mb-3.mb-sm-0 
+            .row.d-flex.align-items-center
+              .col-lg-1.col-2
+                figure
+                  img(src='@/assets/template/tema6/t6-i3.png', width='20px')
+              .col-lg-10 
+                p.fw-bold.mb-0 Comunicación del Sistema de Gestión
+          .col-auto
+            a.boton.boton--b(
+              :href='obtenerLink("/actividades/actividad.html")',
+              target='_blank'
+            )
+              span Ver Video
+              i.fas.fa-play-circle 
 
-      .col-lg-12.mb-5
-        .tarjeta.p-3.color--green2.mb-3
-          .row.justify-content-around.align-items-center 
-            .col-sm.mb-3.mb-sm-0 
-              .row.d-flex.align-items-center
-                .col-lg-1.col-2
-                  figure
-                    img(src='@/assets/template/tema6/t6-i3.png', width='20px')
-                .col-lg-10 
-                  p.fw-bold.mb-0 ¿Qué significa SGSST?
-            .col-auto
-              a.boton.boton--b(
-                :href='obtenerLink("/actividades/actividad.html")',
-                target='_blank'
-              )
-                span Ver Video
-                i.fas.fa-play-circle 
-        .tarjeta.p-3.color--green2.mb-3
-          .row.justify-content-around.align-items-center 
-            .col-sm.mb-3.mb-sm-0
-              .row.d-flex.align-items-center
-                .col-lg-1.col-2
-                  figure
-                    img(src='@/assets/template/tema6/t6-i3.png', width='20px')
-                .col-lg-10
-                  p.fw-bold.mb-0 Objetivos del SGSST
-            .col-auto
-              a.boton.boton--b(
-                :href='obtenerLink("/actividades/actividad.html")',
-                target='_blank'
-              )
-                span Ver Video
-                i.fas.fa-play-circle 
-        .tarjeta.p-3.color--green2.mb-3
-          .row.justify-content-around.align-items-center 
-            .col-sm.mb-3.mb-sm-0 
-              .row.d-flex.align-items-center
-                .col-lg-1.col-2
-                  figure
-                    img(src='@/assets/template/tema6/t6-i3.png', width='20px')
-                .col-lg-10 
-                  p.fw-bold.mb-0 Comunicación del Sistema de Gestión
-            .col-auto
-              a.boton.boton--b(
-                :href='obtenerLink("/actividades/actividad.html")',
-                target='_blank'
-              )
-                span Ver Video
-                i.fas.fa-play-circle 
-
-      .col-lg-12
-        p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+    p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 </template>
 
 <script>
