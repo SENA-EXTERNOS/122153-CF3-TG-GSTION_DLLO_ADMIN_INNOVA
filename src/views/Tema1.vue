@@ -5,9 +5,9 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Fundamentos e introducción a la administración
+      h1 Teoría general de sistemas y sistemas de información
 
-    .row.mb-5(titulo='Fundamentos e introducción a la administración')
+    .row.mb-5(titulo='Teoría general de sistemas y sistemas de información')
       .col-md-6
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema1/t1-i1.jpg')
@@ -101,7 +101,9 @@
                 strong Sistema de información en producción y fabricación
                 br
                 br
-                | Son los que se encargan que recolectar datos (cantidades de materia prima en inventario, inventario en proceso, inventario de producto final, costos de cada uno de los stocks en planta), mediante los programas de Planificación de recursos empresariales, ERP, y Técnica de revisión y evaluación de programas, PERT, entre otros. La información en planta es de suma importancia, para saber en qué momento se hacen requisiciones de materias primas e insumos, a qué puestos de trabajo se deben llevar y cuánto puede costar por unidad en producto en proceso. La información también debe dar cuota de los tiempos y requerimientos de recurso humano y maquinaria asociada, a cada proceso.
+                | Son los que se encargan que recolectar datos (cantidades de materia prima en inventario, inventario en proceso, inventario de producto final, costos de cada uno de los
+                i stocks&nbsp;
+                | en planta), mediante los programas de Planificación de recursos empresariales, ERP, y Técnica de revisión y evaluación de programas, PERT, entre otros. La información en planta es de suma importancia, para saber en qué momento se hacen requisiciones de materias primas e insumos, a qué puestos de trabajo se deben llevar y cuánto puede costar por unidad en producto en proceso. La información también debe dar cuota de los tiempos y requerimientos de recurso humano y maquinaria asociada, a cada proceso.
 
               .col-md-6
                 figure
@@ -127,12 +129,13 @@
                   )
             .row.justify-content-center.my-lg-4
               .col-md-6.mb-4.mb-md-0
-                strong Sistema de información en marketing
+                strong Sistema de información en
+                  i marketing
                 br
                 br
                 | La información puntual de los clientes se gestiona desde esta área, aquí se proyectan los prospectos, y se lleva el seguimiento de los actuales. El
                 |
-                i marketing
+                i marketing&nbsp;
                 | relacional proporciona una plataforma de seguimiento, dicha plataforma brinda información sobre eventos puntuales que ha suministrado los clientes, cruza la información con ventas y otras áreas con objeto de “perfilar” al cliente y desarrollar el producto de acuerdo a estas necesidades; igualmente a través de información de tipo primario se obtiene del mercado los cambios y las nuevas tendencias en los gustos relacionados con el producto ofertado.
 
               .col-md-6
@@ -162,7 +165,7 @@
               .bloque-texto-g__img(
                 :style='{ "background-image": `url(${require("@/assets/template/tema1/t1-i4.jpg")})` }'
               )
-              .bloque-texto-g__texto.p-4
+              .bloque-texto-g__texto.px-4.py-5
                 p.mb-0 Existen otros tipos de información, que de acuerdo con el uso que se le de y cómo se represente, generalmente son transversales a las áreas funcionales organizacionales.
 
       .col-12.mb-5
@@ -230,9 +233,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(
-                src='@/assets/template/tema1/pestaña01/t1-p1.jpg',
-              )
+              img(src='@/assets/template/tema1/pestaña01/t1-p1.jpg')
 
           .col-md-6
             h4 Captar y recolectar datos
@@ -242,9 +243,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(
-                src='@/assets/template/tema1/pestaña01/t1-p2.jpg',
-              )
+              img(src='@/assets/template/tema1/pestaña01/t1-p2.jpg')
 
           .col-md-6
             h4 Almacenar datos
@@ -254,29 +253,27 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(
-                src='@/assets/template/tema1/pestaña01/t1-p3.jpg',
-              )
+              img(src='@/assets/template/tema1/pestaña01/t1-p3.jpg')
           .col-md-6
             h4 Tratamiento de la información
-            p Cuando se depura la información, transformándola en información de interés, que sea significativa, que sea individual al usuario que la necesita y acorde a las necesidades, se ha llegado a la tercera fase, el tratamiento de la información; en esta instancia se ha “filtrado” lo necesario para que sea apropiada y correcta para los usuarios que la requieran. Este proceso, por ser masivo, generalmente lo realizan medio informáticos y software especiales, para reducir los costos de proceso.
+            p Cuando se depura la información, transformándola en información de interés, que sea significativa, que sea individual al usuario que la necesita y acorde a las necesidades, se ha llegado a la tercera fase, el tratamiento de la información; en esta instancia se ha “filtrado” lo necesario para que sea apropiada y correcta para los usuarios que la requieran. Este proceso, por ser masivo, generalmente lo realizan medio informáticos y&nbsp;
+              i software&nbsp;
+              | especiales, para reducir los costos de proceso.
 
       .py-3.py-md-4(titulo='Distribución')
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(
-                src='@/assets/template/tema1/pestaña01/t1-p4.jpg',
-              )
+              img(src='@/assets/template/tema1/pestaña01/t1-p4.jpg')
           .col-md-6
             h4 Distribución
             p En este último proceso, se realiza el análisis pertinente con el usuario que interpreta la información para la toma final de decisiones. Esta información, a pesar de ser segmentada, se recomienda llegue a diferentes departamentos a fin de que las decisiones que se tomen utilizando la información suministrada sea consensuada y en equipo.
 
-    h3 Seguridad de la información    
+    h3 Seguridad de la información
     .row.mb-5
       .col-md-6
         figure(data-aos='zoom-in')
-          img(src='@/assets/template/tema1/t1-i3.jpg')
+          img(src='@/assets/template/tema1/t1-i5.jpg')
       .col-md-6
         p La seguridad de la información, se refiere a la confidencialidad, la integridad y la disponibilidad de la información y los datos importantes para la organización, independientemente del formato que tengan. Este formato puede ser
         |

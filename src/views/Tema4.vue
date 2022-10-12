@@ -41,17 +41,15 @@
           img(src='@/assets/template/tema4/t4-i1.png')
 
       .col-md-6
-        span.color_texto_acento ¿Y qué es el navegador?
+        span.color_texto_acento ¿Y qué es el navegador?&nbsp;
         | Es el&nbsp;
         i software&nbsp;
-        |
         | que permite ingresar a internet, realizar búsquedas, dirigirse a una página&nbsp;
         i web&nbsp;
-        |
         | determinada y ver sus contenidos: textos, imágenes, videos, anuncios publicitarios, etc.
         br
         br
-        p Los navegadores se pueden descargar e instalar gratuitamente; los más conocidos son&nbsp;
+        p Los navegadores se pueden descargar e instalar gratuitamente; los más conocidos son.&nbsp;
         i Google Chrome, Opera, Safari, Microsoft Edge y Mozilla Firefox.&nbsp;
         | Ya dentro del navegador, se puede acceder a la información a través de los buscadores, los más conocidos son:&nbsp;
         i Google, Yahoo o Bing.
@@ -66,7 +64,7 @@
             .row(titulo='URL')
               .col-md-6.mb-4.mb-md-0
                 p Son las siglas en inglés de&nbsp;
-                  i Uniform Resource Locator
+                  i Uniform Resource Locator&nbsp;
                   | (Localizador Uniforme de Recursos). Esta es la dirección que posee un sitio en la&nbsp;
                   i web,&nbsp;
                   |

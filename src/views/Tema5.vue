@@ -18,9 +18,8 @@
             strong
               span.color_texto_acento Conexión tipo análoga:
             |
-            | Se utiliza en hogares con un
-            i modem
-            |
+            | se utiliza en hogares con un&nbsp;
+            i modem&nbsp;            
             | a través de la red telefónica, las señales digitales se transforman en análogas; este tipo de conexión ha ido bajando su uso.
           li 
             i.fas.fa-check.color_check_t3
@@ -28,38 +27,37 @@
             strong
               span.color_texto_acento ADSL:
             |
-            | Permite más alcance en la señal enviada por el operador, tiene muchas barreras de tipo físico al ser enviada por
-            i Wi-Fi,
-            |
-            | es el más utilizado en las empresas por su velocidad, que compensa algo en las restricciones con choque en muros
+            | permite más alcance en la señal enviada por el operador, tiene muchas barreras de tipo físico al ser enviada por
+            i Wi-Fi,&nbsp;
+            | es el más utilizado en las empresas por su velocidad, que compensa algo en las restricciones con choque en muros.
           li 
             i.fas.fa-check.color_check_t3
             |
             strong
               span.color_texto_acento Cable:
             |
-            | Se utilizan cables de fibra óptica y de tipo coaxial con el fin de emitir una adecuada señal, tiene gran velocidad.
+            | se utilizan cables de fibra óptica y de tipo coaxial con el fin de emitir una adecuada señal, tiene gran velocidad.
           li 
             i.fas.fa-check.color_check_t3
             |
             strong
               span.color_texto_acento Inalámbrico:
             |
-            | Se transmite por interconexión de antenas por medio de ondas radiales; cuando se restringe el alcance por los otros métodos, este es el más adecuado de instalar.
+            | se transmite por interconexión de antenas por medio de ondas radiales; cuando se restringe el alcance por los otros métodos, este es el más adecuado de instalar.
           li 
             i.fas.fa-check.color_check_t3
             |
             strong 
               span.color_texto_acento Satelital:
             |
-            | De gran velocidad, más costos por las antenas que se utilizan y el uso de la señal a través de satélite.
+            | de gran velocidad, más costos por las antenas que se utilizan y el uso de la señal a través de satélite.
           li 
             i.fas.fa-check.color_check_t3
             |
             strong
               span.color_texto_acento Móviles:
             |
-            | Tiene diferentes velocidades 3G, 4G, 5G, aumentando la versatilidad y rapidez, dependiendo del presupuesto y la oferta comercial del operador.
+            | tiene diferentes velocidades 3G, 4G, 5G, aumentando la versatilidad y rapidez, dependiendo del presupuesto y la oferta comercial del operador.
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
@@ -142,7 +140,7 @@
           li 
             i.fas.fa-check.color_check_t3
             |
-            | Mejorar la integración en la cadena de valor mediante la extensión a una
+            | Mejorar la integración en la cadena de valor mediante la extensión a una&nbsp;
             i extranet.
       .col-lg-6
         figure(data-aos='zoom-in')
@@ -185,7 +183,7 @@
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema5/t5-i3.jpg')
 
-    p La
+    p La&nbsp;
           i extranet
           |
           | presenta una serie de características, las cuales son:

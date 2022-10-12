@@ -134,32 +134,31 @@
                 ul
                   li 
                     i.fas.fa-check.color_texto_acento
-                    |
+                    |&nbsp;
                     strong Periféricos de entrada:
                     |
-                    | son los que permiten el acceso de datos a la computadora. Por ejemplo, el teclado, el micrófono, la cámara
+                    | son los que permiten el acceso de datos a la computadora. Por ejemplo, el teclado, el micrófono, la cámara&nbsp;
                     i web,
                     |
                     | etc.
                   br
                   li 
                     i.fas.fa-check.color_texto_acento
-                    |
+                    |&nbsp;
                     strong Periféricos de salida:
                     |
-                    | son los que permiten el acceso de datos a la computadora. Por ejemplo, el teclado, el micrófono, la cámara
-                    i web,
-                    |
-                    | etc.
+                    | a través de ellos, el usuario puede extraer la información, como los escáneres, las impresoras, las consolas, los parlantes o altavoces. 
                   br
                   li 
                     i.fas.fa-check.color_texto_acento
-                    |
+                    |&nbsp;
                     strong Periféricos de entrada y salida o mixtos:
                     |
                     | son capaces de introducir o extraer la información. Las pantallas táctiles entran en esta categoría, al igual que los lectores de DVD o
-                    i BlueRay
-                    | y las memorias flash. Estas últimas son esencialmente memorias secundarias, pero se usan como periféricos mixtos.
+                    i BlueRay&nbsp;
+                    | y las memorias 
+                    i flash. 
+                    | Estas últimas son esencialmente memorias secundarias, pero se usan como periféricos mixtos.
 
               .col-md-5
                 figure(data-aos='zoom-in')
@@ -411,11 +410,11 @@
           )
             h5 Explicación genérica de las fases del&nbsp;
               i software
-            p A diferencia del diagrama general, este es más específico del proceso, menú y variante que tenga el&nbsp;
-              i software.&nbsp;
-              |
-              | Este gráfico debe explicar cada submenú con lujo de detalles para evitar problemas en el funcionamiento general del&nbsp;
-              i software.
+            p Esta explicación cuenta cómo funciona el 
+              i software 
+              | desde el menú principal y su interacción con los submenús y con otros&nbsp;
+              i software,&nbsp; 
+              | si es el caso.
 
           .tarjeta.color-acento-botones_black.p-3(x='73%', y='68%' numero="+")
             h5 Iniciación al uso del&nbsp;

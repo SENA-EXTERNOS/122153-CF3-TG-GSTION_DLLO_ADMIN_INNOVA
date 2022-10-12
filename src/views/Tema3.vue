@@ -7,9 +7,9 @@
         span 3
       h1 Hojas de cálculo, procesadores de texto y presentaciones
 
-    p Dentro de las herramientas ofimáticas encontramos las hojas de cálculo, procesadores de texto y presentaciones, a continuación, estudiaremos cada una de ellas.
+    p.mb-5 Dentro de las herramientas ofimáticas encontramos las hojas de cálculo, procesadores de texto y presentaciones, a continuación, estudiaremos cada una de ellas.
 
-    h3.mb-4
+    h3.mb-5
       i.fas.fa-square.cac.me-3
       | Hojas de cálculo
 
@@ -106,7 +106,7 @@
                 )
             h2.text-center 
               i Microsoft Word
-            p.text-center El procesador de palabras por excelencia para los computadores que tienen sistema operativo
+            p.text-center El procesador de palabras por excelencia para los computadores que tienen sistema operativo&nbsp;
               i Windows.
 
           .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
@@ -120,7 +120,7 @@
               i Apache OpenOffice Writer
             p.text-center Procesador de texto que forma parte de la
               i suite
-              | de código abierto
+              | de código abierto&nbsp;
               i OpenOffice.
 
           .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
@@ -132,7 +132,7 @@
                 )
             h2.text-center 
               i Abiword
-            p.text-center Este procesador de palabras forma parte de las herramientas de
+            p.text-center Este procesador de palabras forma parte de las herramientas de&nbsp;
               i LibreOffice.
 
           .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
@@ -144,7 +144,7 @@
                 )
             h2.text-center 
               i Google Docs
-            p.text-center Para los usuarios de
+            p.text-center Para los usuarios de&nbsp;
               i Google,
               |
               | este es su procesador de texto en la nube.
@@ -158,9 +158,9 @@
                 )
             h2.text-center 
               i Word Online
-            p.text-center Para usuarios de
-              i Microsoft, Word
-              | en la nube desde
+            p.text-center Para usuarios de&nbsp;
+              i Microsoft, Word&nbsp;
+              | en la nube desde&nbsp;
               i OneDrive.
 
     p Las ventajas y desventajas de los procesadores de texto son:
@@ -194,7 +194,7 @@
                     li 
                       i.fas.fa-check.color_check_t3
                       |
-                      | Conceder la posibilidad de trabajar con trabajos más profesionales
+                      | Conceder la posibilidad de trabajar con trabajos más profesionales.
                     li 
                       i.fas.fa-check.color_check_t3
                       |
@@ -231,7 +231,7 @@
                     li 
                       i.fas.fa-check.color_check_t3
                       |
-                      | El programa
+                      | El programa&nbsp;
                       i Word
                       |
                       | es costoso.
@@ -299,6 +299,30 @@
             .col-md-8
               h4 Fusionar correo
               p Permite realizar cartas y documentos específicos para ser almacenados en una base de datos.
+        .py-3.py-md-4(titulo='Administrar archivos')
+          .row
+            .col-md-4.mb-4.mb-md-0
+              figure(data-aos='zoom-in')
+                img(
+                  src='@/assets/template/tema3/slider02/t3-s6.jpg',
+                  alt='Texto que describa la imagen'
+                )
+
+            .col-md-8
+              h4 Administrar archivos
+              p Con esta función se almacenan, se accede, mueven y eliminan archivos de la computadora
+        .py-3.py-md-4(titulo='Impresión')
+          .row
+            .col-md-4.mb-4.mb-md-0
+              figure(data-aos='zoom-in')
+                img(
+                  src='@/assets/template/tema3/slider02/t3-s7.png',
+                  alt='Texto que describa la imagen'
+                )
+
+            .col-md-8
+              h4 Impresión
+              p Produce una copia en papel de un archivo que haya sido almacenado en computadora de forma electrónica.
 
     .row.mb-5 
       .row.d-flex.justify-content-center

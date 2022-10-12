@@ -41,7 +41,7 @@
             p Todo programa sobre gestión en seguridad y salud en el trabajo, debe tener una introducción, alcance, objetivos, interesados o responsables, acciones (actividades), cronograma, sistemas de medición de las acciones y planes ejecutados, indicadores (obligatorios y no obligatorios), acciones de mejores, ejecución de acciones de mejora. Cada SG-SST, debe único y elaborado de acuerdo a los riesgos detectados, medidos y clasificados en ella, así como las acciones de mitigación, eliminación u otra acción que se ejecutó frente a ellos, por tanto, la metodología general se aplica conforme a lo estipulado por la norma, pero las acciones y riesgos son particulares a cada proceso, cada área y cada empresa.
           .col-lg-12
             .cajon.color_cajon_tema_3_1.p-4
-              p Por ejemplo, dos constructoras tienes riesgos similares en procesos similares, pero difieren en riesgos específicos en el campo de obra, una se dedica a la construcción de casas de un solo nivel y la otra a edificios multivivienda, generando adicionalmente riesgo en alturas, necesitando capacitación en esta área para las labores colaterales al riesgo de altura, mientras las otra constructora no lo necesitará.
+              p Por ejemplo, dos constructoras tienen riesgos similares en procesos similares, pero difieren en riesgos específicos en el campo de obra, una se dedica a la construcción de casas de un solo nivel y la otra a edificios multivivienda, generando adicionalmente riesgo en alturas, necesitando capacitación en esta área para las labores colaterales al riesgo de altura, mientras las otra constructora no lo necesitará.
 
     p Para ampliar la información, se le invita a ver en el material complementario, los siguientes videos:
 

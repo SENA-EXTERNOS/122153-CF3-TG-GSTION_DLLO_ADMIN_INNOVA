@@ -12,7 +12,7 @@
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-lg-12.mb-4.mb-md-0
         .titulo-segundo.mb-0
-            h2 Gestión del desarrollo administrativo e innovación
+            h2 Falso o verdadero
             
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0    
         .tarjeta.h-100.d-flex.align-items-center.p-4
