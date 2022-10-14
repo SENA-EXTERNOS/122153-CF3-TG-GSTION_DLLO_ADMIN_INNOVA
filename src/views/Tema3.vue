@@ -316,7 +316,7 @@
             .col-md-4.mb-4.mb-md-0
               figure(data-aos='zoom-in')
                 img(
-                  src='@/assets/template/tema3/slider02/t3-s7.png',
+                  src='@/assets/template/tema3/slider02/t3-s7.jpg',
                   alt='Texto que describa la imagen'
                 )
 
