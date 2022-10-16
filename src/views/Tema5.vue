@@ -19,7 +19,7 @@
               span.color_texto_acento Conexión tipo análoga:
             |
             | se utiliza en hogares con un&nbsp;
-            i modem&nbsp;            
+            i modem&nbsp;
             | a través de la red telefónica, las señales digitales se transforman en análogas; este tipo de conexión ha ido bajando su uso.
           li 
             i.fas.fa-check.color_check_t3
@@ -27,7 +27,7 @@
             strong
               span.color_texto_acento ADSL:
             |
-            | permite más alcance en la señal enviada por el operador, tiene muchas barreras de tipo físico al ser enviada por
+            | permite más alcance en la señal enviada por el operador, tiene muchas barreras de tipo físico al ser enviada por&nbsp;
             i Wi-Fi,&nbsp;
             | es el más utilizado en las empresas por su velocidad, que compensa algo en las restricciones con choque en muros.
           li 
@@ -78,9 +78,9 @@
               i web.
 
     p Entre los beneficios de usar una&nbsp;
-          i intranet&nbsp;
-          |
-          | se encuentran:
+      i intranet&nbsp;
+      |
+      | se encuentran:
 
     .row.mb-5
       .col-lg-6
@@ -146,19 +146,21 @@
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema5/t5-i2.jpg')
 
-
     h3.mb-4
       i.fas.fa-square.cac.me-3
-      | Extranet          
+      | Extranet
 
     .row.mb-5
       .col-lg-7
         .row 
           .col-lg-12.mb-4
-            p Una extranet es una red privada que utiliza protocolos de&nbsp;
+            p Una&nbsp;
+              i extranet&nbsp;
+              | es una red privada que utiliza protocolos de&nbsp;
               i internet,&nbsp;
-              |
-              | de comunicación y probablemente infraestructura pública de comunicación, para compartir de forma segura parte de la información u operación propia de una organización con proveedores, compradores, socios, clientes o cualquier otro negocio u organización. Se puede decir en otras palabras que una extranet es parte de la intranet de una organización que se extiende a usuarios fuera de ella, usualmente utilizando&nbsp;
+              | de comunicación y probablemente infraestructura pública de comunicación, para compartir de forma segura parte de la información u operación propia de una organización con proveedores, compradores, socios, clientes o cualquier otro negocio u organización. Se puede decir en otras palabras que una extranet es parte de la&nbsp;
+              i intranet&nbsp;
+              | de una organización que se extiende a usuarios fuera de ella, usualmente utilizando&nbsp;
               i internet&nbsp;
               |
               | y sus protocolos.
@@ -184,9 +186,9 @@
           img(src='@/assets/template/tema5/t5-i3.jpg')
 
     p La&nbsp;
-          i extranet
-          |
-          | presenta una serie de características, las cuales son:
+      i extranet
+      |
+      | presenta una serie de características, las cuales son:
 
     .row.mb-5
       .col-lg-4.order-1.order-lg-1.mb-4.mb-lg-0(data-aos='zoom-in')
@@ -225,9 +227,7 @@
             h4 Descarga de documentación
             p La compañía pone a disposición de clientes y proveedores, documentos de apoyo relacionados con los productos y/o servicios, de modo que la experiencia para este tipo de usuarios es más positiva.
 
-          .tarjeta.clr-paleYellow.p-4.color--green(
-            titulo='Estado del pedido'
-          )
+          .tarjeta.clr-paleYellow.p-4.color--green(titulo='Estado del pedido')
             h4 Estado del pedido
             p Se utiliza en tiendas online para que los clientes puedan seguir en tiempo real el estado de su pedido: elaboración, enviado, en proceso de entrega, etc. Este es un aspecto que los clientes de e-commerce valoran muy positivamente.
 
@@ -336,7 +336,6 @@
               i Red telefónica conmutada
             p.text-center Otro de los primeros tipo de conexión, es muy básico, ya casi fuera de uso, fue de gran importancia en la revolución de internet a finales del siglo XX y los primeros años de este siglo.
 
-
     h3.mb-4
       i.fas.fa-square.cac.me-3
       | Redes sociales
@@ -355,9 +354,8 @@
             .cajon.color_cajon_tema_3_1.p-4
               p La interacción entre individuos, organizaciones o grupos, es el verdadero concepto de red social, desde la sociología. Este concepto se extendió a la virtualidad y a las “tribus” virtuales.
           .col-lg-12
-            p La falta de privacidad es una de las grandes quejas que suscitan entre nosotros, por el uso y abuso de las redes sociales, sin embargo, desde la utilidad y la importancia de estas, están las convocatorias a eventos masivos de forma rápida y eficaz, relación interempresarial, cliente y empresa,
-              i marketing
-              |
+            p La falta de privacidad es una de las grandes quejas que suscitan entre nosotros, por el uso y abuso de las redes sociales, sin embargo, desde la utilidad y la importancia de estas, están las convocatorias a eventos masivos de forma rápida y eficaz, relación interempresarial, cliente y empresa,&nbsp;
+              i marketing&nbsp;
               | relacional, entre otras.
 </template>
 

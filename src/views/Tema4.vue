@@ -9,9 +9,9 @@
         i web
 
     p Antes de comenzar a definir qué es la navegación en la&nbsp;
-          i web,&nbsp;
-          |
-          span.color_texto_acento observe el siguiente video.
+      i web,&nbsp;
+      |
+      span.color_texto_acento observe el siguiente video.
 
     .row.mb-5
       .col-12.mb-5
@@ -32,7 +32,6 @@
         .cajon.color_cajon_green.p-4
           p Cada momento se está doblando la información, hoy existe más información en la&nbsp;
             i web&nbsp;
-            |
             | que ayer y mañana más que hoy.
 
     .row.mb-5
@@ -49,13 +48,13 @@
         | determinada y ver sus contenidos: textos, imágenes, videos, anuncios publicitarios, etc.
         br
         br
-        p Los navegadores se pueden descargar e instalar gratuitamente; los más conocidos son.&nbsp;
+        p Los navegadores se pueden descargar e instalar gratuitamente; los más conocidos son:&nbsp;
         i Google Chrome, Opera, Safari, Microsoft Edge y Mozilla Firefox.&nbsp;
         | Ya dentro del navegador, se puede acceder a la información a través de los buscadores, los más conocidos son:&nbsp;
         i Google, Yahoo o Bing.
 
     p Conozca algunos términos importantes relacionados con la navegación en la&nbsp;
-          i web.
+      i web.
 
     .row.mb-5
       .col-lg-12.mb-5
@@ -83,7 +82,9 @@
               .col-md-6.mb-4.mb-md-0
                 p Es una conexión entre diferentes páginas o entre distintas secciones de una misma página. Los hipervínculos se presentan en varias formas: fragmentos de texto subrayados y de color azul, una imagen, un logotipo o una ilustración.
                 br
-                p Sin embargo, sin importar la forma en que se presenta en la pantalla, todos los hipervínculos tienen en común el hecho que, al hacer clic en ellos, lo llevarán a un lugar distinto del sitio web donde se encuentra. Es decir, lo enlazarán a otros contenidos.
+                p Sin embargo, sin importar la forma en que se presenta en la pantalla, todos los hipervínculos tienen en común el hecho que, al hacer clic en ellos, lo llevarán a un lugar distinto del sitio&nbsp;
+                  i web&nbsp;
+                  | donde se encuentra. Es decir, lo enlazarán a otros contenidos.
 
               .col-md-6
                 figure
@@ -98,7 +99,6 @@
                   i cookies
                   | (galletas) son pequeños bloques de datos creados por un servidor&nbsp;
                   i web&nbsp;
-                  |
                   | y colocados por el navegador en la computadora, teléfono móvil u otro dispositivo que se use para ingresar a&nbsp;
                   i internet.
                 br
@@ -122,11 +122,15 @@
 
             .row(titulo='Favoritos e historial de navegación en la web')
               .col-md-6.mb-4.mb-md-0
-                p Todos los navegadores ofrecen la opción de “Favoritos”. Se trata de un botón, normalmente situado a un lado de la barra de direcciones URL, con el cual se puede crear un acceso directo a las páginas web favoritas o redes sociales del usuario.
+                p Todos los navegadores ofrecen la opción de “Favoritos”. Se trata de un botón, normalmente situado a un lado de la barra de direcciones URL, con el cual se puede crear un acceso directo a las páginas&nbsp;
+                  i web&nbsp;
+                  | favoritas o redes sociales del usuario.
                 br
                 p Ya no será necesario escribir la URL o colocar un término de búsqueda, bastará con hacer clic en el ícono de la página situado en la carpeta de favoritos.
                 br
-                p Igualmente, todos los navegadores ofrecen la posibilidad de revisar el “Historial de navegación”, que es una lista con todas las páginas web que has visitado dentro de un lapso específico de tiempo.
+                p Igualmente, todos los navegadores ofrecen la posibilidad de revisar el “Historial de navegación”, que es una lista con todas las páginas&nbsp;
+                  i web&nbsp;
+                  | que has visitado dentro de un lapso específico de tiempo.
 
               .col-md-6
                 figure(data-aos='zoom-in')

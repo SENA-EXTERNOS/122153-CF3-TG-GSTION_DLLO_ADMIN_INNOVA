@@ -389,9 +389,8 @@
           .tarjeta.color-acento-botones_black.p-3(x='57%', y='15%' numero="+")
             h5 Diagrama general del&nbsp;
               i software
-            p Es una forma gráfica, esquemática, tipo mapa mental o similar para entender la instalación, f&nbsp;uncionamiento y flujo de acciones que realizará el&nbsp;
+            p Es una forma gráfica, esquemática, tipo mapa mental o similar para entender la instalación, funcionamiento y flujo de acciones que realizará el&nbsp;
               i software.
-              |
               | Proporciona una visión general del&nbsp;
               i software.
 
@@ -399,7 +398,6 @@
             h5 Diagrama particular detallado
             p A diferencia del diagrama general, este es más específico del proceso, menú y variante que tenga el&nbsp;
               i software.&nbsp;
-              |
               | Este gráfico debe explicar cada submenú con lujo de detalles para evitar problemas en el funcionamiento general del&nbsp;
               i software.
 

@@ -60,7 +60,13 @@
                 :style='{ "background-image": `url(${require("@/assets/template/tema3/t3-i3.jpg")})` }'
               )
               .bloque-texto-g__texto.p-4
-                p.mb-0 Existen diferentes programas de bases de datos como: Microsoft Office Access Y Open Office Base, las nuevas funciones del Excel como es el Power Pivot y el Power BI (de inteligencia de negocios), especialmente para tratar y analizar bases de datos generando tableros de mando inteligentes y dinámicos (dashboard), haciendo la presentación de informes gerencias que implican análisis de gran cantidad de datos mucho más fácil, dinámica y certero para la rápida y efectivo toma de decisiones.
+                p.mb-0 Existen diferentes programas de bases de datos como: 
+                i Microsoft Office Access Y Open Office Base,&nbsp;
+                |las nuevas funciones del Excel como es el 
+                i Power Pivot y el Power BI 
+                |(de inteligencia de negocios), especialmente para tratar y analizar bases de datos generando tableros de mando inteligentes y dinámicos 
+                i (dashboard),&nbsp;
+                |haciendo la presentación de informes gerencias que implican análisis de gran cantidad de datos mucho más fácil, dinámica y certero para la rápida y efectivo toma de decisiones.
 
     h3.mb-4
       i.fas.fa-square.cac.me-3

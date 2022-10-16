@@ -101,7 +101,7 @@
                 strong Sistema de información en producción y fabricación
                 br
                 br
-                | Son los que se encargan que recolectar datos (cantidades de materia prima en inventario, inventario en proceso, inventario de producto final, costos de cada uno de los
+                | Son los que se encargan que recolectar datos (cantidades de materia prima en inventario, inventario en proceso, inventario de producto final, costos de cada uno de los&nbsp;
                 i stocks&nbsp;
                 | en planta), mediante los programas de Planificación de recursos empresariales, ERP, y Técnica de revisión y evaluación de programas, PERT, entre otros. La información en planta es de suma importancia, para saber en qué momento se hacen requisiciones de materias primas e insumos, a qué puestos de trabajo se deben llevar y cuánto puede costar por unidad en producto en proceso. La información también debe dar cuota de los tiempos y requerimientos de recurso humano y maquinaria asociada, a cada proceso.
 
@@ -116,8 +116,7 @@
                 strong Sistema de información en administración y financiera
                 br
                 br
-                | La información que aquí llega, cruza con todos los departamentos, en costos de generales y específicos en producción, los presupuestos de compras y adquisiciones, costos de nóminas directas e indirectas, costos de servicios de “tercerización” si existen, costos de publicidad y
-                |
+                | La información que aquí llega, cruza con todos los departamentos, en costos de generales y específicos en producción, los presupuestos de compras y adquisiciones, costos de nóminas directas e indirectas, costos de servicios de “tercerización” si existen, costos de publicidad y&nbsp;
                 i marketing
                 | , costos de todas las áreas de apoyo y sistemas de gestión. Aquí llega y se cruza la información del sistema financiero de la organización con los bancos, proveedores, clientes y otros interesados, se generan transacciones en diferentes direcciones.
 
