@@ -351,7 +351,7 @@
 
       .col-lg-12
         TabsC.color-acento-contenido
-          .py-3.py-md-4(titulo='PowerPoint')
+          .py-3.py-md-4(titulo='<em>PowerPoint</em>')
             .row
               .col-md-4.mb-4.mb-md-0
                 figure(data-aos='zoom-in')
@@ -365,12 +365,10 @@
                   i PowerPoint
                 p Aplicación por excelencia de&nbsp;
                   i Microsoft,&nbsp;
-                  |
                   | viene en el paquete de&nbsp;
                   i Office,&nbsp;
-                  |
                   | se puede editar imagen, voz, video, música, es muy versátil al bridar gran variedad de plantillas o simplemente construyendo la propia desde cero, es muy fácil de trabajar, solo se requiere imaginación.
-          .py-3.py-md-4(titulo='Prezi')
+          .py-3.py-md-4(titulo='<em>Prezi</em>')
             .row
               .col-md-4.mb-4.mb-md-0
                 figure(data-aos='zoom-in')
@@ -384,13 +382,11 @@
                   i Prezi
                 p Es de las más conocidas para crear, desde cualquier parte, presentaciones con una gran visualización, pudiendo desarrollar mapas interactivos y hasta efectos de&nbsp;
                   i zoom&nbsp;
-                  |
                   | en tres dimensiones para mostrar recorridos únicos con solo tener una conexión a internet, aunque también cuenta con aplicación para&nbsp;
                   i Windows&nbsp;
-                  |
                   | y dispositivos de&nbsp;
                   i Apple.
-          .py-3.py-md-4(titulo='Emaze')
+          .py-3.py-md-4(titulo='<em>Emaze</em>')
             .row
               .col-md-4.mb-4.mb-md-0
                 figure(data-aos='zoom-in')
@@ -403,7 +399,7 @@
                 h4 
                   i Emaze
                 p Cuenta con una característica muy llamativa y es que se puede añadir instrucciones de voz para controlar de modo muy sutil y original la presentación que se expone al tiempo que se habla.
-          .py-3.py-md-4(titulo='PowToon')
+          .py-3.py-md-4(titulo='<em>PowToon</em>')
             .row
               .col-md-4.mb-4.mb-md-0
                 figure(data-aos='zoom-in')

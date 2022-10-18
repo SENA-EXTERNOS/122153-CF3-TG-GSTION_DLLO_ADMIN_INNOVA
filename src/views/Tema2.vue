@@ -99,7 +99,7 @@
                   | de almacenamiento
                 br
                 br
-                | Como indica su nombre, hace referencia a todos los componentes cuya función es resguardar la información para que el usuario pueda acceder a ella en cualquier momento. El dispositivo principal en este caso es la memoria RAM
+                | Como indica su nombre, hace referencia a todos los componentes cuya función es resguardar la información para que el usuario pueda acceder a ella en cualquier momento. El dispositivo principal en este caso es la memoria RAM&nbsp;
                 i (Random Access Memory),
                 |
                 | pero también está conformada por memorias secundarias, como los discos duros o las memorias SSD o USB.
@@ -110,9 +110,7 @@
             .row.justify-content-center.my-lg-4
               .col-md-7.mb-4.mb-md-0
                 strong 
-                  i Hardware
-                  |
-                  | gráfico
+                  i Hardware gráfico
                 br
                 br
                 | Está compuesto principalmente por las tarjetas gráficas que poseen memoria y CPU propias, y son las encargadas de interpretar y ejecutar las señales dedicadas a la construcción de imágenes. El hecho de que esta función no recaiga en la CPU, tiene que ver con la eficiencia, ya que, al liberar de esas funciones a la memoria principal, el sistema funciona de manera óptima.
@@ -125,7 +123,7 @@
                 strong Dispositivos periféricos
                 br
                 br
-                | Es todo el
+                | Es todo el&nbsp;
                 i hardware
                 |
                 | que permite que la información pueda ingresar a la computadora, o salir de esta. Se subdividen en tres categorías:
@@ -154,7 +152,7 @@
                     |&nbsp;
                     strong Periféricos de entrada y salida o mixtos:
                     |
-                    | son capaces de introducir o extraer la información. Las pantallas táctiles entran en esta categoría, al igual que los lectores de DVD o
+                    | son capaces de introducir o extraer la información. Las pantallas táctiles entran en esta categoría, al igual que los lectores de DVD o&nbsp;
                     i BlueRay&nbsp;
                     | y las memorias 
                     i flash. 

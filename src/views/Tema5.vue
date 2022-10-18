@@ -7,14 +7,16 @@
         span 5
       h1 Redes de información
 
-    p Cuando se habla de redes de información, lo primero que se debe conocer es el término conectividad e internet, lo cual se refiere a la comunicación que se establece entre dispositivos, de forma alámbrica o inalámbrica.
+    p Cuando se habla de redes de información, lo primero que se debe conocer es el término conectividad e 
+      i internet, 
+      | lo cual se refiere a la comunicación que se establece entre dispositivos, de forma alámbrica o inalámbrica.
 
     .row.mb-5
       .col-12
         ul
           li 
             i.fas.fa-check.color_check_t3
-            |
+            |&nbsp;
             strong
               span.color_texto_acento Conexión tipo análoga:
             |
@@ -23,7 +25,7 @@
             | a través de la red telefónica, las señales digitales se transforman en análogas; este tipo de conexión ha ido bajando su uso.
           li 
             i.fas.fa-check.color_check_t3
-            |
+            |&nbsp;
             strong
               span.color_texto_acento ADSL:
             |
@@ -32,28 +34,28 @@
             | es el más utilizado en las empresas por su velocidad, que compensa algo en las restricciones con choque en muros.
           li 
             i.fas.fa-check.color_check_t3
-            |
+            |&nbsp;
             strong
               span.color_texto_acento Cable:
             |
             | se utilizan cables de fibra óptica y de tipo coaxial con el fin de emitir una adecuada señal, tiene gran velocidad.
           li 
             i.fas.fa-check.color_check_t3
-            |
+            |&nbsp;
             strong
               span.color_texto_acento Inalámbrico:
             |
             | se transmite por interconexión de antenas por medio de ondas radiales; cuando se restringe el alcance por los otros métodos, este es el más adecuado de instalar.
           li 
             i.fas.fa-check.color_check_t3
-            |
+            |&nbsp;
             strong 
               span.color_texto_acento Satelital:
             |
             | de gran velocidad, más costos por las antenas que se utilizan y el uso de la señal a través de satélite.
           li 
             i.fas.fa-check.color_check_t3
-            |
+            |&nbsp;
             strong
               span.color_texto_acento Móviles:
             |
@@ -61,7 +63,7 @@
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
-      | Intranet
+      | <em>Intranet</em>
 
     .row.mb-5
       .col-lg-5
@@ -148,7 +150,7 @@
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
-      | Extranet
+      | <em>Extranet</em>
 
     .row.mb-5
       .col-lg-7
@@ -162,24 +164,19 @@
               i intranet&nbsp;
               | de una organización que se extiende a usuarios fuera de ella, usualmente utilizando&nbsp;
               i internet&nbsp;
-              |
               | y sus protocolos.
           .col-lg-12
             .cajon.color_cajon_tema_3_2.p-4
               p La&nbsp;
                 i extranet&nbsp;
-                |
                 | suele tener un acceso semiprivado. Para acceder a la&nbsp;
-                i extranet &nbsp;
+                i extranet&nbsp;
                 | de una empresa no necesariamente el usuario ha de ser trabajador de la empresa, pero sí tener un vínculo con la entidad. Es por ello que una&nbsp;
                 i extranet&nbsp;
-                |
                 | requiere o necesita un grado de seguridad, para que no pueda acceder cualquier persona. Otra característica de la&nbsp;
                 i extranet&nbsp;
-                |
                 | es que se puede utilizar como una&nbsp;
                 i intranet&nbsp;
-                |
                 | de colaboración con otras compañías.
       .col-lg-5
         figure(data-aos='zoom-in')

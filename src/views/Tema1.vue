@@ -128,7 +128,7 @@
                   )
             .row.justify-content-center.my-lg-4
               .col-md-6.mb-4.mb-md-0
-                strong Sistema de información en
+                strong Sistema de información en&nbsp;
                   i marketing
                 br
                 br

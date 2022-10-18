@@ -190,9 +190,8 @@ export default {
   ],
   referencias: [
     {
-      referencia:
-        'Concepto. (s.f.). Sistema de información. Concepto https://concepto.de/sistema-de-informacion/#ixzz7cG3vNX2L',
-      link: '',
+      referencia: 'Concepto. (s.f.). Sistema de información. Concepto.',
+      link: 'https://concepto.de/sistema-de-informacion/#ixzz7cG3vNX2L',
     },
     {
       referencia:
