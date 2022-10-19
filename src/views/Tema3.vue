@@ -255,7 +255,6 @@
                 )
 
             .col-md-8
-              h4 Pegar
               p Permite añadir textos o imágenes que hayan sido removidos o copiados desde cualquier otra parte del documento o de un documento externo.
         .py-3.py-md-4(titulo='Formato')
           .row
@@ -267,7 +266,6 @@
                 )
 
             .col-md-8
-              h4 Formato
               p Permite especificar la página, margen y su tamaño. También aplica el tipo de fuente, color, negritas, itálicas, entre otras.
         .py-3.py-md-4(titulo='Buscar y restituir')
           .row
@@ -279,7 +277,6 @@
                 )
 
             .col-md-8
-              h4 Buscar y restituir
               p Permite encontrar caracteres y palabras específicas dentro del documento, además de poder sustituirlas por otras.
         .py-3.py-md-4(titulo='Columna y tabla')
           .row
@@ -291,7 +288,6 @@
                 )
 
             .col-md-8
-              h4 Columna y tabla
               p Permite crear, manipular y dar un formato a columnas y tablas.
         .py-3.py-md-4(titulo='Fusionar correo')
           .row
@@ -303,7 +299,6 @@
                 )
 
             .col-md-8
-              h4 Fusionar correo
               p Permite realizar cartas y documentos específicos para ser almacenados en una base de datos.
         .py-3.py-md-4(titulo='Administrar archivos')
           .row
@@ -315,7 +310,6 @@
                 )
 
             .col-md-8
-              h4 Administrar archivos
               p Con esta función se almacenan, se accede, mueven y eliminan archivos de la computadora
         .py-3.py-md-4(titulo='Impresión')
           .row
@@ -327,7 +321,6 @@
                 )
 
             .col-md-8
-              h4 Impresión
               p Produce una copia en papel de un archivo que haya sido almacenado en computadora de forma electrónica.
 
     .row.mb-5 
@@ -360,9 +353,7 @@
                     alt='Texto que describa la imagen'
                   )
 
-              .col-md-8
-                h4 
-                  i PowerPoint
+              .col-md-8                
                 p Aplicación por excelencia de&nbsp;
                   i Microsoft,&nbsp;
                   | viene en el paquete de&nbsp;
@@ -378,8 +369,6 @@
                   )
 
               .col-md-8
-                h4 
-                  i Prezi
                 p Es de las más conocidas para crear, desde cualquier parte, presentaciones con una gran visualización, pudiendo desarrollar mapas interactivos y hasta efectos de&nbsp;
                   i zoom&nbsp;
                   | en tres dimensiones para mostrar recorridos únicos con solo tener una conexión a internet, aunque también cuenta con aplicación para&nbsp;
@@ -396,8 +385,6 @@
                   )
 
               .col-md-8
-                h4 
-                  i Emaze
                 p Cuenta con una característica muy llamativa y es que se puede añadir instrucciones de voz para controlar de modo muy sutil y original la presentación que se expone al tiempo que se habla.
           .py-3.py-md-4(titulo='<em>PowToon</em>')
             .row
@@ -409,8 +396,6 @@
                   )
 
               .col-md-8
-                h4 
-                  i PowToon
                 p Permite realizar videos propios, musicalizar, animar o caricaturizar las presentaciones, es gratuito.
 </template>
 

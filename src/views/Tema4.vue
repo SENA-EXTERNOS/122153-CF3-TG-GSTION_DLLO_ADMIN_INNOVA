@@ -97,7 +97,7 @@
             .row(titulo='<em>Cookies</em>')
               .col-md-6.mb-4.mb-md-0
                 p Las&nbsp;
-                  i cookies
+                  i cookies&nbsp;
                   | (galletas) son pequeños bloques de datos creados por un servidor&nbsp;
                   i web&nbsp;
                   | y colocados por el navegador en la computadora, teléfono móvil u otro dispositivo que se use para ingresar a&nbsp;

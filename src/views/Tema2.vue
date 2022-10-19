@@ -29,7 +29,7 @@
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
-      | Software
+      |<em>Software</em>
 
     .row.mb-5
       .col-md-6
@@ -53,7 +53,7 @@
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
-      | Hardware
+      | <em>Hardware</em>
 
     .row.mb-5
       .col-md-4
@@ -110,7 +110,8 @@
             .row.justify-content-center.my-lg-4
               .col-md-7.mb-4.mb-md-0
                 strong 
-                  i Hardware gráfico
+                  i Hardware 
+                  | gráfico
                 br
                 br
                 | Está compuesto principalmente por las tarjetas gráficas que poseen memoria y CPU propias, y son las encargadas de interpretar y ejecutar las señales dedicadas a la construcción de imágenes. El hecho de que esta función no recaiga en la CPU, tiene que ver con la eficiencia, ya que, al liberar de esas funciones a la memoria principal, el sistema funciona de manera óptima.
