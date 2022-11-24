@@ -125,28 +125,28 @@ export default {
     {
       tema: 'Teoría general de sistemas y sistemas de información',
       referencia:
-        'Curso Laboral. (2021). Información Crítica Técnico en seguridad informática análisis de riesgo 5 (video). YouTube. https://www.youtube.com/watch?v=r4kmGCIGOTw',
+        'Curso Laboral. (2021). Información Crítica Técnico en seguridad informática análisis de riesgo 5 (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=r4kmGCIGOTw',
     },
     {
       tema: 'Normas técnicas de seguridad y salud en el ambiente laboral',
       referencia:
-        'Gestión & Formación. (2016). Qué significa SGSST? (video). YouTube. https://www.youtube.com/watch?v=y1Kxw3-jPL0',
+        'Gestión & Formación. (2016). Qué significa SGSST? (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=y1Kxw3-jPL0',
     },
     {
       tema: 'Normas técnicas de seguridad y salud en el ambiente laboral',
       referencia:
-        'Gestión & Formación. (2019). Objetivos del SGSST (video). YouTube. https://www.youtube.com/watch?v=QHg-z31nKG0',
+        'Gestión & Formación. (2019). Objetivos del SGSST (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=QHg-z31nKG0',
     },
     {
       tema: 'Normas técnicas de seguridad y salud en el ambiente laboral',
       referencia:
-        'Gestión & Formación. (2020). Comunicación del Sistema de Gestión (video). YouTube.https://www.youtube.com/watch?v=wmazHuPJfTs',
+        'Gestión & Formación. (2020). Comunicación del Sistema de Gestión (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=wmazHuPJfTs',
     },
