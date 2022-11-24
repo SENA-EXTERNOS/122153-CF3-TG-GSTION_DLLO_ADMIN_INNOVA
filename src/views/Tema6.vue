@@ -57,7 +57,7 @@
                 p.fw-bold.mb-0 ¿Qué significa SGSST?
           .col-auto
             a.boton.boton--b(
-              :href='obtenerLink("https://www.youtube.com/watch?v=y1Kxw3-jPL0")',
+              :href='"https://www.youtube.com/watch?v=y1Kxw3-jPL0"',
               target='_blank'
             )
               span Ver Video
@@ -73,7 +73,7 @@
                 p.fw-bold.mb-0 Objetivos del SGSST
           .col-auto
             a.boton.boton--b(
-              :href='obtenerLink("https://www.youtube.com/watch?v=QHg-z31nKG0")',
+              :href='"https://www.youtube.com/watch?v=QHg-z31nKG0"',
               target='_blank'
             )
               span Ver Video
@@ -89,7 +89,7 @@
                 p.fw-bold.mb-0 Comunicación del Sistema de Gestión
           .col-auto
             a.boton.boton--b(
-              :href='obtenerLink("https://www.youtube.com/watch?v=wmazHuPJfTs")',
+              :href='"https://www.youtube.com/watch?v=wmazHuPJfTs"',
               target='_blank'
             )
               span Ver Video
