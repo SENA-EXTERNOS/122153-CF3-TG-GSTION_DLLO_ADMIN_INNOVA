@@ -123,11 +123,11 @@
                   alt='AvatarTop'
                 )
             h2.text-center 
-              i Apache OpenOffice Writer
-            p.text-center Procesador de texto que forma parte de la
-              i suite
+              em Apache OpenOffice Writer
+            p.text-center Procesador de texto que forma parte de la 
+              em suite 
               | de código abierto&nbsp;
-              i OpenOffice.
+              em OpenOffice.
 
           .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
             .row.justify-content-center.mb-3

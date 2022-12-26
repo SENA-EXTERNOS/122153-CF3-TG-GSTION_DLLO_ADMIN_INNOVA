@@ -18,6 +18,11 @@
         figure
           img(src="@/assets/template/sintesis/s-1.jpg", alt="alt")
 
+    .col-md-3.mx-auto
+          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Sintesis.pdf')" target="_blank" type="application/pdf")
+            span Descargar 
+            i.fas.fa-file-download
+
 
 </template>
 
