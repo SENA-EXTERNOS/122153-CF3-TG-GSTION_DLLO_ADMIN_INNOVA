@@ -7,63 +7,33 @@
         span 5
       h1 Redes de información
 
-    p Cuando se habla de redes de información, lo primero que se debe conocer es el término conectividad e 
-      i internet, 
-      | lo cual se refiere a la comunicación que se establece entre dispositivos, de forma alámbrica o inalámbrica.
+    p Cuando se habla de redes de información, lo primero que se debe conocer es el término conectividad de Internet, que se refiere a la comunicación que se establece entre dispositivos, de forma alámbrica o inalámbrica.
 
     .row.mb-5
       .col-12
-        ul
+        ul.lista-ul
           li 
             i.fas.fa-check.color_check_t3
-            |&nbsp;
-            strong
-              span.color_texto_acento Conexión tipo análoga:
-            |
-            | se utiliza en hogares con un&nbsp;
-            i modem&nbsp;
-            | a través de la red telefónica, las señales digitales se transforman en análogas; este tipo de conexión ha ido bajando su uso.
+            p.mb-0 <i>Conexión tipo análoga:</i> se utiliza en hogares, con un modem a través de la red telefónica; las señales digitales se transforman en análogas y este tipo de conexión ha ido disminuyendo su uso. 
           li 
             i.fas.fa-check.color_check_t3
-            |&nbsp;
-            strong
-              span.color_texto_acento ADSL:
-            |
-            | permite más alcance en la señal enviada por el operador, tiene muchas barreras de tipo físico al ser enviada por&nbsp;
-            i Wi-Fi,&nbsp;
-            | es el más utilizado en las empresas por su velocidad, que compensa algo en las restricciones con choque en muros.
+            p.mb-0 <i>ADSL:</i> permite más alcance en la señal enviada por el operador, aunque presenta barreras de tipo físico, al ser enviada por Wifi; este tipo de red es la más utilizada en las empresas por su velocidad, debido a que compensa algo en las restricciones con choque en muros.
           li 
             i.fas.fa-check.color_check_t3
-            |&nbsp;
-            strong
-              span.color_texto_acento Cable:
-            |
-            | se utilizan cables de fibra óptica y de tipo coaxial con el fin de emitir una adecuada señal, tiene gran velocidad.
+            p.mb-0 <i>Cable:</i> se utilizan cables de fibra óptica y de tipo coaxial, con el fin de emitir una adecuada señal y es muy rápida.
           li 
             i.fas.fa-check.color_check_t3
-            |&nbsp;
-            strong
-              span.color_texto_acento Inalámbrico:
-            |
-            | se transmite por interconexión de antenas por medio de ondas radiales; cuando se restringe el alcance por los otros métodos, este es el más adecuado de instalar.
+            p.mb-0 <i>Inalámbrica:</i> se transmite a través de la interconexión de antenas, por medio de ondas radiales; cuando se restringe el alcance por los otros procedimientos, este sistema de red es el más adecuado de instalar.
           li 
             i.fas.fa-check.color_check_t3
-            |&nbsp;
-            strong 
-              span.color_texto_acento Satelital:
-            |
-            | de gran velocidad, más costos por las antenas que se utilizan y el uso de la señal a través de satélite.
+            p.mb-0 <i>Satelital:</i> de gran velocidad, más costos por las antenas que se utilizan y el uso de la señal, a través de satélites.
           li 
             i.fas.fa-check.color_check_t3
-            |&nbsp;
-            strong
-              span.color_texto_acento Móviles:
-            |
-            | tiene diferentes velocidades 3G, 4G, 5G, aumentando la versatilidad y rapidez, dependiendo del presupuesto y la oferta comercial del operador.
+            p.mb-0 <i>Móviles:</i> tienen diferentes velocidades 3G, 4G, 5G, aumentando la versatilidad y rapidez, dependiendo del presupuesto y de la oferta comercial del operador.
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
-      | <em>Intranet</em>
+      | Intranet
 
     .row.mb-5
       .col-lg-5
@@ -73,119 +43,79 @@
         .row 
           .col-lg-12.mb-4
             .cajon.color_cajon_tema_3_1.p-4
-              p Es una red de información que comparte información, sistemas operativos o servicios computacionales para una organización, utiliza los protocolos, normas, autorizaciones y tecnología de la&nbsp;
-                i internet.
+              p.mb-0 Es una red de información que comparte información, sistemas operativos o servicios computacionales, para una organización; utiliza protocolos, normas, autorizaciones y tecnología de la Internet.
           .col-lg-12
-            p Genera valor a la organización y a sus colaboradores, colocando a su disposición, bajo protocolos organizacionales definidos, toda la información que sea pertinente para el correcto funcionamiento y los procesos internos, facilitando la colaboración entre personas, áreas de trabajo y equipos humanos y tecnológicos, que generalmente se puede alojar en una aplicación&nbsp;
-              i web.
+            p Genera valor a la organización y a sus colaboradores, poniendo a su disposición, bajo protocolos organizacionales definidos, toda la información que sea pertinente para el correcto funcionamiento y los procesos internos; facilita la colaboración entre personas, áreas de trabajo y equipos humanos y tecnológicos, que se puedan alojar en una aplicación web. 
 
-    p Entre los beneficios de usar una&nbsp;
-      i intranet&nbsp;
-      |
-      | se encuentran:
+    p.mb-5 Genera valor a la organización y a sus colaboradores, poniendo a su disposición, bajo protocolos organizacionales definidos, toda la información que sea pertinente para el correcto funcionamiento y los procesos internos; facilita la colaboración entre personas, áreas de trabajo y equipos humanos y tecnológicos, que se puedan alojar en una aplicación web. 
 
     .row.mb-5
       .col-lg-6
-        ul
+        ul.lista-ul
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Aumentar la eficiencia y productividad de la organización.
+            p.mb-0 Aumentar la eficiencia y productividad de la organización.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Optimizar la comunicación y el flujo oportuno de información entre los empleados.
+            p.mb-0 Optimizar la comunicación y el flujo oportuno de información entre los empleados.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Facilitar el acceso a la información y aplicaciones.
+            p.mb-0 Facilitar el acceso a la información y sus aplicaciones.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Favorecer el trabajo en equipo.
+            p.mb-0 Favorecer el trabajo en equipo.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Reducir costos operativos, ahorrando tiempo y dinero.
+            p.mb-0 Reducir costos operativos, ahorrando tiempo y dinero.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Incrementar la creatividad y la innovación.
+            p.mb-0 Incrementar la creatividad y la innovación.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Estimular la reutilización del conocimiento.
+            p.mb-0 Estimular la reutilización del conocimiento.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Reducir la fuga de capital intelectual.
+            p.mb-0 Reducir la fuga de capital intelectual.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Construir una cultura de colaboración.
+            p.mb-0 Construir una cultura de colaboración.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Hacer los procesos de aprendizaje más fáciles.
+            p.mb-0 Hacer los procesos de aprendizaje más fáciles.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Mejorar los tiempos de respuesta al mercado.
+            p.mb-0 Mejorar los tiempos de respuesta al mercado.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Posibilitar la comunicación con un número extenso de individuos y organizaciones a bajo costo.
+            p.mb-0 Posibilitar la comunicación con una cantidad extensa de individuos y organizaciones, a bajo costo.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Incrementar la lealtad de los clientes y asociados de negocio.
+            p.mb-0 Incrementar la lealtad de los clientes y asociados del negocio.
           li 
             i.fas.fa-check.color_check_t3
-            |
-            | Mejorar la integración en la cadena de valor mediante la extensión a una&nbsp;
-            i extranet.
+            p.mb-0 Mejorar la integración en la cadena de valor, mediante la extensión a una extranet.
+
       .col-lg-6
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema5/t5-i2.jpg')
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
-      | <em>Extranet</em>
+      | Extranet
 
     .row.mb-5
       .col-lg-7
         .row 
           .col-lg-12.mb-4
-            p Una&nbsp;
-              i extranet&nbsp;
-              | es una red privada que utiliza protocolos de&nbsp;
-              i internet,&nbsp;
-              | de comunicación y probablemente infraestructura pública de comunicación, para compartir de forma segura parte de la información u operación propia de una organización con proveedores, compradores, socios, clientes o cualquier otro negocio u organización. Se puede decir en otras palabras que una extranet es parte de la&nbsp;
-              i intranet&nbsp;
-              | de una organización que se extiende a usuarios fuera de ella, usualmente utilizando&nbsp;
-              i internet&nbsp;
-              | y sus protocolos.
+            p Una extranet es una red privada que utiliza protocolos de Internet, de comunicación y probablemente infraestructura pública de comunicación, para compartir, de forma segura, parte de la información y operación, propias de una organización con proveedores, compradores, socios, clientes o cualquier otro negocio u organización. Se puede decir en otras palabras que una extranet es parte de la Intranet de una organización que se extiende a usuarios fuera de ella, usualmente utilizando Internet y sus protocolos.
           .col-lg-12
             .cajon.color_cajon_tema_3_2.p-4
-              p La&nbsp;
-                i extranet&nbsp;
-                | suele tener un acceso semiprivado. Para acceder a la&nbsp;
-                i extranet&nbsp;
-                | de una empresa no necesariamente el usuario ha de ser trabajador de la empresa, pero sí tener un vínculo con la entidad. Es por ello que una&nbsp;
-                i extranet&nbsp;
-                | requiere o necesita un grado de seguridad, para que no pueda acceder cualquier persona. Otra característica de la&nbsp;
-                i extranet&nbsp;
-                | es que se puede utilizar como una&nbsp;
-                i intranet&nbsp;
-                | de colaboración con otras compañías.
+              p.mb-0 La extranet suele tener un acceso semiprivado. Para acceder a la extranet de una empresa, el usuario, no tiene necesariamente que ser trabajador de la organización, pero sí tener un vínculo con la entidad. Es por eso que una extranet requiere o necesita un grado de seguridad, para que no pueda acceder cualquier persona. Otra característica de la extranet es que se puede utilizar como una Intranet de colaboración, con otras instituciones.
       .col-lg-5
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema5/t5-i3.jpg')
 
-    p La&nbsp;
-      i extranet
-      |
-      | presenta una serie de características, las cuales son:
+    p.mb-5 La extranet presenta una serie de características, las cuales son: 
 
     .row.mb-5
       .col-lg-4.order-1.order-lg-1.mb-4.mb-lg-0(data-aos='zoom-in')
@@ -203,33 +133,30 @@
 
           .tarjeta.clr-paleYellow.p-4.color--green(titulo='Protocolo')
             h4 Protocolo
-            p Hace uso del protocolo de&nbsp;
-              i internet,&nbsp;
-              |
-              | así como del sistema de comunicaciones público. De este modo, comparte información relevante para usuarios externos, como proveedores o clientes, de manera segura.
+            p Hace uso del protocolo de Internet, así como del sistema de comunicaciones público. De este modo, comparte información relevante para usuarios externos, como proveedores o clientes, de una manera segura.
 
           .tarjeta.clr-paleYellow.p-4.color--green(titulo='Seguridad')
             h4 Seguridad
             p La información entre el sitio y los usuarios viaja encriptada, estando así a salvo de posibles ciberataques.
 
           .tarjeta.clr-paleYellow.p-4.color--green(
-            titulo='Envío de información a socios'
+            titulo='Envío de<br> información a <br>socios'
           )
             h4 Envío de información a socios
             p Esta red informática facilita en gran medida el intercambio de información entre la empresa y sus socios corporativos, facilitando en gran medida las tareas de gestión y administración, porque pueden acceder a la información en tiempo real, sin necesidad de intermediarios.
 
           .tarjeta.clr-paleYellow.p-4.color--green(
-            titulo='Descarga de documentación'
+            titulo='Descarga de<br> documentación'
           )
             h4 Descarga de documentación
             p La compañía pone a disposición de clientes y proveedores, documentos de apoyo relacionados con los productos y/o servicios, de modo que la experiencia para este tipo de usuarios es más positiva.
 
-          .tarjeta.clr-paleYellow.p-4.color--green(titulo='Estado del pedido')
+          .tarjeta.clr-paleYellow.p-4.color--green(titulo='Estado del<br> pedido')
             h4 Estado del pedido
-            p Se utiliza en tiendas online para que los clientes puedan seguir en tiempo real el estado de su pedido: elaboración, enviado, en proceso de entrega, etc. Este es un aspecto que los clientes de e-commerce valoran muy positivamente.
+            p Estado del pedido	Se utiliza en tiendas <i>online</i> para que los clientes puedan seguir, en tiempo real, el estado de su pedido: elaboración, enviado, en proceso de entrega, etc. Este es un aspecto que los clientes de <i>e-commerce</i> valoran positivamente.
 
           .tarjeta.clr-paleYellow.p-4.color--green(
-            titulo='Preguntas frecuentes'
+            titulo='Preguntas<br> frecuentes'
           )
             h4 Preguntas frecuentes
             p Es una red que sirve como soporte de preguntas frecuentes, donde los diferentes usuarios externos a la compañía pueden encontrar respuestas a sus preguntas de un modo sencillo y rápido.
@@ -258,7 +185,7 @@
                         src='@/assets/template/tema5/slider02/t5-s1.png',
                         alt='AvatarTop'
                       )
-                    strong.text-center Conexión vía satélite
+                    h4.text-center Conexión vía satélite
                     p.text-center Es un tipo de conexión costosa y que requiere logística, generalmente de uso militar o en sitios apartados donde se hace difícil la señal cableada (aviones, barcos, sitios con geografía difícil) o por microondas.
             .tarjeta.p-2
               .row.justify-content-center.mb-3
@@ -270,10 +197,8 @@
                         src='@/assets/template/tema5/slider02/t5-s2.png',
                         alt='AvatarTop'
                       )
-                    strong.text-center Estándar
-                      i Wi-Fi (Wireless-Fidelity)
-                    p.text-center Es la más utilizada actualmente, se lleva con ondas de radio con frecuencias entre 2.4 GHz y 5 GHz, fácil de utilizar y su mantenimiento también igualmente se facilita, ya está en desarrollo la última generación&nbsp;
-                      i Wi-Fi 6.
+                    h4.text-center Estándar Wifi (Wireless-Fidelity)
+                    p.text-center Es la más utilizada actualmente, se lleva con ondas de radio con frecuencias entre 2.4 GHz y 5 GHz, fácil de utilizar y su mantenimiento también es sencillo de llevar a cabo; actualmente, está en desarrollo la última generación Wifi 6.
             .tarjeta.p-2
               .row.justify-content-center.mb-3
                 .col-lg-12.t-3-nivel1-tarjeta
@@ -284,7 +209,7 @@
                         src='@/assets/template/tema5/slider02/t5-s3.png',
                         alt='AvatarTop'
                       )
-                    strong.text-center Conexiones de datos móviles
+                    h4.text-center Conexiones de datos móviles
                     p.text-center Presente en todos los equipos móviles como teléfonos, tabletas, notebooks y otros afines; la última generación en este tipo de conexión es la 5G. Funciona con ondas de radio, la 5G pretende alcanzar 20 Gbps.
 
     p Conexiones cableadas:
@@ -299,9 +224,8 @@
                   src='@/assets/template/tema5/slider01/t5-s1.png',
                   alt='AvatarTop'
                 )
-            h2.text-center 
-              i Fibra óptica
-            p.text-center Es una de las conexiones más utilizadas y populares a nivel físico, de muy buen rendimiento y alta velocidad, la buena calidad es otra de sus grandes cualidades.
+            h4.text-center Fibra óptica
+            p.text-center Es una de las conexiones más utilizadas y populares a nivel físico, de muy buen rendimiento y alta velocidad y la excelente calidad, es otra de sus grandes propiedades.
           .tarjeta.color-acento-contenido.p-4.altura_slider_t_5
             .row.justify-content-center.mb-3
               .col-8
@@ -309,8 +233,7 @@
                   src='@/assets/template/tema5/slider01/t5-s2.png',
                   alt='AvatarTop'
                 )
-            h2.text-center 
-              i ADSL (líneas de suscriptor de asimetría digital)
+            h4.text-center ADSL (líneas de suscriptor de asimetría digital)
             p.text-center Es la fusión de la red telefónica conmutada y la red digital.
           .tarjeta.color-acento-contenido.p-4.altura_slider_t_5
             .row.justify-content-center.mb-3
@@ -319,9 +242,8 @@
                   src='@/assets/template/tema5/slider01/t5-s3.png',
                   alt='AvatarTop'
                 )
-            h2.text-center 
-              i RDSI (red digital de servicios integrados)
-            p.text-center Es un tipo de conexión de bajo costo (de los primeros tipos de conexión en el inicio del internet), utilizando la línea telefónica, de buena velocidad, pero sin llegar a los niveles de la fibra óptica.
+            h4.text-center RDSI (red digital de servicios integrados)
+            p.text-center Es un tipo de conexión de bajo costo (de los primeros tipos de conexión en el inicio del Internet), utiliza la línea telefónica, de buena velocidad, pero sin llegar a los niveles de la fibra óptica.
           .tarjeta.color-acento-contenido.p-4.altura_slider_t_5
             .row.justify-content-center.mb-3
               .col-8
@@ -329,9 +251,8 @@
                   src='@/assets/template/tema5/slider01/t5-s4.png',
                   alt='AvatarTop'
                 )
-            h2.text-center 
-              i Red telefónica conmutada
-            p.text-center Otro de los primeros tipo de conexión, es muy básico, ya casi fuera de uso, fue de gran importancia en la revolución de internet a finales del siglo XX y los primeros años de este siglo.
+            h4.text-center Red telefónica conmutada
+            p.text-center Otra de las primeras redes de tipo conexión, es muy básica, ya casi fuera de uso, aunque fue de gran importancia en la revolución de Internet a finales del siglo XX y los primeros años del siglo XXI.
 
     h3.mb-4
       i.fas.fa-square.cac.me-3

@@ -15,14 +15,9 @@
             :style='{ "background-image": `url(${require("@/assets/template/introduccion/t0-i1.jpg")})` }'
           )
           .bloque-texto-g__texto.p-4
-            strong.mb-0.color_texto_acento Apreciado aprendiz, bienvenido a este componente formativo, 
-            | donde se abordarán los conceptos básicos de sistema y ofimática, la organización y sus características, así como un repaso básico de los conceptos de 
-            i software 
-            | y 
-            i hardware 
-            | en función de los procesos organizacionales. Se hará especial énfasis en las aplicaciones de las hojas de cálculo, en los cálculos estadísticos y en la gestión de bases de datos, los procesadores de texto en la agilidad de los procesos de información administrativa y finalmente la presentación asertiva de informes visuales en aplicaciones de diapositivas.
+            p Apreciado aprendiz, bienvenido a este componente formativo, donde se abordarán conceptos básicos de sistema y ofimática, la organización y sus características, así como un repaso primordial de los conceptos de software y hardware, en función de los procesos organizacionales. Se hará especial énfasis en las aplicaciones de las hojas de cálculo, en los cálculos estadísticos y en la gestión de bases de datos, procesadores de texto para la agilidad de los procesos de información administrativa y, finalmente, la presentación asertiva de informes visuales en aplicaciones de diapositivas.
       .col-12.mb-5
-        p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+        p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
       .col-12.mb-5
         figure
           .video

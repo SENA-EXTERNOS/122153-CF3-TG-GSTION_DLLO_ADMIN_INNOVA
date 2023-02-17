@@ -63,7 +63,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Navegación en la <em>web</em>',
+        titulo: 'Navegación en la web',
         desarrolloContenidos: true,
       },
       {
@@ -125,28 +125,28 @@ export default {
     {
       tema: 'Teoría general de sistemas y sistemas de información',
       referencia:
-        'Curso Laboral. (2021). Información Crítica Técnico en seguridad informática análisis de riesgo 5 (video). YouTube.',
+        'Curso Laboral. (2021). <i>Información Crítica Técnico en seguridad informática análisis de riesgo 5 </i>(video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=r4kmGCIGOTw',
     },
     {
       tema: 'Normas técnicas de seguridad y salud en el ambiente laboral',
       referencia:
-        'Gestión & Formación. (2016). Qué significa SGSST? (video). YouTube.',
+        'Gestión & Formación. (2016).<i> Qué significa SGSST?</i> (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=y1Kxw3-jPL0',
     },
     {
       tema: 'Normas técnicas de seguridad y salud en el ambiente laboral',
       referencia:
-        'Gestión & Formación. (2019). Objetivos del SGSST (video). YouTube.',
+        'Gestión & Formación. (2019). <i>Objetivos del SGSST</i> (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=QHg-z31nKG0',
     },
     {
       tema: 'Normas técnicas de seguridad y salud en el ambiente laboral',
       referencia:
-        'Gestión & Formación. (2020). Comunicación del Sistema de Gestión (video). YouTube.',
+        'Gestión & Formación. (2020). <i>Comunicación del Sistema de Gestión</i> (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=wmazHuPJfTs',
     },
@@ -187,15 +187,25 @@ export default {
       significado:
         'es el conjunto de aplicaciones, programas de cómputo, procedimientos, datos y pautas, permitiendo realizar diferentes tareas dentro de un espacio, sistema o interface informática.',
     },
+    {
+      termino: 'Seguridad de la información',
+      significado:
+        'se refiere a la confidencialidad, la integridad y la disponibilidad de la información y los datos importantes para la organización, independientemente del formato que tengan.',
+    },
+    {
+      termino: 'Sistema de información',
+      significado:
+        'Se refiere a las herramientas, métodos y procedimientos, que dan orden, control y ajustes, para ser procesados fácil y rápidamente.',
+    },
   ],
   referencias: [
     {
-      referencia: 'Concepto. (s.f.). Sistema de información. Concepto.',
+      referencia: 'Concepto. (s.f.). <i>Sistema de información</i>. Concepto.',
       link: 'https://concepto.de/sistema-de-informacion/#ixzz7cG3vNX2L',
     },
     {
       referencia:
-        'Ladrón de Guevara, M. Á. (2020). Procesadores de texto y presentaciones de información básicos. Editorial Tutor Formación.',
+        'Ladrón de Guevara, M. Á. (2020).<i> Procesadores de texto y presentaciones de información básicos</i>. Editorial Tutor Formación.',
       link: '',
     },
     {
@@ -205,7 +215,7 @@ export default {
     },
     {
       referencia:
-        'Sicilia, M., Palazón, M., López, I. & López, M (2021). Marketing en Redes Sociales. Esic Editorial.',
+        'Sicilia, M., Palazón, M., López, I. & López, M (2021). <i>Marketing en Redes Sociales</i>. Esic Editorial.',
       link: '',
     },
   ],

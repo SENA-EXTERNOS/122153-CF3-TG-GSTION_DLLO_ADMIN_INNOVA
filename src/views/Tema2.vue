@@ -25,7 +25,7 @@
           img(src='@/assets/template/tema2/t2-i2.jpg')
 
       .col-md-6
-        p La ofimática se desarrolló a partir de los años 70’s con la evolución de la máquina de escribir mecánica a eléctrica, y posteriormente a electrónica, con pequeñas capacidades de memoria y corrección de textos, que se podían observar en una pequeña pantalla, agilizando los procesos y reduciendo los reprocesos por correcciones. La llegada de los ordenadores personales mejoro y optimizó los procesos de oficina, ahorrando tiempo, costos y facilitando el trabajo de tipo repetitivo que se realizaba en las unidades administrativas.
+        p La ofimática se desarrolló a partir de los años 70, con la evolución de la máquina de escribir de mecánica a eléctrica y, posteriormente, a electrónica, con pequeñas capacidades de memoria y corrección de textos, que se podían observar en una diminuta pantalla, agilizando los procesos y reduciendo los reprocesos, por correcciones. La llegada de los ordenadores personales, mejoró y optimizó los procesos de oficina, ahorrando tiempo, costos y facilitando el trabajo tipo repetitivo, que se realizaba en las unidades administrativas.
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
@@ -47,7 +47,7 @@
     .row.d-flex.justify-content-center.mb-5 
       .col-lg-9
         .cajon.color_cajon_green.p-4
-          strong Software:
+          strong <i>Software</i>:
           |
           | es un término procedente del idioma inglés, que es aceptado por la Real Academia Española (RAE) y no posee una traducción que se ajuste al español.
 
@@ -182,16 +182,7 @@
           img(src='@/assets/template/tema2/t2-i6.jpg')
 
       .col-md-9
-        p En la actualidad,&nbsp;
-          i Microsoft Office
-          |
-          | tiene el gran mercado de las aplicaciones ofimáticas, con&nbsp;
-          i software
-          |
-          | especializados a cada necesidad en la gestión documental y procedimental en la oficina. Existen otras firmas también muy fuertes en desarrollo de aplicaciones ofimáticas, como&nbsp;
-          i Google,
-          |
-          | que desde la nube, con aplicaciones en línea, ofrece facilidad de acceso desde cualquier ordenador en cualquier parte del planeta.
+        p En la actualidad, <i>Microsoft Office</i> tiene el gran mercado de las aplicaciones ofimáticas, con <i>software</i> especializados para cada necesidad en la gestión documental y procedimental, en la oficina. También existen otras firmas sólidas en desarrollo de aplicaciones ofimáticas, como Google que, desde la nube, con aplicaciones en línea, ofrece facilidad de acceso desde cualquier ordenador y en cualquier parte del planeta.
 
     .row.d-flex.justify-content-center.mb-5
       .col-lg-11
@@ -368,7 +359,7 @@
         ImagenInfografica.color-acento-botones.punto_caliente_acento_botones(data-aos='zoom-in')
           template(v-slot:imagen)
             figure
-              img(src='@/assets/template/tema2/t2-i8.svg')
+              img(src='@/assets/template/tema2/1.svg')
 
           .tarjeta.color-acento-botones_black.p-3(x='28%', y='14%' numero="+")
             h5 Portada, índice e introducción

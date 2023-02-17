@@ -20,13 +20,13 @@
     .row.d-flex.justify-content-center.mb-5
       .col-lg-10
         .cajon.color_cajon_green.p-5
-          p Las características de los sistemas son:
+          p Las características de los sistemas son las siguientes:
           br
           ul
             li 
               i.fas.fa-check.color-icon-check
               |
-              | Deben de tener entrada(s), proceso y salida(s).
+              | Deben tener entrada(s), proceso(s) y salida(s).
             br
             li 
               i.fas.fa-check.color-icon-check
@@ -165,10 +165,10 @@
                 :style='{ "background-image": `url(${require("@/assets/template/tema1/t1-i4.jpg")})` }'
               )
               .bloque-texto-g__texto.px-4.py-5
-                p.mb-0 Existen otros tipos de información, que de acuerdo con el uso que se le de y cómo se represente, generalmente son transversales a las áreas funcionales organizacionales.
+                p.mb-0 Existen otros ejemplos de información que, de acuerdo con el manejo que se les otorgue y cómo se representen, por lo general, son transversales a las áreas funcionales y organizacionales.
 
       .col-12.mb-5
-        p Conozcamos cada uno de ellos:
+        p Conozcamos cada uno de estos modelos:
       .col-12.mb-5
         .row 
           .col-lg-6.col-md-6.col-12.mb-3
@@ -298,7 +298,7 @@
     .row.d-flex.justify-content-center.mb-5
       .col-lg-11
         .cajon.color_cajon_tema1_2.p-4
-          p Se puede decir que la seguridad de la información son todas las practicas, técnicas, medidas, acciones y controles que se emplean para salvaguardar y mantener seguros los datos suministrados, adquiridos (bajos las normas vigentes de protección de datos), compartidos y enviados, para que fluyan sin sufrir modificaciones que afecten su veracidad, así como la perdida parcial o total de estos.
+          p.mb-0 Se puede decir que la seguridad de la información se refiere a todas las practicas, técnicas, medidas, acciones y controles que se emplean, para salvaguardar y mantener seguros los datos suministrados, adquiridos (bajos las normas vigentes de protección de datos), compartidos y enviados, para que fluyan sin sufrir modificaciones que afecten su veracidad, así como también, la pérdida parcial o total de estos.
 
     .row.mb-5
       .col-md-12

@@ -5,15 +5,11 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Navegación en la&nbsp;
-        i web
+      h1 Navegación en la web
 
-    p Antes de comenzar a definir qué es la navegación en la&nbsp;
-      i web,&nbsp;
-      |
-      span.color_texto_acento observe el siguiente video.
+    p.mb-5 Antes de comenzar a definir qué es la navegación en la web, observe el siguiente video:
 
-    .row.mb-5
+    .row
       .col-12.mb-5
         figure(data-aos='zoom-in')
           .video
@@ -30,9 +26,7 @@
     .row.d-flex.justify-content-center.mb-5
       .col-lg-11
         .cajon.color_cajon_green.p-4
-          p Cada momento se está doblando la información, hoy existe más información en la&nbsp;
-            i web&nbsp;
-            | que ayer y mañana más que hoy.
+          p.mb-0 Cada momento que pasa, la información se está duplicando y, en la web, hoy existe más información que ayer y mañana habrá más que hoy.
 
     .row.mb-5
       .col-md-6
@@ -40,37 +34,21 @@
           img(src='@/assets/template/tema4/t4-i1.png')
 
       .col-md-6
-        span.color_texto_acento ¿Y qué es el navegador?&nbsp;
-        | Es el&nbsp;
-        i software&nbsp;
-        | que permite ingresar a 
-        i internet,&nbsp; 
-        | realizar búsquedas, dirigirse a una página&nbsp;
-        i web&nbsp;
-        | determinada y ver sus contenidos: textos, imágenes, videos, anuncios publicitarios, etc.
-        br
-        br
-        p Los navegadores se pueden descargar e instalar gratuitamente; los más conocidos son:&nbsp;
-        i Google Chrome, Opera, Safari, Microsoft Edge y Mozilla Firefox.&nbsp;
-        | Ya dentro del navegador, se puede acceder a la información a través de los buscadores, los más conocidos son:&nbsp;
-        i Google, Yahoo o Bing.
+        p.color_texto_acento ¿Qué es un navegador? Es el <i>software</i> que permite ingresar a Internet, realizar búsquedas, dirigirse a una página web determinada y ver sus contenidos: textos, imágenes, videos, anuncios publicitarios, etc.
+        p.color_texto_acento Los navegadores se pueden descargar e instalar gratuitamente; los más conocidos son Google Chrome, Opera, Safari, Microsoft Edge y Mozilla Firefox. Una vez ubicados dentro del navegador, se puede acceder a la información, a través de los buscadores, de los cuales los más conocidos son: Google, Yahoo o Bing.
 
-    p Conozca algunos términos importantes relacionados con la navegación en la&nbsp;
-      i web.
 
-    .row.mb-5
+    p.mb-5 Entendamos algunos términos importantes relacionados con la navegación en la web. 
+
+    .row
       .col-lg-12.mb-5
         .tarjeta.tarjeta_lineatiempot4.p-4
           LineaTiempoC.color-acento-contenido(text-small)
             .row(titulo='URL')
               .col-md-6.mb-4.mb-md-0
-                p Son las siglas en inglés de&nbsp;
-                  i Uniform Resource Locator&nbsp;
-                  | (Localizador Uniforme de Recursos). Esta es la dirección que posee un sitio en la&nbsp;
-                  i web,&nbsp;
-                  | similar a cuando se busca una dirección en una ciudad en el mundo.
-                br
+                p Son las siglas de Localizador Uniforme de Recursos, (<i>Uniform Resource Locator</i>). Las siglas URL se refieren a la dirección que posee un sitio en la web, similar a cuando se busca una dirección en cualquier ciudad del mundo.
                 p Las URL se encuentran en la parte superior de la franja de los navegadores.
+
 
               .col-md-6
                 figure
@@ -81,11 +59,9 @@
 
             .row(titulo='Hipervínculos')
               .col-md-6.mb-4.mb-md-0
-                p Es una conexión entre diferentes páginas o entre distintas secciones de una misma página. Los hipervínculos se presentan en varias formas: fragmentos de texto subrayados y de color azul, una imagen, un logotipo o una ilustración.
-                br
-                p Sin embargo, sin importar la forma en que se presenta en la pantalla, todos los hipervínculos tienen en común el hecho que, al hacer clic en ellos, lo llevarán a un lugar distinto del sitio&nbsp;
-                  i web&nbsp;
-                  | donde se encuentra. Es decir, lo enlazarán a otros contenidos.
+                p Se fundamenta en una conexión entre distintas páginas o variadas secciones de una misma página. Los hipervínculos se presentan de varias formas: fragmentos de texto subrayados con color azul, una imagen, un logotipo, o una ilustración, entre otros.
+                p Sin embargo, sin importar la forma en que se presentan en la pantalla, todos los hipervínculos tienen en común el hecho que, al hacer clic en ellos, nos desplazan a un lugar diferente del sitio web, donde originalmente se encuentran. Es decir, se enlazan a otros contenidos.
+
 
               .col-md-6
                 figure
@@ -96,20 +72,9 @@
 
             .row(titulo='<em>Cookies</em>')
               .col-md-6.mb-4.mb-md-0
-                p Las&nbsp;
-                  i cookies&nbsp;
-                  | (galletas) son pequeños bloques de datos creados por un servidor&nbsp;
-                  i web&nbsp;
-                  | y colocados por el navegador en la computadora, teléfono móvil u otro dispositivo que se use para ingresar a&nbsp;
-                  i internet.
-                br
-                p La función de las&nbsp;
-                  i cookies&nbsp;
-                  | es recabar información sobre la identidad del usuario en la&nbsp;
-                  i web&nbsp;
-                  | y sus preferencias de navegación. De este modo, la siguiente vez que regrese a una de las páginas favoritas, el sistema sabrá quién se trata y recordará los datos del usuario sin que tenga que ingresarlo nuevamente; también recordará cuáles secciones de esa página&nbsp;
-                  i web&nbsp;
-                  | son las que más fueron de interés y mostrará publicidad más afín a los intereses del usuario.
+                p Las <i>cookies</i> (galletas) son pequeños bloques de datos, creados por un servidor web y colocados por el navegador en la computadora, teléfono móvil o cualquier otro dispositivo que se utilice para ingresar a la Internet.
+                p La función de las <i>cookies</i> es la de recabar información sobre la identidad del usuario en la web y sus preferencias de navegación. De este modo, la siguiente vez que se retorne a una de las páginas favoritas, el sistema sabrá de quién se trata y recordará los datos del usuario sin que tenga que ingresarlos nuevamente; también recordará cuáles secciones de esa página web fueron las que más interés despertaron y desplegará publicidad más afín con los intereses del usuario.
+
 
               .col-md-6
                 figure(data-aos='zoom-in')
@@ -118,17 +83,12 @@
                     alt='Texto que describa la imagen'
                   )
 
-            .row(titulo='Favoritos e historial de navegación en la <em>web</em>')
+            .row(titulo='Favoritos e historial de navegación en la web')
               .col-md-6.mb-4.mb-md-0
-                p Todos los navegadores ofrecen la opción de “Favoritos”. Se trata de un botón, normalmente situado a un lado de la barra de direcciones URL, con el cual se puede crear un acceso directo a las páginas&nbsp;
-                  i web&nbsp;
-                  | favoritas o redes sociales del usuario.
-                br
-                p Ya no será necesario escribir la URL o colocar un término de búsqueda, bastará con hacer clic en el ícono de la página situado en la carpeta de favoritos.
-                br
-                p Igualmente, todos los navegadores ofrecen la posibilidad de revisar el “Historial de navegación”, que es una lista con todas las páginas&nbsp;
-                  i web&nbsp;
-                  | que has visitado dentro de un lapso específico de tiempo.
+                p Todos los navegadores ofrecen la opción de “Favoritos”. Se trata de un botón, normalmente situado a un lado de la barra de direcciones URL, con el cual se puede crear un acceso directo a las páginas web preferidas o redes sociales del usuario.
+                p No será necesario escribir la URL o colocar un término de búsqueda; bastará con hacer clic en el ícono de la página, situado en la carpeta de favoritos.
+                p Igualmente, todos los navegadores ofrecen la posibilidad de revisar el “Historial de navegación”, que es una lista con todas las páginas web que el usuario ha visitado, durante un lapso específico de tiempo.
+
 
               .col-md-6
                 figure(data-aos='zoom-in')

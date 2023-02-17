@@ -23,8 +23,9 @@
         .row.d-flex.justify-content-center
           .col-lg-11.col-md-10.col-12
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 1.
-              span Elementos hoja de cálculo
+              h5 Figura 1
+              br
+              span.fst-italic Elementos hoja de cálculo
           .col-lg-11
             figure(data-aos='zoom-in')
               img(src='@/assets/template/tema3/t3-i1.jpg', alt='')
@@ -46,8 +47,9 @@
         .row.d-flex.justify-content-center
           .col-lg-11.col-md-10.col-12
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 2.
-              span Ejemplo base de datos hoja de cálculo
+              h5 Figura 2
+              br
+              span.fst-italic Ejemplo base de datos hoja de cálculo
           .col-lg-11
             figure(data-aos='zoom-in')
               img(src='@/assets/template/tema3/t3-i2.jpg', alt='')
@@ -60,13 +62,7 @@
                 :style='{ "background-image": `url(${require("@/assets/template/tema3/t3-i3.jpg")})` }'
               )
               .bloque-texto-g__texto.p-4
-                p.mb-0 Existen diferentes programas de bases de datos como: 
-                i Microsoft Office Access Y Open Office Base,&nbsp;
-                |las nuevas funciones del Excel como es el 
-                i Power Pivot y el Power BI 
-                |(de inteligencia de negocios), especialmente para tratar y analizar bases de datos generando tableros de mando inteligentes y dinámicos 
-                i (dashboard),&nbsp;
-                |haciendo la presentación de informes gerencias que implican análisis de gran cantidad de datos mucho más fácil, dinámica y certero para la rápida y efectivo toma de decisiones.
+                p.mb-0 Existen diferentes programas de bases de datos como: <i>Microsoft Office Access</i> y <i>Open Office Base</i>, las nuevas funciones del <i>Excel</i> ,como el <i>Power Pivot</i> y el <i>Power BI</i> (de inteligencia de negocios), especiales para tratar y analizar bases de datos, generando tableros de mando inteligentes y dinámicos (<i>dashboard</i>), realizar presentaciones de informes gerenciales que implican análisis de gran cantidad de datos, de forma más sencilla, dinámica y certera, para una rápida y efectiva toma de decisiones.
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
@@ -248,8 +244,7 @@
         .py-3.py-md-4(titulo='Pegar')
           .row
             .col-md-4.mb-4.mb-md-0
-              figure(data-aos='zoom-in')
-                img(
+              img.img-a.img-t(data-aos='zoom-in')(
                   src='@/assets/template/tema3/slider02/t3-s1.png',
                   alt='Texto que describa la imagen'
                 )
@@ -259,30 +254,24 @@
         .py-3.py-md-4(titulo='Formato')
           .row
             .col-md-4.mb-4.mb-md-0
-              figure(data-aos='zoom-in')
-                img(
+              img.img-a.img-t(data-aos='zoom-in')(
                   src='@/assets/template/tema3/slider02/t3-s2.png',
                   alt='Texto que describa la imagen'
                 )
 
             .col-md-8
               p Permite especificar la página, margen y su tamaño. También aplica el tipo de fuente, color, negritas, itálicas, entre otras.
-        .py-3.py-md-4(titulo='Buscar y restituir')
+        .py-3.py-md-4(titulo='Buscar y reemplazar')
           .row
             .col-md-4.mb-4.mb-md-0
-              figure(data-aos='zoom-in')
-                img(
-                  src='@/assets/template/tema3/slider02/t3-s3.png',
-                  alt='Texto que describa la imagen'
-                )
+              img.img-a.img-t(data-aos='zoom-in')(src='@/assets/template/tema3/slider02/t3-s3.png', alt='Texto que describa la imagen')
 
             .col-md-8
               p Permite encontrar caracteres y palabras específicas dentro del documento, además de poder sustituirlas por otras.
         .py-3.py-md-4(titulo='Columna y tabla')
           .row
             .col-md-4.mb-4.mb-md-0
-              figure(data-aos='zoom-in')
-                img(
+              img.img-a.img-t(data-aos='zoom-in')(
                   src='@/assets/template/tema3/slider02/t3-s4.png',
                   alt='Texto que describa la imagen'
                 )
@@ -292,8 +281,7 @@
         .py-3.py-md-4(titulo='Fusionar correo')
           .row
             .col-md-4.mb-4.mb-md-0
-              figure(data-aos='zoom-in')
-                img(
+              img.img-a.img-t(data-aos='zoom-in')(
                   src='@/assets/template/tema3/slider02/t3-s5.png',
                   alt='Texto que describa la imagen'
                 )
@@ -303,19 +291,17 @@
         .py-3.py-md-4(titulo='Administrar archivos')
           .row
             .col-md-4.mb-4.mb-md-0
-              figure(data-aos='zoom-in')
-                img(
+              img.img-a.img-t(data-aos='zoom-in')(
                   src='@/assets/template/tema3/slider02/t3-s6.jpg',
                   alt='Texto que describa la imagen'
                 )
 
             .col-md-8
-              p Con esta función se almacenan, se accede, mueven y eliminan archivos de la computadora
+              p Con esta función se almacenan, se accede, mueven y eliminan archivos de la computadora.
         .py-3.py-md-4(titulo='Impresión')
           .row
             .col-md-4.mb-4.mb-md-0
-              figure(data-aos='zoom-in')
-                img(
+              img.img-a.img-t(data-aos='zoom-in')(
                   src='@/assets/template/tema3/slider02/t3-s7.jpg',
                   alt='Texto que describa la imagen'
                 )
@@ -369,12 +355,7 @@
                   )
 
               .col-md-8
-                p Es de las más conocidas para crear, desde cualquier parte, presentaciones con una gran visualización, pudiendo desarrollar mapas interactivos y hasta efectos de&nbsp;
-                  i zoom&nbsp;
-                  | en tres dimensiones para mostrar recorridos únicos con solo tener una conexión a internet, aunque también cuenta con aplicación para&nbsp;
-                  i Windows&nbsp;
-                  | y dispositivos de&nbsp;
-                  i Apple.
+                p Es de las más conocidas para crear, desde cualquier lugar, presentaciones con una gran visualización, pudiendo desarrollar mapas interactivos y hasta efectos de <i>zoom</i> en tres dimensiones, para mostrar recorridos únicos con solo tener una conexión a Internet, aunque también cuenta con aplicación para Windows y dispositivos de Apple.
           .py-3.py-md-4(titulo='<em>Emaze</em>')
             .row
               .col-md-4.mb-4.mb-md-0
