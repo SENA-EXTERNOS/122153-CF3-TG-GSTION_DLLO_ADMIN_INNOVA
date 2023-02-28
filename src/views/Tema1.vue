@@ -23,22 +23,19 @@
           p Las características de los sistemas son las siguientes:
           br
           ul
-            li 
+            li.mb-2 
               i.fas.fa-check.color-icon-check
               |
               | Deben tener entrada(s), proceso(s) y salida(s).
-            br
-            li 
+            li.mb-2 
               i.fas.fa-check.color-icon-check
               |
               | Cada elemento debe guardar relación con otros elementos o sistemas.
-            br
-            li 
+            li.mb-2 
               i.fas.fa-check.color-icon-check
               |
               | Los efectos de los subsistemas son interdependientes del sistema total.
-            br
-            li 
+            li.mb-0
               i.fas.fa-check.color-icon-check
               |
               | Todo sistema es un conjunto, pero no todo conjunto es un sistema.

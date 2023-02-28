@@ -62,7 +62,7 @@
                 :style='{ "background-image": `url(${require("@/assets/template/tema3/t3-i3.jpg")})` }'
               )
               .bloque-texto-g__texto.p-4
-                p.mb-0 Existen diferentes programas de bases de datos como: <i>Microsoft Office Access</i> y <i>Open Office Base</i>, las nuevas funciones del <i>Excel</i> ,como el <i>Power Pivot</i> y el <i>Power BI</i> (de inteligencia de negocios), especiales para tratar y analizar bases de datos, generando tableros de mando inteligentes y dinámicos (<i>dashboard</i>), realizar presentaciones de informes gerenciales que implican análisis de gran cantidad de datos, de forma más sencilla, dinámica y certera, para una rápida y efectiva toma de decisiones.
+                p.mb-0 Existen diferentes programas de bases de datos como: Microsoft Office Access y Open Office Base, las nuevas funciones del Excel, como el Power Pivot y el Power BI (de inteligencia de negocios), especiales para tratar y analizar bases de datos, generando tableros de mando inteligentes y dinámicos (<i>dashboard</i>), realizar presentaciones de informes gerenciales que implican análisis de gran cantidad de datos, de forma más sencilla, dinámica y certera, para una rápida y efectiva toma de decisiones.
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
@@ -301,8 +301,8 @@
         .py-3.py-md-4(titulo='Impresión')
           .row
             .col-md-4.mb-4.mb-md-0
-              img.img-a.img-t(data-aos='zoom-in')(
-                  src='@/assets/template/tema3/slider02/t3-s7.jpg',
+              img.img-a(data-aos='zoom-in')(
+                  src='@/assets/template/tema3/slider02/t3-s7.png',
                   alt='Texto que describa la imagen'
                 )
 
@@ -330,7 +330,7 @@
 
       .col-lg-12
         TabsC.color-acento-contenido
-          .py-3.py-md-4(titulo='<em>PowerPoint</em>')
+          .py-3.py-md-4(titulo='PowerPoint')
             .row
               .col-md-4.mb-4.mb-md-0
                 figure(data-aos='zoom-in')
@@ -340,12 +340,8 @@
                   )
 
               .col-md-8                
-                p Aplicación por excelencia de&nbsp;
-                  i Microsoft,&nbsp;
-                  | viene en el paquete de&nbsp;
-                  i Office,&nbsp;
-                  | se puede editar imagen, voz, video, música, es muy versátil al bridar gran variedad de plantillas o simplemente construyendo la propia desde cero, es muy fácil de trabajar, solo se requiere imaginación.
-          .py-3.py-md-4(titulo='<em>Prezi</em>')
+                p Aplicación por excelencia de Microsoft viene en el paquete de Office se puede editar imagen, voz, video, música, es muy versátil al brindar gran variedad de plantillas o simplemente construyendo la propia desde cero, es muy fácil de trabajar, solo se requiere imaginación.
+          .py-3.py-md-4(titulo='Prezi')
             .row
               .col-md-4.mb-4.mb-md-0
                 figure(data-aos='zoom-in')
@@ -356,7 +352,7 @@
 
               .col-md-8
                 p Es de las más conocidas para crear, desde cualquier lugar, presentaciones con una gran visualización, pudiendo desarrollar mapas interactivos y hasta efectos de <i>zoom</i> en tres dimensiones, para mostrar recorridos únicos con solo tener una conexión a Internet, aunque también cuenta con aplicación para Windows y dispositivos de Apple.
-          .py-3.py-md-4(titulo='<em>Emaze</em>')
+          .py-3.py-md-4(titulo='Emaze')
             .row
               .col-md-4.mb-4.mb-md-0
                 figure(data-aos='zoom-in')
@@ -367,7 +363,7 @@
 
               .col-md-8
                 p Cuenta con una característica muy llamativa y es que se puede añadir instrucciones de voz para controlar de modo muy sutil y original la presentación que se expone al tiempo que se habla.
-          .py-3.py-md-4(titulo='<em>PowToon</em>')
+          .py-3.py-md-4(titulo='PowToon')
             .row
               .col-md-4.mb-4.mb-md-0
                 figure(data-aos='zoom-in')

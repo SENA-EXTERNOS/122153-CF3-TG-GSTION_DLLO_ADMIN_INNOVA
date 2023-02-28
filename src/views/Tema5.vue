@@ -14,22 +14,22 @@
         ul.lista-ul
           li 
             i.fas.fa-check.color_check_t3
-            p.mb-0 <i>Conexión tipo análoga:</i> se utiliza en hogares, con un modem a través de la red telefónica; las señales digitales se transforman en análogas y este tipo de conexión ha ido disminuyendo su uso. 
+            p.mb-0 <strong>Conexión tipo análoga:</strong> se utiliza en hogares, con un modem a través de la red telefónica; las señales digitales se transforman en análogas y este tipo de conexión ha ido disminuyendo su uso. 
           li 
             i.fas.fa-check.color_check_t3
-            p.mb-0 <i>ADSL:</i> permite más alcance en la señal enviada por el operador, aunque presenta barreras de tipo físico, al ser enviada por Wifi; este tipo de red es la más utilizada en las empresas por su velocidad, debido a que compensa algo en las restricciones con choque en muros.
+            p.mb-0 <strong>ADSL:</strong> permite más alcance en la señal enviada por el operador, aunque presenta barreras de tipo físico, al ser enviada por Wifi; este tipo de red es la más utilizada en las empresas por su velocidad, debido a que compensa algo en las restricciones con choque en muros.
           li 
             i.fas.fa-check.color_check_t3
-            p.mb-0 <i>Cable:</i> se utilizan cables de fibra óptica y de tipo coaxial, con el fin de emitir una adecuada señal y es muy rápida.
+            p.mb-0 <strong>Cable:</strong> se utilizan cables de fibra óptica y de tipo coaxial, con el fin de emitir una adecuada señal y es muy rápida.
           li 
             i.fas.fa-check.color_check_t3
-            p.mb-0 <i>Inalámbrica:</i> se transmite a través de la interconexión de antenas, por medio de ondas radiales; cuando se restringe el alcance por los otros procedimientos, este sistema de red es el más adecuado de instalar.
+            p.mb-0 <strong>Inalámbrica:</strong> se transmite a través de la interconexión de antenas, por medio de ondas radiales; cuando se restringe el alcance por los otros procedimientos, este sistema de red es el más adecuado de instalar.
           li 
             i.fas.fa-check.color_check_t3
-            p.mb-0 <i>Satelital:</i> de gran velocidad, más costos por las antenas que se utilizan y el uso de la señal, a través de satélites.
+            p.mb-0 <strong>Satelital:</strong> de gran velocidad, más costos por las antenas que se utilizan y el uso de la señal, a través de satélites.
           li 
             i.fas.fa-check.color_check_t3
-            p.mb-0 <i>Móviles:</i> tienen diferentes velocidades 3G, 4G, 5G, aumentando la versatilidad y rapidez, dependiendo del presupuesto y de la oferta comercial del operador.
+            p.mb-0 <strong>Móviles:</strong> tienen diferentes velocidades 3G, 4G, 5G, aumentando la versatilidad y rapidez, dependiendo del presupuesto y de la oferta comercial del operador.
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
@@ -47,7 +47,7 @@
           .col-lg-12
             p Genera valor a la organización y a sus colaboradores, poniendo a su disposición, bajo protocolos organizacionales definidos, toda la información que sea pertinente para el correcto funcionamiento y los procesos internos; facilita la colaboración entre personas, áreas de trabajo y equipos humanos y tecnológicos, que se puedan alojar en una aplicación web. 
 
-    p.mb-5 Genera valor a la organización y a sus colaboradores, poniendo a su disposición, bajo protocolos organizacionales definidos, toda la información que sea pertinente para el correcto funcionamiento y los procesos internos; facilita la colaboración entre personas, áreas de trabajo y equipos humanos y tecnológicos, que se puedan alojar en una aplicación web. 
+    p.mb-5 Entre los beneficios de usar una Intranet, se encuentran:
 
     .row.mb-5
       .col-lg-6
@@ -174,7 +174,7 @@
     .row.mb-5
       .col-lg-12
         .row.d-flex.justify-content-center
-          SlyderF(columnas='col-lg-6 col-xl-4')(data-aos='zoom-in')
+          .col-lg-4
             .tarjeta.p-2
               .row.justify-content-center.mb-3
                 .col-lg-12.t-3-nivel1-tarjeta
@@ -187,6 +187,7 @@
                       )
                     h4.text-center Conexión vía satélite
                     p.text-center Es un tipo de conexión costosa y que requiere logística, generalmente de uso militar o en sitios apartados donde se hace difícil la señal cableada (aviones, barcos, sitios con geografía difícil) o por microondas.
+          .col-lg-4
             .tarjeta.p-2
               .row.justify-content-center.mb-3
                 .col-lg-12.t-3-nivel1-tarjeta
@@ -199,6 +200,7 @@
                       )
                     h4.text-center Estándar Wifi (Wireless-Fidelity)
                     p.text-center Es la más utilizada actualmente, se lleva con ondas de radio con frecuencias entre 2.4 GHz y 5 GHz, fácil de utilizar y su mantenimiento también es sencillo de llevar a cabo; actualmente, está en desarrollo la última generación Wifi 6.
+          .col-lg-4
             .tarjeta.p-2
               .row.justify-content-center.mb-3
                 .col-lg-12.t-3-nivel1-tarjeta

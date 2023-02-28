@@ -170,7 +170,7 @@
     .row.justify-content-center.mb-5
       .col-lg-9
         figure(data-aos='zoom-in')
-          img(src='@/assets/template/tema2/t2-i5.jpg')
+          img(src='@/assets/template/tema2/t2-i5.svg')
           
     h3.mb-4
       i.fas.fa-square.cac.me-3
@@ -182,7 +182,7 @@
           img(src='@/assets/template/tema2/t2-i6.jpg')
 
       .col-md-9
-        p En la actualidad, <i>Microsoft Office</i> tiene el gran mercado de las aplicaciones ofimáticas, con <i>software</i> especializados para cada necesidad en la gestión documental y procedimental, en la oficina. También existen otras firmas sólidas en desarrollo de aplicaciones ofimáticas, como Google que, desde la nube, con aplicaciones en línea, ofrece facilidad de acceso desde cualquier ordenador y en cualquier parte del planeta.
+        p En la actualidad, Microsoft Office tiene el gran mercado de las aplicaciones ofimáticas, con <i>software</i> especializados para cada necesidad en la gestión documental y procedimental, en la oficina. También existen otras firmas sólidas en desarrollo de aplicaciones ofimáticas, como Google que, desde la nube, con aplicaciones en línea, ofrece facilidad de acceso desde cualquier ordenador y en cualquier parte del planeta.
 
     .row.d-flex.justify-content-center.mb-5
       .col-lg-11
@@ -215,7 +215,7 @@
                 li 
                   i.fas.fa-check.color_texto_acento
                   |
-                  | Equipos de fax.
+                  | Equipos de <em>fax</em>.
                 li 
                   i.fas.fa-check.color_texto_acento
                   |
@@ -233,7 +233,7 @@
                 li 
                   i.fas.fa-check.color_texto_acento
                   |
-                  | Programas de e-mail.
+                  | Programas de <em>e-mail</em>.
                 li 
                   i.fas.fa-check.color_texto_acento
                   |

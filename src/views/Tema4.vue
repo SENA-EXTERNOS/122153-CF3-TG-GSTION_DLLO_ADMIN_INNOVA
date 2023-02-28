@@ -34,8 +34,8 @@
           img(src='@/assets/template/tema4/t4-i1.png')
 
       .col-md-6
-        p.color_texto_acento ¿Qué es un navegador? Es el <i>software</i> que permite ingresar a Internet, realizar búsquedas, dirigirse a una página web determinada y ver sus contenidos: textos, imágenes, videos, anuncios publicitarios, etc.
-        p.color_texto_acento Los navegadores se pueden descargar e instalar gratuitamente; los más conocidos son Google Chrome, Opera, Safari, Microsoft Edge y Mozilla Firefox. Una vez ubicados dentro del navegador, se puede acceder a la información, a través de los buscadores, de los cuales los más conocidos son: Google, Yahoo o Bing.
+        p ¿Qué es un navegador? Es el <i>software</i> que permite ingresar a Internet, realizar búsquedas, dirigirse a una página web determinada y ver sus contenidos: textos, imágenes, videos, anuncios publicitarios, etc.
+        p Los navegadores se pueden descargar e instalar gratuitamente; los más conocidos son Google Chrome, Opera, Safari, Microsoft Edge y Mozilla Firefox. Una vez ubicados dentro del navegador, se puede acceder a la información, a través de los buscadores, de los cuales los más conocidos son: Google, Yahoo o Bing.
 
 
     p.mb-5 Entendamos algunos términos importantes relacionados con la navegación en la web. 
