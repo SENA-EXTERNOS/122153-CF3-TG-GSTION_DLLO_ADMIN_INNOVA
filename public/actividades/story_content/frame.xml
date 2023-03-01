@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Actividad_did&amp;#225;ctica_cf3celda2" />
+              <option name="title_text" value="CF03_122153" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -75,6 +75,7 @@
           </option>
           <option name="settings" value="false" />
           <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1141,6 +1142,9 @@
   </colorschemes>
   <string_tables>
     <string_table name="npnxnanbnsnfns00000000001">
+      <string id="playback_speed_title">~Plaý~bacķ~ Sþe~ed</string>
+      <string id="playback_speed_normal">~Nøřӎ~al</string>
+      <string id="acc_playback_speed">~þlaý~bacķ~ špe~ed</string>
       <string id="more_info">Más información</string>
       <string id="bio">Biografía</string>
       <string id="enable_keyboardshortcuts">Activar atajos del teclado</string>
