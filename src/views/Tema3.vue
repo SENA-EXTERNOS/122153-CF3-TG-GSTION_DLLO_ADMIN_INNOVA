@@ -13,27 +13,25 @@
       i.fas.fa-square.cac.me-3
       | Hojas de cálculo
 
-    .row.mb-5
+    .row
       .col-lg-12.mb-5
         p Es una aplicación que tiene un arreglo de filas y columnas, las cuales generan en su cruce “cajas” llamadas celdas, en ellas se pueden alojar datos de diferentes tipos (numéricos y alfanuméricos) y disponerse en tablas, que facilitan los cálculos más sencillos hasta los más complejos en áreas como contabilidad, finanzas, estadística, negocios, ingeniería, economía entre las más comunes. Tiene grandes posibilidades desde la ejecución de recolección, clasificación y análisis de datos en tablas, hasta la generación de gráficos de varios tipos, ejecución de fórmulas y funciones matemáticas para las diferentes aplicaciones en diferentes áreas del conocimiento.
         |
         | La siguiente imagen presenta algunos de los elementos que componen la hoja de cálculo.
 
-      .col-lg-12.mb-5
-        .row.d-flex.justify-content-center
-          .col-lg-11.col-md-10.col-12
-            .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 1
-              br
-              span.fst-italic Elementos hoja de cálculo
-          .col-lg-11
-            figure(data-aos='zoom-in')
-              img(src='@/assets/template/tema3/t3-i1.jpg', alt='')
 
-      .col-lg-12
-        p Dado el concepto básico de estadística, recopilar, ordenar, jerarquizar, clasificar y analizar datos, las hojas de cálculos fueron hechas a medida, porque ellas permiten realizar todas estas operaciones, graficar y generar análisis de los datos seleccionados de acuerdo las necesidades a ser solucionadas.
-        |
-        | La hoja de cálculo facilita los cálculos y análisis estadísticos de datos.
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Figura 1
+      br
+      span.fst-italic Elementos hoja de cálculo
+    .bgb.p-5.mb-5
+      figure(data-aos='zoom-in')
+        img(src='@/assets/template/tema3/t3-i1.jpg', alt='')
+
+    .col-lg-12
+      p Dado el concepto básico de estadística, recopilar, ordenar, jerarquizar, clasificar y analizar datos, las hojas de cálculos fueron hechas a medida, porque ellas permiten realizar todas estas operaciones, graficar y generar análisis de los datos seleccionados de acuerdo las necesidades a ser solucionadas.
+      |
+      | La hoja de cálculo facilita los cálculos y análisis estadísticos de datos.
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
@@ -50,32 +48,32 @@
               h5 Figura 2
               br
               span.fst-italic Ejemplo base de datos hoja de cálculo
-          .col-lg-11
-            figure(data-aos='zoom-in')
-              img(src='@/assets/template/tema3/t3-i2.jpg', alt='')
+    .bgb.p-5.mb-5    
+      figure(data-aos='zoom-in')
+        img(src='@/assets/template/tema3/t3-i2.jpg', alt='')
 
-      .col-12.mb-5(data-aos='zoom-in')
-        .row.d-flex.justify-content-center
-          .col-lg-11
-            .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-              .bloque-texto-g__img(
-                :style='{ "background-image": `url(${require("@/assets/template/tema3/t3-i3.jpg")})` }'
-              )
-              .bloque-texto-g__texto.p-4
-                p.mb-0 Existen diferentes programas de bases de datos como: Microsoft Office Access y Open Office Base, las nuevas funciones del Excel, como el Power Pivot y el Power BI (de inteligencia de negocios), especiales para tratar y analizar bases de datos, generando tableros de mando inteligentes y dinámicos (<i>dashboard</i>), realizar presentaciones de informes gerenciales que implican análisis de gran cantidad de datos, de forma más sencilla, dinámica y certera, para una rápida y efectiva toma de decisiones.
+    .col-12.mb-5(data-aos='zoom-in')
+      .row.d-flex.justify-content-center
+        .col-lg-11
+          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+            .bloque-texto-g__img(
+              :style='{ "background-image": `url(${require("@/assets/template/tema3/t3-i3.jpg")})` }'
+            )
+            .bloque-texto-g__texto.p-4
+              p.mb-0 Existen diferentes programas de bases de datos como: Microsoft Office Access y Open Office Base, las nuevas funciones del Excel, como el Power Pivot y el Power BI (de inteligencia de negocios), especiales para tratar y analizar bases de datos, generando tableros de mando inteligentes y dinámicos (<i>dashboard</i>), realizar presentaciones de informes gerenciales que implican análisis de gran cantidad de datos, de forma más sencilla, dinámica y certera, para una rápida y efectiva toma de decisiones.
 
     h3.mb-4
       i.fas.fa-square.cac.me-3
       | Procesadores de texto
 
-    .row.mb-5
-      .col-lg-12.mb-5
-        figure(data-aos='zoom-in')
-          img(src='@/assets/template/tema3/t3-i4.jpg', alt='')
+    .bgb.p-5.mb-5 
+      figure(data-aos='zoom-in')
+        img(src='@/assets/template/tema3/t3-i4.jpg', alt='')
 
-      .col-lg-12.mb-5 
-        p Hoy en día sería complicado realizar las tareas administrativas y de oficina sin un procesador de texto, esta aplicación informática permite crear y editar documentos de texto pues este, es uno de los más útiles en la actualidad por sus múltiples funcionalidades, permite agilizar la redacción, con tipos de letra diferentes, en diferentes tamaños, tipos de párrafos, colores, así como los efectos que pueden incluir en los documentos.
+    .col-lg-12.mb-5 
+      p Hoy en día sería complicado realizar las tareas administrativas y de oficina sin un procesador de texto, esta aplicación informática permite crear y editar documentos de texto pues este, es uno de los más útiles en la actualidad por sus múltiples funcionalidades, permite agilizar la redacción, con tipos de letra diferentes, en diferentes tamaños, tipos de párrafos, colores, así como los efectos que pueden incluir en los documentos.
 
+    .row.mb-5 
       .col-md-6
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema3/t3-i5.jpg')
@@ -106,7 +104,7 @@
                   src='@/assets/template/tema3/slider01/t3-s1.svg',
                   alt='AvatarTop'
                 )
-            h2.text-center 
+            h4.text-center 
               i Microsoft Word
             p.text-center El procesador de palabras por excelencia para los computadores que tienen sistema operativo&nbsp;
               i Windows.
@@ -118,7 +116,7 @@
                   src='@/assets/template/tema3/slider01/t3-s2.svg',
                   alt='AvatarTop'
                 )
-            h2.text-center 
+            h4.text-center 
               em Apache OpenOffice Writer
             p.text-center Procesador de texto que forma parte de la 
               em suite 
@@ -132,7 +130,7 @@
                   src='@/assets/template/tema3/slider01/t3-s3.svg',
                   alt='AvatarTop'
                 )
-            h2.text-center 
+            h4.text-center 
               i Abiword
             p.text-center Este procesador de palabras forma parte de las herramientas de&nbsp;
               i LibreOffice.
@@ -144,7 +142,7 @@
                   src='@/assets/template/tema3/slider01/t3-s4.svg',
                   alt='AvatarTop'
                 )
-            h2.text-center 
+            h4.text-center 
               i Google Docs
             p.text-center Para los usuarios de&nbsp;
               i Google,
@@ -158,7 +156,7 @@
                   src='@/assets/template/tema3/slider01/t3-s5.svg',
                   alt='AvatarTop'
                 )
-            h2.text-center 
+            h4.text-center 
               i Word Online
             p.text-center Para usuarios de&nbsp;
               i Microsoft, Word&nbsp;

@@ -54,10 +54,10 @@
               p.mb-0 ¿Qué significa SGSST?
             li 
               i.fas.fa-check.color_check_t3
-              p.mb-0 Objetivos del SGSST
+              p.mb-0 Objetivos del SGSST.
             li 
               i.fas.fa-check.color_check_t3
-              p.mb-0 Comunicación del Sistema de Gestión
+              p.mb-0 Comunicación del Sistema de Gestión.
            
 
     p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.

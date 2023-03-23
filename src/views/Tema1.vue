@@ -277,7 +277,7 @@
           li 
             i.fas.fa-check.color_texto_acento
             |
-            | Electrónico
+            | Electrónico.
           li 
             i.fas.fa-check.color_texto_acento
             |

@@ -44,8 +44,8 @@
       .col-lg-12.mb-5
         .tarjeta.tarjeta_lineatiempot4.p-4
           LineaTiempoC.color-acento-contenido(text-small)
-            .row(titulo='URL')
-              .col-md-6.mb-4.mb-md-0
+            .row.justify-content-center.mt-5(titulo='URL')
+              .col-md-5.mb-4.mb-md-0
                 p Son las siglas de Localizador Uniforme de Recursos, (<i>Uniform Resource Locator</i>). Las siglas URL se refieren a la dirección que posee un sitio en la web, similar a cuando se busca una dirección en cualquier ciudad del mundo.
                 p Las URL se encuentran en la parte superior de la franja de los navegadores.
 
@@ -57,8 +57,8 @@
                     alt='Texto que describa la imagen'
                   )
 
-            .row(titulo='Hipervínculos')
-              .col-md-6.mb-4.mb-md-0
+            .row.justify-content-center.mt-5(titulo='Hipervínculos')
+              .col-md-5.mb-4.mb-md-0
                 p Se fundamenta en una conexión entre distintas páginas o variadas secciones de una misma página. Los hipervínculos se presentan de varias formas: fragmentos de texto subrayados con color azul, una imagen, un logotipo, o una ilustración, entre otros.
                 p Sin embargo, sin importar la forma en que se presentan en la pantalla, todos los hipervínculos tienen en común el hecho que, al hacer clic en ellos, nos desplazan a un lugar diferente del sitio web, donde originalmente se encuentran. Es decir, se enlazan a otros contenidos.
 
@@ -70,8 +70,8 @@
                     alt='Texto que describa la imagen'
                   )
 
-            .row(titulo='<em>Cookies</em>')
-              .col-md-6.mb-4.mb-md-0
+            .row.justify-content-center.mt-5(titulo='<em>Cookies</em>')
+              .col-md-5.mb-4.mb-md-0
                 p Las <i>cookies</i> (galletas) son pequeños bloques de datos, creados por un servidor web y colocados por el navegador en la computadora, teléfono móvil o cualquier otro dispositivo que se utilice para ingresar a la Internet.
                 p La función de las <i>cookies</i> es la de recabar información sobre la identidad del usuario en la web y sus preferencias de navegación. De este modo, la siguiente vez que se retorne a una de las páginas favoritas, el sistema sabrá de quién se trata y recordará los datos del usuario sin que tenga que ingresarlos nuevamente; también recordará cuáles secciones de esa página web fueron las que más interés despertaron y desplegará publicidad más afín con los intereses del usuario.
 
@@ -83,8 +83,8 @@
                     alt='Texto que describa la imagen'
                   )
 
-            .row(titulo='Favoritos e historial de navegación en la web')
-              .col-md-6.mb-4.mb-md-0
+            .row.justify-content-center.mt-5(titulo='Favoritos e historial de navegación en la web')
+              .col-md-5.mb-4.mb-md-0
                 p Todos los navegadores ofrecen la opción de “Favoritos”. Se trata de un botón, normalmente situado a un lado de la barra de direcciones URL, con el cual se puede crear un acceso directo a las páginas web preferidas o redes sociales del usuario.
                 p No será necesario escribir la URL o colocar un término de búsqueda; bastará con hacer clic en el ícono de la página, situado en la carpeta de favoritos.
                 p Igualmente, todos los navegadores ofrecen la posibilidad de revisar el “Historial de navegación”, que es una lista con todas las páginas web que el usuario ha visitado, durante un lapso específico de tiempo.
