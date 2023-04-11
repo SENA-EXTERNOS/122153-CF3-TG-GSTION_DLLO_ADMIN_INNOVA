@@ -79,7 +79,7 @@
         .tarjeta.tarjeta--green.p-5
           SlyderA(tipo='b')
             .row
-              .col-md-7.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0
                 strong
                   i Hardware
                   |
@@ -92,7 +92,7 @@
                 figure(data-aos='zoom-in')
                   img(src='@/assets/template/tema2/slider01/t2-s1.jpg')
             .row.justify-content-center.my-lg-4
-              .col-md-7.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0
                 strong 
                   i Hardware
                   |
@@ -108,7 +108,7 @@
                 figure(data-aos='zoom-in')
                   img(src='@/assets/template/tema2/slider01/t2-s2.jpg')
             .row.justify-content-center.my-lg-4
-              .col-md-7.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0
                 strong 
                   i Hardware 
                   | gráfico
@@ -120,7 +120,7 @@
                 figure(data-aos='zoom-in')
                   img(src='@/assets/template/tema2/slider01/t2-s3.jpg')
             .row.justify-content-center.my-lg-4
-              .col-md-7.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0
                 strong Dispositivos periféricos
                 br
                 br
