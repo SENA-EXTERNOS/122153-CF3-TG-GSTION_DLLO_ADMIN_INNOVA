@@ -126,37 +126,37 @@
             style='width: 450px'
           )
       .col-lg-8.order-2.order-lg-2
-        TabsA.color-acento-contenido.mb-5 
-          .tarjeta.clr-paleYellow.p-4.color--green(titulo='Acceso')
+        TabsC.color-acento-contenido.mb-5 
+          .tarjeta.clr-paleYellow.p-4.color--green.mb-3(titulo='Acceso')
             h4 Acceso
             p Permite el acceso a clientes y proveedores. La compañía otorga autorización para que puedan acceder a determinadas áreas del sitio.
 
-          .tarjeta.clr-paleYellow.p-4.color--green(titulo='Protocolo')
+          .tarjeta.clr-paleYellow.p-4.color--green.mb-3(titulo='Protocolo')
             h4 Protocolo
             p Hace uso del protocolo de Internet, así como del sistema de comunicaciones público. De este modo, comparte información relevante para usuarios externos, como proveedores o clientes, de una manera segura.
 
-          .tarjeta.clr-paleYellow.p-4.color--green(titulo='Seguridad')
+          .tarjeta.clr-paleYellow.p-4.color--green.mb-3(titulo='Seguridad')
             h4 Seguridad
             p La información entre el sitio y los usuarios viaja encriptada, estando así a salvo de posibles ciberataques.
 
-          .tarjeta.clr-paleYellow.p-4.color--green(
-            titulo='Envío de<br> información a <br>socios'
+          .tarjeta.clr-paleYellow.p-4.color--green.mb-3(
+            titulo='Envío de información a socios'
           )
             h4 Envío de información a socios
             p Esta red informática facilita en gran medida el intercambio de información entre la empresa y sus socios corporativos, facilitando en gran medida las tareas de gestión y administración, porque pueden acceder a la información en tiempo real, sin necesidad de intermediarios.
 
-          .tarjeta.clr-paleYellow.p-4.color--green(
-            titulo='Descarga de<br> documentación'
+          .tarjeta.clr-paleYellow.p-4.color--green.mb-3(
+            titulo='Descarga de documentación'
           )
             h4 Descarga de documentación
             p La compañía pone a disposición de clientes y proveedores, documentos de apoyo relacionados con los productos y/o servicios, de modo que la experiencia para este tipo de usuarios es más positiva.
 
-          .tarjeta.clr-paleYellow.p-4.color--green(titulo='Estado del<br> pedido')
+          .tarjeta.clr-paleYellow.p-4.color--green.mb-3(titulo='Estado del pedido')
             h4 Estado del pedido
             p Estado del pedido	Se utiliza en tiendas <i>online</i> para que los clientes puedan seguir, en tiempo real, el estado de su pedido: elaboración, enviado, en proceso de entrega, etc. Este es un aspecto que los clientes de <i>e-commerce</i> valoran positivamente.
 
-          .tarjeta.clr-paleYellow.p-4.color--green(
-            titulo='Preguntas<br> frecuentes'
+          .tarjeta.clr-paleYellow.p-4.color--green.mb-3(
+            titulo='Preguntas frecuentes'
           )
             h4 Preguntas frecuentes
             p Es una red que sirve como soporte de preguntas frecuentes, donde los diferentes usuarios externos a la compañía pueden encontrar respuestas a sus preguntas de un modo sencillo y rápido.
