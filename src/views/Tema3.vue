@@ -28,8 +28,8 @@
       figure(data-aos='zoom-in')
         img(src='@/assets/template/tema3/t3-i1.jpg', alt='')
 
-    .col-lg-12
-      p Dado el concepto básico de estadística, recopilar, ordenar, jerarquizar, clasificar y analizar datos, las hojas de cálculos fueron hechas a medida, porque ellas permiten realizar todas estas operaciones, graficar y generar análisis de los datos seleccionados de acuerdo las necesidades a ser solucionadas.
+    .col-lg-12.mb-5
+      p Dado el concepto básico de estadística, recopilar, ordenar, jerarquizar, clasificar y analizar datos, las hojas de cálculo fueron hechas a medida, porque ellas permiten realizar todas estas operaciones, graficar y generar análisis de los datos seleccionados de acuerdo las necesidades a ser solucionadas.
       |
       | La hoja de cálculo facilita los cálculos y análisis estadísticos de datos.
 
@@ -90,14 +90,14 @@
         .row.d-flex.justify-content-center
           .col-lg-9
             .cajon.color_cajon_green.p-4
-              p Por sus diferentes posibilidades, llegando hasta lo estético, es el porqué se hace imprescindible el procesador de texto, permitiendo incluso editar fotografías, tablas y cuadros, además de las funciones propias como resaltar, subrayar y cambiar de color a textos, palabras e incluso a párrafos enteros para resaltar puntos importantes que queremos resaltar en los documentos.
+              p Por sus diferentes posibilidades, llegando hasta lo estético, es el porqué se hace imprescindible el procesador de texto, permitiendo incluso editar fotografías, tablas y cuadros, además de las funciones propias como resaltar, subrayar y cambiar de color a textos, palabras e incluso a párrafos enteros para resaltar puntos importantes en los documentos.
 
     p Los procesadores de texto más conocidos y de fácil acceso son:
 
     .row.mb-5 
       .col-lg-12.mb-5
         SlyderF(columnas='col-lg-6 col-xl-4')(data-aos='zoom-in')
-          .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
+          .tarjeta.color-acento-contenido.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img(
@@ -109,7 +109,7 @@
             p.text-center El procesador de palabras por excelencia para los computadores que tienen sistema operativo&nbsp;
               i Windows.
 
-          .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
+          .tarjeta.color-acento-contenido.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img(
@@ -123,7 +123,7 @@
               | de código abierto&nbsp;
               em OpenOffice.
 
-          .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
+          .tarjeta.color-acento-contenido.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img(
@@ -135,7 +135,7 @@
             p.text-center Este procesador de palabras forma parte de las herramientas de&nbsp;
               i LibreOffice.
 
-          .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
+          .tarjeta.color-acento-contenido.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img(
@@ -149,7 +149,7 @@
               |
               | este es su procesador de texto en la nube.
 
-          .tarjeta.color-acento-contenido.p-4.altura_slider_t_3
+          .tarjeta.color-acento-contenido.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img(
@@ -321,10 +321,7 @@
       .col-lg-12
         p Una buena presentación es fundamental hoy en día, las fotografías escogidas, el diseño, el fondo de la presentación, la musicalización, la narrativa que apoya la imagen, los efectos, los colores, el contexto son las características que bien utilizadas y combinadas hacen que se cierre un negocio, que se apruebe un proyecto o que se apruebe igualmente una tesis de grado; también es importante en el momento de realizar soportes y defensas de todo tipo de documentos que se deban presentar ante un público, con el fin de convencer, interesar o vender un producto o servicio, tangible o intangible; en este espacio es también importarte mostrar creatividad e innovación.
       .col-lg-12
-        p Algunas aplicaciones de presentación de diapositivas&nbsp;
-          i (slides),&nbsp;
-          |
-          | son:
+        p Algunas aplicaciones de presentación de diapositivas #[em (slides)], son:
 
       .col-lg-12
         TabsC.color-acento-contenido

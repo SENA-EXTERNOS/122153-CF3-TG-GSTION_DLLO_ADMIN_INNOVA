@@ -15,7 +15,7 @@
       .col-md-6
         p Se define como sistema todo arreglo que tenga una entrada, un proceso y una salida, el arreglo puede estar conformado por personas o por otros sistemas.
         |
-        | La teoría de los sistemas ha cobrado mucho valor y auge en las últimas cinco décadas (años 70´s aproximadamente), cuando ya organizacionalmente hemos entrado a analizar los procesos, los procedimientos, las funciones, o las disposiciones de los departamentos en las empresas. Se ha hablado mucho de la teoría de los sistemas en cuanto a la estructura de distribución poblacional, organizacional, e incluso desde el comportamiento que nosotros tenemos socialmente. A diario vemos disposiciones de sistemas muy eficientes que funcionan excelentemente y subsistemas que están involucrados dentro de unos sistemas mucho más ambiciosos, mucho más elaborados, básicamente se tienen también sistemas muy sencillos que funcionan adecuada y eficientemente útiles.
+        | La teoría de los sistemas ha cobrado mucho valor y auge en las últimas cinco décadas (años 70´s aproximadamente), cuando ya organizacionalmente hemos entrado a analizar los procesos, los procedimientos, las funciones, o las disposiciones de los departamentos en las empresas. Se ha hablado mucho de la teoría de los sistemas en cuanto a la estructura de distribución poblacional, organizacional, e incluso desde el comportamiento que nosotros tenemos socialmente. A diario vemos disposiciones de sistemas muy eficientes que funcionan excelentemente y subsistemas que están involucrados dentro de unos sistemas mucho más ambiciosos, mucho más elaborados, básicamente también existen sistemas sencillos que funcionan de manera adecuada y eficiente, siendo igualmente útiles.
 
     .row.d-flex.justify-content-center.mb-5
       .col-lg-10
@@ -66,7 +66,7 @@
       .col-md-12.mb-5
         .tarjeta.tarjeta--green.p-5
           SlyderA(tipo='b')(data-aos='zoom-in')
-            .row
+            .row.px-2
               .col-md-6.mb-4.mb-md-0
                 strong Sistema de información por estructura organizacional
                 br
@@ -80,7 +80,7 @@
                     alt='Texto que describa la imagen'
                   )
 
-            .row.justify-content-center.my-lg-4
+            .row.justify-content-center.my-lg-4.px-2
               .col-md-6.mb-4.mb-md-0
                 strong Sistema de información por área funcional
                 br
@@ -93,12 +93,12 @@
                     src='@/assets/template/tema1/slider01/t1-s2.jpg',
                     alt='Texto que describa la imagen'
                   )
-            .row.justify-content-center.my-lg-4
+            .row.justify-content-center.my-lg-4.px-2
               .col-md-6.mb-4.mb-md-0
                 strong Sistema de información en producción y fabricación
                 br
                 br
-                | Son los que se encargan que recolectar datos (cantidades de materia prima en inventario, inventario en proceso, inventario de producto final, costos de cada uno de los&nbsp;
+                | Son los que se encargan de recolectar datos (cantidades de materia prima en inventario, inventario en proceso, inventario de producto final, costos de cada uno de los&nbsp;
                 i stocks&nbsp;
                 | en planta), mediante los programas de Planificación de recursos empresariales, ERP, y Técnica de revisión y evaluación de programas, PERT, entre otros. La información en planta es de suma importancia, para saber en qué momento se hacen requisiciones de materias primas e insumos, a qué puestos de trabajo se deben llevar y cuánto puede costar por unidad en producto en proceso. La información también debe dar cuota de los tiempos y requerimientos de recurso humano y maquinaria asociada, a cada proceso.
 
@@ -108,7 +108,7 @@
                     src='@/assets/template/tema1/slider01/t1-s3.jpg',
                     alt='Texto que describa la imagen'
                   )
-            .row.justify-content-center.my-lg-4
+            .row.justify-content-center.my-lg-4.px-2
               .col-md-6.mb-4.mb-md-0
                 strong Sistema de información en administración y financiera
                 br
@@ -123,7 +123,7 @@
                     src='@/assets/template/tema1/slider01/t1-s4.jpg',
                     alt='Texto que describa la imagen'
                   )
-            .row.justify-content-center.my-lg-4
+            .row.justify-content-center.my-lg-4.px-2
               .col-md-6.mb-4.mb-md-0
                 strong Sistema de información en&nbsp;
                   i marketing
@@ -132,7 +132,7 @@
                 | La información puntual de los clientes se gestiona desde esta área, aquí se proyectan los prospectos, y se lleva el seguimiento de los actuales. El
                 |
                 i marketing&nbsp;
-                | relacional proporciona una plataforma de seguimiento, dicha plataforma brinda información sobre eventos puntuales que ha suministrado los clientes, cruza la información con ventas y otras áreas con objeto de “perfilar” al cliente y desarrollar el producto de acuerdo a estas necesidades; igualmente a través de información de tipo primario se obtiene del mercado los cambios y las nuevas tendencias en los gustos relacionados con el producto ofertado.
+                | relacional proporciona una plataforma de seguimiento, dicha plataforma brinda información sobre eventos puntuales que han suministrado los clientes, cruza la información con ventas y otras áreas con objeto de “perfilar” al cliente y desarrollar el producto de acuerdo a estas necesidades; igualmente a través de información de tipo primario se obtiene del mercado los cambios y las nuevas tendencias en los gustos relacionados con el producto ofertado.
 
               .col-md-6
                 figure
@@ -140,7 +140,7 @@
                     src='@/assets/template/tema1/slider01/t1-s5.jpg',
                     alt='Texto que describa la imagen'
                   )
-            .row.justify-content-center.my-lg-4
+            .row.justify-content-center.my-lg-4.px-2
               .col-md-6.mb-4.mb-md-0
                 strong Sistema de información desde RRHH
                 br
@@ -221,7 +221,7 @@
       i.fas.fa-square.cac.me-3
       | Funciones
 
-    p Son muchas las funciones que realizan los sistemas de información en la actualidad, dada cantidad de datos que fluyen en diferentes vías y en todo momento.
+    p Son muchas las funciones que realizan los sistemas de información en la actualidad, dada la cantidad de datos que fluyen en diferentes vías y en todo momento.
     p Estas funciones se pueden agrupar en cuatro fases esenciales:
 
     TabsC.color-acento-contenido.mb-5(data-aos='zoom-in')
@@ -252,7 +252,7 @@
               img(src='@/assets/template/tema1/pestaña01/t1-p3.jpg')
           .col-md-6
             h4 Tratamiento de la información
-            p Cuando se depura la información, transformándola en información de interés, que sea significativa, que sea individual al usuario que la necesita y acorde a las necesidades, se ha llegado a la tercera fase, el tratamiento de la información; en esta instancia se ha “filtrado” lo necesario para que sea apropiada y correcta para los usuarios que la requieran. Este proceso, por ser masivo, generalmente lo realizan medio informáticos y&nbsp;
+            p Cuando se depura la información, transformándola en información de interés, que sea significativa, que sea individual al usuario que la necesita y acorde a las necesidades, se ha llegado a la tercera fase, el tratamiento de la información; en esta instancia se ha “filtrado” lo necesario para que sea apropiada y correcta para los usuarios que la requieran. Este proceso, por ser masivo, generalmente lo realizan medios informáticos y&nbsp;
               i software&nbsp;
               | especiales, para reducir los costos de proceso.
 
@@ -271,7 +271,7 @@
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema1/t1-i5.jpg')
       .col-md-6
-        p La seguridad de la información, se refiere a la confidencialidad, la integridad y la disponibilidad de la información y los datos importantes para la organización, independientemente del formato que tengan. Este formato puede ser
+        p La seguridad de la información, se refiere a la confidencialidad, la integridad y la disponibilidad de la información y los datos importantes para la organización, independientemente del formato que tengan. Este formato puede ser:
         |
         ul
           li 
@@ -295,31 +295,31 @@
     .row.d-flex.justify-content-center.mb-5
       .col-lg-11
         .cajon.color_cajon_tema1_2.p-4
-          p.mb-0 Se puede decir que la seguridad de la información se refiere a todas las practicas, técnicas, medidas, acciones y controles que se emplean, para salvaguardar y mantener seguros los datos suministrados, adquiridos (bajos las normas vigentes de protección de datos), compartidos y enviados, para que fluyan sin sufrir modificaciones que afecten su veracidad, así como también, la pérdida parcial o total de estos.
+          p.mb-0 Se puede decir que la seguridad de la información se refiere a todas las practicas, técnicas, medidas, acciones y controles que se emplean, para salvaguardar y mantener seguros los datos suministrados, adquiridos (bajo las normas vigentes de protección de datos), compartidos y enviados, para que fluyan sin sufrir modificaciones que afecten su veracidad, así como también, la pérdida parcial o total de estos.
 
     .row.mb-5
       .col-md-12
-        p El siglo XXI trajo consigo una serie de variantes y ruptura de paradigmas que, dado el fortalecimiento de la utilización y utilidad que prestan los equipos móviles, el uso de la web y la internet, generando gran cantidad de información y datos en diferentes vías, igualmente trajo problemas de uso de tanta información, básicamente para depurarla y tratarla con el fin que sea verídica, afín y sobre todo no fraudulenta. La información se distorsiona cada vez que se comparte y recibe desde diferentes servidores (emisores), agregando o quitando parte o total del sentido de esta en cada reenvío.
+        p El siglo XXI trajo consigo una serie de variantes y ruptura de paradigmas. Dado el fortalecimiento de la utilización que brindan los equipos móviles, el uso de la web y la internet, se ha generado una gran cantidad de información y datos en diferentes vías. Sin embargo, esto también ha traído problemas relacionados con la gestión de tanta información, especialmente en lo que respecta a su depuración y verificación para asegurar su veracidad y autenticidad. La información tiende a distorsionarse cada vez que se comparte y se recibe desde diferentes servidores (emisores), ya que en cada reenvío se agregan o quitan partes o incluso se altera por completo su sentido original.
         br
         p Por los motivos anteriormente descritos, la seguridad de la información busca lograr estos principios:
 
     .row.justify-content-center.px-5(data-aos='zoom-in')
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta.color-acento-contenido.p-4.altura_card_t_1
+      .col-lg-4.col-sm-6.mb-4.mb-lg-0
+        .tarjeta.color-acento-contenido.p-4.h-100
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/template/tema1/cards02/t1-c1.png', alt='')
           h2.text-center Integridad
           p.text-center Se refiere a que la información no pierda veracidad, o sea, que permanezca real a su esencia inicial, y para esto los equipos con que se procesa la información, deben garantizar que no habrá variación alguna de esta. Si existe variación de la información debe ser autorizada y valorada por algún responsable y asumir dichos cambios para evitar manipulaciones.
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta.color-acento-contenido.p-4.altura_card_t_1
+      .col-lg-4.col-sm-6.mb-4.mb-lg-0
+        .tarjeta.color-acento-contenido.p-4.h-100
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/template/tema1/cards02/t1-c2.png', alt='')
           h2.text-center Confidencialidad
           p.text-center La información administrada debe ser salvaguarda del uso indebido y no autorizado de datos de vital importancia organizacional, como información clave para el éxito organizacional o datos privados financieros, así como datos particulares que hayan sido suministrados, para que no lleguen a terceros no autorizados. Igualmente, los equipos deben asegurar que no se filtre dicha información.
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta.color-acento-contenido.p-4.altura_card_t_1
+      .col-lg-4.col-sm-6.mb-4.mb-lg-0
+        .tarjeta.color-acento-contenido.p-4.h-100
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/template/tema1/cards02/t1-c3.png', alt='')

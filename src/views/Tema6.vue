@@ -19,6 +19,10 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8.col-md-8.col-12
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right") 
+          h5 Figura 3
+          p.mb-0 
+            em Norma ISO 27001
         figure
           img(src='@/assets/template/tema6/t6-i1.png')
 

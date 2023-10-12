@@ -259,7 +259,7 @@
 
     .row.mb-5
       .col-md-6
-        p Es el documento que permite a todo usuario de cualquier equipo electrónico y/o de tecnología, entender su funcionamiento, es una guía que asiste al usuario en la solución de problemas en su uso y otros inconvenientes que se pueden presentar en el uso cotidiano de este. Todo equipo tecnológico tiene una garantía de uso, en la cual el usuario puede presentar alguna querella sobre al funcionamiento anómalo estipulado para este, igualmente tiene un ciclo de vida útil de funcionamiento acorde a las especificaciones descritas en sus características. En el manual de uso tecnológico deben quedar claramente estipuladas las características del equipo, su vida útil, la garantía, los talleres autorizados para la reparación y/o recambio del equipo si es necesario y las acciones a seguir en caso de mal funcionamiento.
+        p Es el documento que permite a todo usuario de cualquier equipo electrónico y/o de tecnología, entender su funcionamiento, es una guía que asiste al usuario en la solución de problemas en su uso y otros inconvenientes que se pueden presentar en el uso cotidiano de este. Todo equipo tecnológico tiene una garantía de uso, en la cual el usuario puede presentar alguna querella sobre el funcionamiento anómalo estipulado para este, igualmente tiene un ciclo de vida útil de funcionamiento acorde a las especificaciones descritas en sus características. En el manual de uso tecnológico deben quedar claramente estipuladas las características del equipo, su vida útil, la garantía, los talleres autorizados para la reparación y/o recambio del equipo si es necesario y las acciones a seguir en caso de mal funcionamiento.
       .col-md-6
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema2/t2-i7.jpg')
@@ -363,53 +363,27 @@
 
           .tarjeta.color-acento-botones_black.p-3(x='28%', y='14%' numero="+")
             h5 Portada, índice e introducción
-            p Hace un paneo general de las características, intención de uso del&nbsp;
-              i software,&nbsp;
-              |
-              | así como el contexto de utilidad de este y sus variantes generales.
+            p Hace un paneo general de las características, intención de uso del #[em software], así como el contexto de utilidad de este y sus variantes generales.
 
           .tarjeta.color-acento-botones_black.p-3(x='36%', y='14%' numero="+")
-            h5 Instalación del&nbsp;
-              i software
-            p El manual de usuario debe detallar todo el procedimiento y paso a paso para la instalación del&nbsp;
-              i software,&nbsp;
-              |
-              | qué requerimientos debe tener el equipo o equipos donde se realizará la instalación, debe así mismo describir las modificaciones que se deban hacer en el equipo si es el caso, todo este procedimiento debe ser muy bien detallado, incluidas sus variantes. Debe alertar al usuario consecuencias futuras de todas las variantes posibles.
+            h5 Instalación del #[em software]
+            p El manual de usuario debe detallar todo el procedimiento y paso a paso para la instalación del #[em software], qué requerimientos debe tener el equipo o equipos donde se realizará la instalación, debe así mismo describir las modificaciones que se deban hacer en el equipo si es el caso, todo este procedimiento debe ser muy bien detallado, incluidas sus variantes. Debe alertar al usuario consecuencias futuras de todas las variantes posibles.
 
           .tarjeta.color-acento-botones_black.p-3(x='57%', y='15%' numero="+")
-            h5 Diagrama general del&nbsp;
-              i software
-            p Es una forma gráfica, esquemática, tipo mapa mental o similar para entender la instalación, funcionamiento y flujo de acciones que realizará el&nbsp;
-              i software.
-              | Proporciona una visión general del&nbsp;
-              i software.
+            h5 Diagrama general del #[em software]
+            p Es una forma gráfica, esquemática, tipo mapa mental o similar para entender la instalación, funcionamiento y flujo de acciones que realizará el #[em software]. Proporciona una visión general del #[em software].
 
           .tarjeta.color-acento-botones_black.p-3(x='36%', y='81%' numero="+")
             h5 Diagrama particular detallado
-            p A diferencia del diagrama general, este es más específico del proceso, menú y variante que tenga el&nbsp;
-              i software.&nbsp;
-              | Este gráfico debe explicar cada submenú con lujo de detalles para evitar problemas en el funcionamiento general del&nbsp;
-              i software.
+            p A diferencia del diagrama general, este es más específico del proceso, menú y variante que tenga el #[em software]. Este gráfico debe explicar cada submenú con lujo de detalles para evitar problemas en el funcionamiento general del #[em software].
 
-          .tarjeta.color-acento-botones_black.p-3(
-            x='57%',
-            y='81%',
-            numero="+"
-          )
-            h5 Explicación genérica de las fases del&nbsp;
-              i software
-            p Esta explicación cuenta cómo funciona el 
-              i software 
-              | desde el menú principal y su interacción con los submenús y con otros&nbsp;
-              i software,&nbsp; 
-              | si es el caso.
+          .tarjeta.color-acento-botones_black.p-3(x='57%', y='81%', numero="+")
+            h5 Explicación genérica de las fases del #[em software]
+            p Esta explicación cuenta cómo funciona el #[em software] desde el menú principal y su interacción con los submenús y con otros #[em software], si es el caso.
 
           .tarjeta.color-acento-botones_black.p-3(x='73%', y='68%' numero="+")
-            h5 Iniciación al uso del&nbsp;
-              i software
-            p Este punto tiene gran importancia porque es el primer “toque” que se le da al&nbsp;
-              i software&nbsp;
-              | para que funcione, generalmente se deben realizar ajustes hasta llegar a los requisitos y el funcionamiento deseado.
+            h5 Iniciación al uso del #[em software]
+            p Este punto tiene gran importancia porque es el primer “toque” que se le da al #[em software] para que funcione, generalmente se deben realizar ajustes hasta llegar a los requisitos y el funcionamiento deseado.
 </template>
 
 <script>

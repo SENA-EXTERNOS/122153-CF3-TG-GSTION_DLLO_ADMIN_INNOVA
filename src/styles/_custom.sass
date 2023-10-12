@@ -98,23 +98,15 @@
 .color-icon-check
   color: $color-acento-botones
 
-.altura_decard
-  height: 453px
-
-.altura_card_t_1
-  height: 580px
-
-.altura_slider_t_3
-  height: 380px
-
-.altura_slider_t_5
-  height: 480px
-
 .bloque-texto-g__img
   width: 40% !important
+  @media (max-width: $bp-max-md)
+    width: 100% !important
   
 .bloque-texto-g__texto
   width: 70% !important
+  @media (max-width: $bp-max-md)
+    width: 100% !important
 
 .altura_cajon_tema_3_1
   height: 350px
@@ -245,3 +237,6 @@
 
 .tabs-c__tab--active  
   font-weight: bold
+
+.lista-ul li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex

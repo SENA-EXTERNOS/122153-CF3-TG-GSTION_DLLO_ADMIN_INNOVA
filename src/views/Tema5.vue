@@ -17,7 +17,7 @@
             p.mb-0 <strong>Conexión tipo análoga:</strong> se utiliza en hogares, con un modem a través de la red telefónica; las señales digitales se transforman en análogas y este tipo de conexión ha ido disminuyendo su uso. 
           li 
             i.fas.fa-check.color_check_t3
-            p.mb-0 <strong>ADSL:</strong> permite más alcance en la señal enviada por el operador, aunque presenta barreras de tipo físico, al ser enviada por Wifi; este tipo de red es la más utilizada en las empresas por su velocidad, debido a que compensa algo en las restricciones con choque en muros.
+            p.mb-0 <strong>ADSL:</strong> permite más alcance en la señal enviada por el operador, aunque presenta barreras de tipo físico, al ser enviada por WIFI; este tipo de red es la más utilizada en las empresas por su velocidad, debido a que compensa algo en las restricciones con choque en muros.
           li 
             i.fas.fa-check.color_check_t3
             p.mb-0 <strong>Cable:</strong> se utilizan cables de fibra óptica y de tipo coaxial, con el fin de emitir una adecuada señal y es muy rápida.
@@ -153,7 +153,7 @@
 
           .tarjeta.clr-paleYellow.p-4.color--green.mb-3(titulo='Estado del pedido')
             h4 Estado del pedido
-            p Estado del pedido	Se utiliza en tiendas <i>online</i> para que los clientes puedan seguir, en tiempo real, el estado de su pedido: elaboración, enviado, en proceso de entrega, etc. Este es un aspecto que los clientes de <i>e-commerce</i> valoran positivamente.
+            p Se utiliza en tiendas <i>online</i> para que los clientes puedan seguir, en tiempo real, el estado de su pedido: elaboración, enviado, en proceso de entrega, etc. Este es un aspecto que los clientes de <i>e-commerce</i> valoran positivamente.
 
           .tarjeta.clr-paleYellow.p-4.color--green.mb-3(
             titulo='Preguntas frecuentes'
@@ -198,7 +198,7 @@
                         src='@/assets/template/tema5/slider02/t5-s2.png',
                         alt='AvatarTop'
                       )
-                    h4.text-center Estándar Wifi (Wireless-Fidelity)
+                    h4.text-center Estándar #[em Wifi (Wireless-Fidelity)]
                     p.text-center Es la más utilizada actualmente, se lleva con ondas de radio con frecuencias entre 2.4 GHz y 5 GHz, fácil de utilizar y su mantenimiento también es sencillo de llevar a cabo; actualmente, está en desarrollo la última generación Wifi 6.
           .col-lg-4
             .tarjeta.p-2
@@ -212,14 +212,14 @@
                         alt='AvatarTop'
                       )
                     h4.text-center Conexiones de datos móviles
-                    p.text-center Presente en todos los equipos móviles como teléfonos, tabletas, notebooks y otros afines; la última generación en este tipo de conexión es la 5G. Funciona con ondas de radio, la 5G pretende alcanzar 20 Gbps.
+                    p.text-center Presente en todos los equipos móviles como teléfonos, tabletas, #[em notebooks] y otros afines; la última generación en este tipo de conexión es la 5G. Funciona con ondas de radio, la 5G pretende alcanzar 20 Gbps.
 
     p Conexiones cableadas:
 
     .row.mb-5
       .col-lg-12
         SlyderF(columnas='col-lg-6 col-xl-4')(data-aos='zoom-in')
-          .tarjeta.color-acento-contenido.p-4.altura_slider_t_5
+          .tarjeta.color-acento-contenido.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img(
@@ -228,7 +228,7 @@
                 )
             h4.text-center Fibra óptica
             p.text-center Es una de las conexiones más utilizadas y populares a nivel físico, de muy buen rendimiento y alta velocidad y la excelente calidad, es otra de sus grandes propiedades.
-          .tarjeta.color-acento-contenido.p-4.altura_slider_t_5
+          .tarjeta.color-acento-contenido.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img(
@@ -237,7 +237,7 @@
                 )
             h4.text-center ADSL (líneas de suscriptor de asimetría digital)
             p.text-center Es la fusión de la red telefónica conmutada y la red digital.
-          .tarjeta.color-acento-contenido.p-4.altura_slider_t_5
+          .tarjeta.color-acento-contenido.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img(
@@ -246,7 +246,7 @@
                 )
             h4.text-center RDSI (red digital de servicios integrados)
             p.text-center Es un tipo de conexión de bajo costo (de los primeros tipos de conexión en el inicio del Internet), utiliza la línea telefónica, de buena velocidad, pero sin llegar a los niveles de la fibra óptica.
-          .tarjeta.color-acento-contenido.p-4.altura_slider_t_5
+          .tarjeta.color-acento-contenido.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img(
